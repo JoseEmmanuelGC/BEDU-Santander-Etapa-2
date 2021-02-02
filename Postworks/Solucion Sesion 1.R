@@ -1,12 +1,14 @@
 # Postwork Sesion 1
-# Introducción a R y Software
+# IntroducciÃ³n a R y Software
 
-# Descripción de los datos: https://www.football-data.co.uk/notes.txt
+# DescripciÃ³n de los datos: https://www.football-data.co.uk/notes.txt
 
 df <- read.csv('https://www.football-data.co.uk/mmz4281/1920/SP1.csv')
 
 FTHG <- df$FTHG
 FTAG <- df$FTAG
+
+?table
 
 rows <- dim(df)[1]
 
