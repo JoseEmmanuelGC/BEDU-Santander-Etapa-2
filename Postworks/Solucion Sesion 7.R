@@ -1,0 +1,115 @@
+install.packages("mongolite")
+
+library(mongolite)
+
+db <- mongo(collection= "match", db = "match_games", url = "mongodb+srv://beduUser:12345@cluster0.sg9cb.mongodb.net")
+
+data <- read.csv('Postworks/sesion7_data/data.csv')
+df <- data.frame(data)
+
+#Alojar el fichero data.csv en una base de datos llamada match_games, nombrando al collection como match
+db$insert(df)
+
+#Una vez hecho esto, realizar un count para conocer el número de registros que se tiene en la base
+db$count('{}')
+
+result <- db$aggregate(
+  '[
+    {
+      "$match": {
+        "$or": [{ "HomeTeam": "Real Madrid"}, {"AwayTeam": "Real Madrid"}],
+        "Date": "2015-12-20"
+      }
+    },
+    {
+      "$addFields": {
+        "Goles del Real Madrid": {
+          "$cond": {
+            "if": {
+              "$eq": [
+                "$HomeTeam", "Real Madrid"
+              ]
+            },
+            "then": "$FTHG",
+            "else": "$FTAG"
+          }
+        },
+        "Equipo contrario": {
+          "$cond": {
+            "if": {
+              "$eq": [
+                "$HomeTeam", "Real Madrid"
+              ]
+            },
+            "then": "$AwayTeam",
+            "else": "$HomeTeam"
+          }
+        },
+        "Resultado": {
+          "$cond": {
+            "if": {
+              "$eq": [
+                "$HomeTeam", "Real Madrid"
+              ]
+            },
+            "then": {
+              "$cond": {
+                "if": {
+                  "$gt": [
+                    "$FTHG", "$FTAG"
+                  ]
+                },
+                "then": "Real Madrid Gana",
+                "else": {
+                  "$cond": {
+                    "if": {
+                      "$eq": [
+                        "$FTHG", "$FTAG"
+                      ]
+                    },
+                    "then": "Empate",
+                    "else": "Real Madrid Pierde"
+                  }
+                }
+              }
+            },
+            "else": {
+              "$cond": {
+                "if": {
+                  "$gt": [
+                    "$FTAG", "$FTHG"
+                  ]
+                },
+                "then": "Real Madrid Gana",
+                "else": {
+                  "$cond": {
+                    "if": {
+                      "$eq": [
+                        "$FTAG", "$FTHG"
+                      ]
+                    },
+                    "then": "Empate",
+                    "else": "Real Madrid Pierde"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "$project": {
+        "_id": false,
+        "Goles del Real Madrid": true,
+        "Equipo contrario": true,
+        "Resultado": true
+      }
+    }
+  ]'
+)
+
+print(result)
+
+db$disconnect()
+
