@@ -3,9 +3,13 @@
 Etapa 2 del curso de Data Science en BEDU Santander
 
 ## Integrantes
-José Emmanuel Gil Carbajal
+Barbachano Chiu Moisés Oswaldo
 
-Moisés Oswaldo Barbachano Chiu
+Gil Carbajal José Emmanuel
+
+Montero Rasgado Josué Emiliano
+
+Salazar Sabas Oscar Alejandro
 
 ## Proyecto:
 TODO
