@@ -1,5 +1,7 @@
-# Postwork Sesion 2
+# Postwork Sesiones 2, 3 y 4
 # Programación y manipulación de datos en R
+
+#---------------------- SESION 2 -------------------------------
 
 library(dplyr)
 
@@ -36,7 +38,7 @@ ligaesp <- do.call(rbind, list)
 head(ligaesp)
 tail(ligaesp)
 
-#---------------------- SESIÓN 3 -------------------------------
+#---------------------- SESION 3 -------------------------------
 
 # 1. Con el último data frame obtenido en el postwork de la sesión 2, elabora tablas de frecuencias relativas para estimar las siguientes probabilidades:
 #
@@ -85,6 +87,22 @@ library("ggplot2")
                       high = "#012345"))
 
 #---------------------- SESIÓN 4 -------------------------------
+
+# 1. Ya hemos estimado las probabilidades conjuntas de que el equipo de casa anote X=x goles (x=0,1,... ,8), y el equipo visitante anote Y=y goles (y=0,1,... ,6), en un partido. Obt�n una tabla de cocientes al dividir estas probabilidades conjuntas sobre el producto de las probabilidades marginales correspondientes.
+library("tidyr")
+
+cross_probabilities <- crossing(FTAG_MarginalProbability, FTHG_MarginalProbability)
+
+
+cross_probabilities <- mutate(cross_probabilities, Probcross = ProbH*ProbA)
+
+probJoint <- as.data.frame(JointProbability$ProbJoint)
+
+cross_probabilities <- cbind(cross_probabilities, probJoint)
+
+cross_probabilities <- mutate(cross_probabilities, ratio=JointProbability$ProbJoint/Probcross)
+
+
 
 setwd("C:\\Users\\Oscar Salazar\\OneDrive\\Documents\\Data Analyst\\2_R y Py\\Postwork\\postwork2")
 
