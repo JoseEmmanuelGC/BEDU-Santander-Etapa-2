@@ -12,4 +12,11 @@ Montero Rasgado Josué Emiliano
 Salazar Sabas Oscar Alejandro
 
 ## Proyecto:
-TODO
+TO-DO:
+Poner un centro de distribucion basado en los CP de donde se envia y a donde se envia
+Productos mas vendidos por CP para guardarlos en ese centro
+Proyecciones a cuanto se vendera
+
+* Saber en que fecha del ano se venden mas productos
+
+
