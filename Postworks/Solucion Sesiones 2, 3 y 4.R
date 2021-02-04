@@ -126,5 +126,5 @@ evaluacion_cocientes <- select(cross_probabilities, FTAG, FTHG, ratio)
 evaluacion_cocientes <- filter(evaluacion_cocientes, ratio<=1.05, ratio>=0.95)
 
 #Los coeficientes más cercanos a uno (evaluamos error +/- 5%), son partidos que muestran resultados cerrados
-#Se podría suponer que se tienen coeficientes alrededor de uno cuando se enfrentan equipos con nivel similar, en donde no se esperar marcadores con gran diferencia.
+#Se podría suponer que se tienen coeficientes alrededor de uno cuando se enfrentan equipos con nivel similar, en donde no se esperan marcadores con gran diferencia.
 
