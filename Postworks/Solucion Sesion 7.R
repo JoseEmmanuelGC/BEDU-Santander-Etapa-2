@@ -1,4 +1,4 @@
-install.packages("mongolite")
+#install.packages("mongolite")
 
 library(mongolite)
 
@@ -18,7 +18,7 @@ result <- db$aggregate(
     {
       "$match": {
         "$or": [{ "HomeTeam": "Real Madrid"}, {"AwayTeam": "Real Madrid"}],
-        "Date": "2015-12-20"
+        "Date": "20/12/2015"
       }
     },
     {

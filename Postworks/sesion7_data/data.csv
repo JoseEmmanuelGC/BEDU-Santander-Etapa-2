@@ -1,1141 +1,1901 @@
-"","Date","HomeTeam","AwayTeam","FTHG","FTAG","FTR"
-"1",2017-08-18,"Leganes","Alaves",1,0,"H"
-"2",2017-08-18,"Valencia","Las Palmas",1,0,"H"
-"3",2017-08-19,"Celta","Sociedad",2,3,"A"
-"4",2017-08-19,"Girona","Ath Madrid",2,2,"D"
-"5",2017-08-19,"Sevilla","Espanol",1,1,"D"
-"6",2017-08-20,"Ath Bilbao","Getafe",0,0,"D"
-"7",2017-08-20,"Barcelona","Betis",2,0,"H"
-"8",2017-08-20,"La Coruna","Real Madrid",0,3,"A"
-"9",2017-08-21,"Levante","Villarreal",1,0,"H"
-"10",2017-08-21,"Malaga","Eibar",0,1,"A"
-"11",2017-08-25,"Betis","Celta",2,1,"H"
-"12",2017-08-25,"Sociedad","Villarreal",3,0,"H"
-"13",2017-08-26,"Alaves","Barcelona",0,2,"A"
-"14",2017-08-26,"Girona","Malaga",1,0,"H"
-"15",2017-08-26,"Las Palmas","Ath Madrid",1,5,"A"
-"16",2017-08-26,"Levante","La Coruna",2,2,"D"
-"17",2017-08-27,"Eibar","Ath Bilbao",0,1,"A"
-"18",2017-08-27,"Espanol","Leganes",0,1,"A"
-"19",2017-08-27,"Getafe","Sevilla",0,1,"A"
-"20",2017-08-27,"Real Madrid","Valencia",2,2,"D"
-"21",2017-09-08,"Leganes","Getafe",1,2,"A"
-"22",2017-09-09,"Barcelona","Espanol",5,0,"H"
-"23",2017-09-09,"Real Madrid","Levante",1,1,"D"
-"24",2017-09-09,"Sevilla","Eibar",3,0,"H"
-"25",2017-09-09,"Valencia","Ath Madrid",0,0,"D"
-"26",2017-09-10,"Ath Bilbao","Girona",2,0,"H"
-"27",2017-09-10,"Celta","Alaves",1,0,"H"
-"28",2017-09-10,"La Coruna","Sociedad",2,4,"A"
-"29",2017-09-10,"Villarreal","Betis",3,1,"H"
-"30",2017-09-11,"Malaga","Las Palmas",1,3,"A"
-"31",2017-09-15,"Eibar","Leganes",1,0,"H"
-"32",2017-09-16,"Ath Madrid","Malaga",1,0,"H"
-"33",2017-09-16,"Betis","La Coruna",2,1,"H"
-"34",2017-09-16,"Getafe","Barcelona",1,2,"A"
-"35",2017-09-16,"Levante","Valencia",1,1,"D"
-"36",2017-09-17,"Alaves","Villarreal",0,3,"A"
-"37",2017-09-17,"Girona","Sevilla",0,1,"A"
-"38",2017-09-17,"Las Palmas","Ath Bilbao",1,0,"H"
-"39",2017-09-17,"Sociedad","Real Madrid",1,3,"A"
-"40",2017-09-18,"Espanol","Celta",2,1,"H"
-"41",2017-09-19,"Barcelona","Eibar",6,1,"H"
-"42",2017-09-19,"Valencia","Malaga",5,0,"H"
-"43",2017-09-20,"Ath Bilbao","Ath Madrid",1,2,"A"
-"44",2017-09-20,"La Coruna","Alaves",1,0,"H"
-"45",2017-09-20,"Leganes","Girona",0,0,"D"
-"46",2017-09-20,"Real Madrid","Betis",0,1,"A"
-"47",2017-09-20,"Sevilla","Las Palmas",1,0,"H"
-"48",2017-09-21,"Celta","Getafe",1,1,"D"
-"49",2017-09-21,"Levante","Sociedad",3,0,"H"
-"50",2017-09-21,"Villarreal","Espanol",0,0,"D"
-"51",2017-09-23,"Alaves","Real Madrid",1,2,"A"
-"52",2017-09-23,"Ath Madrid","Sevilla",2,0,"H"
-"53",2017-09-23,"Girona","Barcelona",0,3,"A"
-"54",2017-09-23,"Malaga","Ath Bilbao",3,3,"D"
-"55",2017-09-24,"Eibar","Celta",0,4,"A"
-"56",2017-09-24,"Espanol","La Coruna",4,1,"H"
-"57",2017-09-24,"Getafe","Villarreal",4,0,"H"
-"58",2017-09-24,"Las Palmas","Leganes",0,2,"A"
-"59",2017-09-24,"Sociedad","Valencia",2,3,"A"
-"60",2017-09-25,"Betis","Levante",4,0,"H"
-"61",2017-09-29,"Celta","Girona",3,3,"D"
-"62",2017-09-30,"La Coruna","Getafe",2,1,"H"
-"63",2017-09-30,"Leganes","Ath Madrid",0,0,"D"
-"64",2017-09-30,"Levante","Alaves",0,2,"A"
-"65",2017-09-30,"Sevilla","Malaga",2,0,"H"
-"66",2017-10-01,"Barcelona","Las Palmas",3,0,"H"
-"67",2017-10-01,"Real Madrid","Espanol",2,0,"H"
-"68",2017-10-01,"Sociedad","Betis",4,4,"D"
-"69",2017-10-01,"Valencia","Ath Bilbao",3,2,"H"
-"70",2017-10-01,"Villarreal","Eibar",3,0,"H"
-"71",2017-10-13,"Espanol","Levante",0,0,"D"
-"72",2017-10-14,"Alaves","Sociedad",0,2,"A"
-"73",2017-10-14,"Ath Bilbao","Sevilla",1,0,"H"
-"74",2017-10-14,"Ath Madrid","Barcelona",1,1,"D"
-"75",2017-10-14,"Getafe","Real Madrid",1,2,"A"
-"76",2017-10-15,"Betis","Valencia",3,6,"A"
-"77",2017-10-15,"Eibar","La Coruna",0,0,"D"
-"78",2017-10-15,"Girona","Villarreal",1,2,"A"
-"79",2017-10-15,"Malaga","Leganes",0,2,"A"
-"80",2017-10-16,"Las Palmas","Celta",2,5,"A"
-"81",2017-10-21,"Barcelona","Malaga",2,0,"H"
-"82",2017-10-21,"Betis","Alaves",2,0,"H"
-"83",2017-10-21,"Levante","Getafe",1,1,"D"
-"84",2017-10-21,"Valencia","Sevilla",4,0,"H"
-"85",2017-10-22,"Celta","Ath Madrid",0,1,"A"
-"86",2017-10-22,"Leganes","Ath Bilbao",1,0,"H"
-"87",2017-10-22,"Real Madrid","Eibar",3,0,"H"
-"88",2017-10-22,"Villarreal","Las Palmas",4,0,"H"
-"89",2017-10-23,"La Coruna","Girona",1,2,"A"
-"90",2017-10-23,"Sociedad","Espanol",1,1,"D"
-"91",2017-10-28,"Alaves","Valencia",1,2,"A"
-"92",2017-10-28,"Ath Bilbao","Barcelona",0,2,"A"
-"93",2017-10-28,"Ath Madrid","Villarreal",1,1,"D"
-"94",2017-10-28,"Sevilla","Leganes",2,1,"H"
-"95",2017-10-29,"Eibar","Levante",2,2,"D"
-"96",2017-10-29,"Getafe","Sociedad",2,1,"H"
-"97",2017-10-29,"Girona","Real Madrid",2,1,"H"
-"98",2017-10-29,"Malaga","Celta",2,1,"H"
-"99",2017-10-30,"Espanol","Betis",1,0,"H"
-"100",2017-10-30,"Las Palmas","La Coruna",1,3,"A"
-"101",2017-11-03,"Betis","Getafe",2,2,"D"
-"102",2017-11-04,"Alaves","Espanol",1,0,"H"
-"103",2017-11-04,"Barcelona","Sevilla",2,1,"H"
-"104",2017-11-04,"La Coruna","Ath Madrid",0,1,"A"
-"105",2017-11-04,"Valencia","Leganes",3,0,"H"
-"106",2017-11-05,"Celta","Ath Bilbao",3,1,"H"
-"107",2017-11-05,"Levante","Girona",1,2,"A"
-"108",2017-11-05,"Real Madrid","Las Palmas",3,0,"H"
-"109",2017-11-05,"Sociedad","Eibar",3,1,"H"
-"110",2017-11-05,"Villarreal","Malaga",2,0,"H"
-"111",2017-11-17,"Girona","Sociedad",1,1,"D"
-"112",2017-11-18,"Ath Madrid","Real Madrid",0,0,"D"
-"113",2017-11-18,"Getafe","Alaves",4,1,"H"
-"114",2017-11-18,"Leganes","Barcelona",0,3,"A"
-"115",2017-11-18,"Sevilla","Celta",2,1,"H"
-"116",2017-11-19,"Ath Bilbao","Villarreal",1,1,"D"
-"117",2017-11-19,"Espanol","Valencia",0,2,"A"
-"118",2017-11-19,"Las Palmas","Levante",0,2,"A"
-"119",2017-11-19,"Malaga","La Coruna",3,2,"H"
-"120",2017-11-20,"Eibar","Betis",5,0,"H"
-"121",2017-11-24,"Celta","Leganes",1,0,"H"
-"122",2017-11-25,"Alaves","Eibar",1,2,"A"
-"123",2017-11-25,"Betis","Girona",2,2,"D"
-"124",2017-11-25,"Levante","Ath Madrid",0,5,"A"
-"125",2017-11-25,"Real Madrid","Malaga",3,2,"H"
-"126",2017-11-26,"La Coruna","Ath Bilbao",2,2,"D"
-"127",2017-11-26,"Sociedad","Las Palmas",2,2,"D"
-"128",2017-11-26,"Valencia","Barcelona",1,1,"D"
-"129",2017-11-26,"Villarreal","Sevilla",2,3,"A"
-"130",2017-11-27,"Espanol","Getafe",1,0,"H"
-"131",2017-12-01,"Malaga","Levante",0,0,"D"
-"132",2017-12-02,"Ath Bilbao","Real Madrid",0,0,"D"
-"133",2017-12-02,"Ath Madrid","Sociedad",2,1,"H"
-"134",2017-12-02,"Barcelona","Celta",2,2,"D"
-"135",2017-12-02,"Sevilla","La Coruna",2,0,"H"
-"136",2017-12-03,"Eibar","Espanol",3,1,"H"
-"137",2017-12-03,"Getafe","Valencia",1,0,"H"
-"138",2017-12-03,"Las Palmas","Betis",1,0,"H"
-"139",2017-12-03,"Leganes","Villarreal",3,1,"H"
-"140",2017-12-04,"Girona","Alaves",2,3,"A"
-"141",2017-12-08,"Alaves","Las Palmas",2,0,"H"
-"142",2017-12-09,"Getafe","Eibar",0,0,"D"
-"143",2017-12-09,"La Coruna","Leganes",1,0,"H"
-"144",2017-12-09,"Real Madrid","Sevilla",5,0,"H"
-"145",2017-12-09,"Valencia","Celta",2,1,"H"
-"146",2017-12-10,"Betis","Ath Madrid",0,1,"A"
-"147",2017-12-10,"Levante","Ath Bilbao",1,2,"A"
-"148",2017-12-10,"Sociedad","Malaga",0,2,"A"
-"149",2017-12-10,"Villarreal","Barcelona",0,2,"A"
-"150",2017-12-11,"Espanol","Girona",0,1,"A"
-"151",2017-12-15,"Sevilla","Levante",0,0,"D"
-"152",2017-12-16,"Ath Bilbao","Sociedad",0,0,"D"
-"153",2017-12-16,"Ath Madrid","Alaves",1,0,"H"
-"154",2017-12-16,"Eibar","Valencia",2,1,"H"
-"155",2017-12-17,"Barcelona","La Coruna",4,0,"H"
-"156",2017-12-17,"Celta","Villarreal",0,1,"A"
-"157",2017-12-17,"Girona","Getafe",1,0,"H"
-"158",2017-12-17,"Las Palmas","Espanol",2,2,"D"
-"159",2017-12-18,"Malaga","Betis",0,2,"A"
-"160",2017-12-19,"Levante","Leganes",0,0,"D"
-"161",2017-12-20,"Getafe","Las Palmas",2,0,"H"
-"162",2017-12-20,"Sociedad","Sevilla",3,1,"H"
-"163",2017-12-21,"Alaves","Malaga",1,0,"H"
-"164",2017-12-21,"Eibar","Girona",4,1,"H"
-"165",2017-12-22,"Betis","Ath Bilbao",0,2,"A"
-"166",2017-12-22,"Espanol","Ath Madrid",1,0,"H"
-"167",2017-12-23,"La Coruna","Celta",1,3,"A"
-"168",2017-12-23,"Real Madrid","Barcelona",0,3,"A"
-"169",2017-12-23,"Valencia","Villarreal",0,1,"A"
-"170",2018-01-06,"Ath Madrid","Getafe",2,0,"H"
-"171",2018-01-06,"Las Palmas","Eibar",1,2,"A"
-"172",2018-01-06,"Sevilla","Betis",3,5,"A"
-"173",2018-01-06,"Valencia","Girona",2,1,"H"
-"174",2018-01-07,"Ath Bilbao","Alaves",2,0,"H"
-"175",2018-01-07,"Barcelona","Levante",3,0,"H"
-"176",2018-01-07,"Celta","Real Madrid",2,2,"D"
-"177",2018-01-07,"Leganes","Sociedad",1,0,"H"
-"178",2018-01-07,"Villarreal","La Coruna",1,1,"D"
-"179",2018-01-08,"Malaga","Espanol",0,1,"A"
-"180",2018-01-12,"Getafe","Malaga",1,0,"H"
-"181",2018-01-13,"Eibar","Ath Madrid",0,1,"A"
-"182",2018-01-13,"Girona","Las Palmas",6,0,"H"
-"183",2018-01-13,"La Coruna","Valencia",1,2,"A"
-"184",2018-01-13,"Real Madrid","Villarreal",0,1,"A"
-"185",2018-01-14,"Alaves","Sevilla",1,0,"H"
-"186",2018-01-14,"Espanol","Ath Bilbao",1,1,"D"
-"187",2018-01-14,"Levante","Celta",0,1,"A"
-"188",2018-01-14,"Sociedad","Barcelona",2,4,"A"
-"189",2018-01-15,"Betis","Leganes",3,2,"H"
-"190",2018-01-19,"Getafe","Ath Bilbao",2,2,"D"
-"191",2018-01-20,"Ath Madrid","Girona",1,1,"D"
-"192",2018-01-20,"Espanol","Sevilla",0,3,"A"
-"193",2018-01-20,"Las Palmas","Valencia",2,1,"H"
-"194",2018-01-20,"Villarreal","Levante",2,1,"H"
-"195",2018-01-21,"Alaves","Leganes",2,2,"D"
-"196",2018-01-21,"Betis","Barcelona",0,5,"A"
-"197",2018-01-21,"Real Madrid","La Coruna",7,1,"H"
-"198",2018-01-21,"Sociedad","Celta",1,2,"A"
-"199",2018-01-22,"Eibar","Malaga",1,1,"D"
-"200",2018-01-26,"Ath Bilbao","Eibar",1,1,"D"
-"201",2018-01-27,"La Coruna","Levante",2,2,"D"
-"202",2018-01-27,"Malaga","Girona",0,0,"D"
-"203",2018-01-27,"Valencia","Real Madrid",1,4,"A"
-"204",2018-01-27,"Villarreal","Sociedad",4,2,"H"
-"205",2018-01-28,"Ath Madrid","Las Palmas",3,0,"H"
-"206",2018-01-28,"Barcelona","Alaves",2,1,"H"
-"207",2018-01-28,"Leganes","Espanol",3,2,"H"
-"208",2018-01-28,"Sevilla","Getafe",1,1,"D"
-"209",2018-01-29,"Celta","Betis",3,2,"H"
-"210",2018-02-02,"Sociedad","La Coruna",5,0,"H"
-"211",2018-02-03,"Alaves","Celta",2,1,"H"
-"212",2018-02-03,"Betis","Villarreal",2,1,"H"
-"213",2018-02-03,"Eibar","Sevilla",5,1,"H"
-"214",2018-02-03,"Levante","Real Madrid",2,2,"D"
-"215",2018-02-04,"Ath Madrid","Valencia",1,0,"H"
-"216",2018-02-04,"Espanol","Barcelona",1,1,"D"
-"217",2018-02-04,"Getafe","Leganes",0,0,"D"
-"218",2018-02-04,"Girona","Ath Bilbao",2,0,"H"
-"219",2018-02-05,"Las Palmas","Malaga",1,0,"H"
-"220",2018-02-09,"Ath Bilbao","Las Palmas",0,0,"D"
-"221",2018-02-10,"Leganes","Eibar",0,1,"A"
-"222",2018-02-10,"Malaga","Ath Madrid",0,1,"A"
-"223",2018-02-10,"Real Madrid","Sociedad",5,2,"H"
-"224",2018-02-10,"Villarreal","Alaves",1,2,"A"
-"225",2018-02-11,"Barcelona","Getafe",0,0,"D"
-"226",2018-02-11,"Celta","Espanol",2,2,"D"
-"227",2018-02-11,"Sevilla","Girona",1,0,"H"
-"228",2018-02-11,"Valencia","Levante",3,1,"H"
-"229",2018-02-12,"La Coruna","Betis",0,1,"A"
-"230",2018-02-16,"Girona","Leganes",3,0,"H"
-"231",2018-02-17,"Alaves","La Coruna",1,0,"H"
-"232",2018-02-17,"Eibar","Barcelona",0,2,"A"
-"233",2018-02-17,"Las Palmas","Sevilla",1,2,"A"
-"234",2018-02-17,"Malaga","Valencia",1,2,"A"
-"235",2018-02-18,"Ath Madrid","Ath Bilbao",2,0,"H"
-"236",2018-02-18,"Betis","Real Madrid",3,5,"A"
-"237",2018-02-18,"Espanol","Villarreal",1,1,"D"
-"238",2018-02-18,"Sociedad","Levante",3,0,"H"
-"239",2018-02-19,"Getafe","Celta",3,0,"H"
-"240",2018-02-21,"Leganes","Real Madrid",1,3,"A"
-"241",2018-02-23,"La Coruna","Espanol",0,0,"D"
-"242",2018-02-24,"Barcelona","Girona",6,1,"H"
-"243",2018-02-24,"Celta","Eibar",2,0,"H"
-"244",2018-02-24,"Leganes","Las Palmas",0,0,"D"
-"245",2018-02-24,"Real Madrid","Alaves",4,0,"H"
-"246",2018-02-25,"Ath Bilbao","Malaga",2,1,"H"
-"247",2018-02-25,"Sevilla","Ath Madrid",2,5,"A"
-"248",2018-02-25,"Valencia","Sociedad",2,1,"H"
-"249",2018-02-25,"Villarreal","Getafe",1,0,"H"
-"250",2018-02-26,"Levante","Betis",0,2,"A"
-"251",2018-02-27,"Espanol","Real Madrid",1,0,"H"
-"252",2018-02-27,"Girona","Celta",1,0,"H"
-"253",2018-02-28,"Ath Bilbao","Valencia",1,1,"D"
-"254",2018-02-28,"Ath Madrid","Leganes",4,0,"H"
-"255",2018-02-28,"Eibar","Villarreal",1,0,"H"
-"256",2018-02-28,"Getafe","La Coruna",3,0,"H"
-"257",2018-02-28,"Malaga","Sevilla",0,1,"A"
-"258",2018-03-01,"Alaves","Levante",1,0,"H"
-"259",2018-03-01,"Betis","Sociedad",0,0,"D"
-"260",2018-03-01,"Las Palmas","Barcelona",1,1,"D"
-"261",2018-03-03,"La Coruna","Eibar",1,1,"D"
-"262",2018-03-03,"Leganes","Malaga",2,0,"H"
-"263",2018-03-03,"Real Madrid","Getafe",3,1,"H"
-"264",2018-03-03,"Sevilla","Ath Bilbao",2,0,"H"
-"265",2018-03-03,"Villarreal","Girona",0,2,"A"
-"266",2018-03-04,"Barcelona","Ath Madrid",1,0,"H"
-"267",2018-03-04,"Levante","Espanol",1,1,"D"
-"268",2018-03-04,"Sociedad","Alaves",2,1,"H"
-"269",2018-03-04,"Valencia","Betis",2,0,"H"
-"270",2018-03-05,"Celta","Las Palmas",2,1,"H"
-"271",2018-03-09,"Girona","La Coruna",2,0,"H"
-"272",2018-03-10,"Eibar","Real Madrid",1,2,"A"
-"273",2018-03-10,"Getafe","Levante",0,1,"A"
-"274",2018-03-10,"Malaga","Barcelona",0,2,"A"
-"275",2018-03-10,"Sevilla","Valencia",0,2,"A"
-"276",2018-03-11,"Ath Bilbao","Leganes",2,0,"H"
-"277",2018-03-11,"Ath Madrid","Celta",3,0,"H"
-"278",2018-03-11,"Espanol","Sociedad",2,1,"H"
-"279",2018-03-11,"Las Palmas","Villarreal",0,2,"A"
-"280",2018-03-12,"Alaves","Betis",1,3,"A"
-"281",2018-03-16,"Levante","Eibar",2,1,"H"
-"282",2018-03-17,"Betis","Espanol",3,0,"H"
-"283",2018-03-17,"La Coruna","Las Palmas",1,1,"D"
-"284",2018-03-17,"Sociedad","Getafe",1,2,"A"
-"285",2018-03-17,"Valencia","Alaves",3,1,"H"
-"286",2018-03-18,"Barcelona","Ath Bilbao",2,0,"H"
-"287",2018-03-18,"Celta","Malaga",0,0,"D"
-"288",2018-03-18,"Leganes","Sevilla",2,1,"H"
-"289",2018-03-18,"Real Madrid","Girona",6,3,"H"
-"290",2018-03-18,"Villarreal","Ath Madrid",2,1,"H"
-"291",2018-03-31,"Ath Bilbao","Celta",1,1,"D"
-"292",2018-03-31,"Girona","Levante",1,1,"D"
-"293",2018-03-31,"Las Palmas","Real Madrid",0,3,"A"
-"294",2018-03-31,"Sevilla","Barcelona",2,2,"D"
-"295",2018-04-01,"Ath Madrid","La Coruna",1,0,"H"
-"296",2018-04-01,"Eibar","Sociedad",0,0,"D"
-"297",2018-04-01,"Espanol","Alaves",0,0,"D"
-"298",2018-04-01,"Leganes","Valencia",0,1,"A"
-"299",2018-04-01,"Malaga","Villarreal",1,0,"H"
-"300",2018-04-02,"Getafe","Betis",0,1,"A"
-"301",2018-04-06,"La Coruna","Malaga",3,2,"H"
-"302",2018-04-07,"Alaves","Getafe",2,0,"H"
-"303",2018-04-07,"Barcelona","Leganes",3,1,"H"
-"304",2018-04-07,"Betis","Eibar",2,0,"H"
-"305",2018-04-07,"Celta","Sevilla",4,0,"H"
-"306",2018-04-08,"Levante","Las Palmas",2,1,"H"
-"307",2018-04-08,"Real Madrid","Ath Madrid",1,1,"D"
-"308",2018-04-08,"Sociedad","Girona",5,0,"H"
-"309",2018-04-08,"Valencia","Espanol",1,0,"H"
-"310",2018-04-09,"Villarreal","Ath Bilbao",1,3,"A"
-"311",2018-04-13,"Girona","Betis",0,1,"A"
-"312",2018-04-14,"Ath Bilbao","La Coruna",2,3,"A"
-"313",2018-04-14,"Barcelona","Valencia",2,1,"H"
-"314",2018-04-14,"Las Palmas","Sociedad",0,1,"A"
-"315",2018-04-14,"Leganes","Celta",1,0,"H"
-"316",2018-04-14,"Sevilla","Villarreal",2,2,"D"
-"317",2018-04-15,"Ath Madrid","Levante",3,0,"H"
-"318",2018-04-15,"Eibar","Alaves",0,1,"A"
-"319",2018-04-15,"Getafe","Espanol",1,0,"H"
-"320",2018-04-15,"Malaga","Real Madrid",1,2,"A"
-"321",2018-04-17,"Celta","Barcelona",2,2,"D"
-"322",2018-04-17,"La Coruna","Sevilla",0,0,"D"
-"323",2018-04-17,"Villarreal","Leganes",2,1,"H"
-"324",2018-04-18,"Espanol","Eibar",0,1,"A"
-"325",2018-04-18,"Real Madrid","Ath Bilbao",1,1,"D"
-"326",2018-04-18,"Valencia","Getafe",1,2,"A"
-"327",2018-04-19,"Alaves","Girona",1,2,"A"
-"328",2018-04-19,"Betis","Las Palmas",1,0,"H"
-"329",2018-04-19,"Levante","Malaga",1,0,"H"
-"330",2018-04-19,"Sociedad","Ath Madrid",3,0,"H"
-"331",2018-04-20,"Leganes","La Coruna",0,0,"D"
-"332",2018-04-21,"Celta","Valencia",1,1,"D"
-"333",2018-04-21,"Eibar","Getafe",0,1,"A"
-"334",2018-04-22,"Ath Madrid","Betis",0,0,"D"
-"335",2018-04-22,"Girona","Espanol",0,2,"A"
-"336",2018-04-22,"Las Palmas","Alaves",0,4,"A"
-"337",2018-04-22,"Malaga","Sociedad",2,0,"H"
-"338",2018-04-23,"Ath Bilbao","Levante",1,3,"A"
-"339",2018-04-27,"Levante","Sevilla",2,1,"H"
-"340",2018-04-28,"Espanol","Las Palmas",1,1,"D"
-"341",2018-04-28,"Real Madrid","Leganes",2,1,"H"
-"342",2018-04-28,"Sociedad","Ath Bilbao",3,1,"H"
-"343",2018-04-28,"Villarreal","Celta",4,1,"H"
-"344",2018-04-29,"Alaves","Ath Madrid",0,1,"A"
-"345",2018-04-29,"Getafe","Girona",1,1,"D"
-"346",2018-04-29,"La Coruna","Barcelona",2,4,"A"
-"347",2018-04-29,"Valencia","Eibar",0,0,"D"
-"348",2018-04-30,"Betis","Malaga",2,1,"H"
-"349",2018-05-04,"Sevilla","Sociedad",1,0,"H"
-"350",2018-05-05,"Ath Bilbao","Betis",2,0,"H"
-"351",2018-05-05,"Celta","La Coruna",1,1,"D"
-"352",2018-05-05,"Girona","Eibar",1,4,"A"
-"353",2018-05-05,"Villarreal","Valencia",1,0,"H"
-"354",2018-05-06,"Ath Madrid","Espanol",0,2,"A"
-"355",2018-05-06,"Barcelona","Real Madrid",2,2,"D"
-"356",2018-05-06,"Las Palmas","Getafe",0,1,"A"
-"357",2018-05-06,"Malaga","Alaves",0,3,"A"
-"358",2018-05-07,"Leganes","Levante",0,3,"A"
-"359",2018-05-09,"Barcelona","Villarreal",5,1,"H"
-"360",2018-05-09,"Sevilla","Real Madrid",3,2,"H"
-"361",2018-05-12,"Alaves","Ath Bilbao",3,1,"H"
-"362",2018-05-12,"Betis","Sevilla",2,2,"D"
-"363",2018-05-12,"Eibar","Las Palmas",1,0,"H"
-"364",2018-05-12,"Getafe","Ath Madrid",0,1,"A"
-"365",2018-05-12,"Girona","Valencia",0,1,"A"
-"366",2018-05-12,"La Coruna","Villarreal",2,4,"A"
-"367",2018-05-12,"Real Madrid","Celta",6,0,"H"
-"368",2018-05-12,"Sociedad","Leganes",3,2,"H"
-"369",2018-05-13,"Espanol","Malaga",4,1,"H"
-"370",2018-05-13,"Levante","Barcelona",5,4,"H"
-"371",2018-05-19,"Celta","Levante",4,2,"H"
-"372",2018-05-19,"Las Palmas","Girona",1,2,"A"
-"373",2018-05-19,"Leganes","Betis",3,2,"H"
-"374",2018-05-19,"Malaga","Getafe",0,1,"A"
-"375",2018-05-19,"Sevilla","Alaves",1,0,"H"
-"376",2018-05-19,"Villarreal","Real Madrid",2,2,"D"
-"377",2018-05-20,"Ath Bilbao","Espanol",0,1,"A"
-"378",2018-05-20,"Ath Madrid","Eibar",2,2,"D"
-"379",2018-05-20,"Barcelona","Sociedad",1,0,"H"
-"380",2018-05-20,"Valencia","La Coruna",2,1,"H"
-"381",2018-08-17,"Betis","Levante",0,3,"A"
-"382",2018-08-17,"Girona","Valladolid",0,0,"D"
-"383",2018-08-18,"Barcelona","Alaves",3,0,"H"
-"384",2018-08-18,"Celta","Espanol",1,1,"D"
-"385",2018-08-18,"Villarreal","Sociedad",1,2,"A"
-"386",2018-08-19,"Eibar","Huesca",1,2,"A"
-"387",2018-08-19,"Real Madrid","Getafe",2,0,"H"
-"388",2018-08-19,"Vallecano","Sevilla",1,4,"A"
-"389",2018-08-20,"Ath Bilbao","Leganes",2,1,"H"
-"390",2018-08-20,"Valencia","Ath Madrid",1,1,"D"
-"391",2018-08-24,"Getafe","Eibar",2,0,"H"
-"392",2018-08-24,"Leganes","Sociedad",2,2,"D"
-"393",2018-08-25,"Alaves","Betis",0,0,"D"
-"394",2018-08-25,"Ath Madrid","Vallecano",1,0,"H"
-"395",2018-08-25,"Valladolid","Barcelona",0,1,"A"
-"396",2018-08-26,"Espanol","Valencia",2,0,"H"
-"397",2018-08-26,"Girona","Real Madrid",1,4,"A"
-"398",2018-08-26,"Sevilla","Villarreal",0,0,"D"
-"399",2018-08-27,"Ath Bilbao","Huesca",2,2,"D"
-"400",2018-08-27,"Levante","Celta",1,2,"A"
-"401",2018-08-31,"Eibar","Sociedad",2,1,"H"
-"402",2018-08-31,"Getafe","Valladolid",0,0,"D"
-"403",2018-08-31,"Villarreal","Girona",0,1,"A"
-"404",2018-09-01,"Celta","Ath Madrid",2,0,"H"
-"405",2018-09-01,"Real Madrid","Leganes",4,1,"H"
-"406",2018-09-02,"Alaves","Espanol",2,1,"H"
-"407",2018-09-02,"Barcelona","Huesca",8,2,"H"
-"408",2018-09-02,"Betis","Sevilla",1,0,"H"
-"409",2018-09-02,"Levante","Valencia",2,2,"D"
-"410",2018-09-14,"Huesca","Vallecano",0,1,"A"
-"411",2018-09-15,"Ath Bilbao","Real Madrid",1,1,"D"
-"412",2018-09-15,"Ath Madrid","Eibar",1,1,"D"
-"413",2018-09-15,"Sociedad","Barcelona",1,2,"A"
-"414",2018-09-15,"Valencia","Betis",0,0,"D"
-"415",2018-09-16,"Espanol","Levante",1,0,"H"
-"416",2018-09-16,"Leganes","Villarreal",0,1,"A"
-"417",2018-09-16,"Sevilla","Getafe",0,2,"A"
-"418",2018-09-16,"Valladolid","Alaves",0,1,"A"
-"419",2018-09-17,"Girona","Celta",3,2,"H"
-"420",2018-09-21,"Huesca","Sociedad",0,1,"A"
-"421",2018-09-22,"Celta","Valladolid",3,3,"D"
-"422",2018-09-22,"Eibar","Leganes",1,0,"H"
-"423",2018-09-22,"Getafe","Ath Madrid",0,2,"A"
-"424",2018-09-22,"Real Madrid","Espanol",1,0,"H"
-"425",2018-09-22,"Vallecano","Alaves",1,5,"A"
-"426",2018-09-23,"Barcelona","Girona",2,2,"D"
-"427",2018-09-23,"Betis","Ath Bilbao",2,2,"D"
-"428",2018-09-23,"Levante","Sevilla",2,6,"A"
-"429",2018-09-23,"Villarreal","Valencia",0,0,"D"
-"430",2018-09-25,"Ath Madrid","Huesca",3,0,"H"
-"431",2018-09-25,"Espanol","Eibar",1,0,"H"
-"432",2018-09-25,"Sociedad","Vallecano",2,2,"D"
-"433",2018-09-26,"Ath Bilbao","Villarreal",0,3,"A"
-"434",2018-09-26,"Leganes","Barcelona",2,1,"H"
-"435",2018-09-26,"Sevilla","Real Madrid",3,0,"H"
-"436",2018-09-26,"Valencia","Celta",1,1,"D"
-"437",2018-09-27,"Alaves","Getafe",1,1,"D"
-"438",2018-09-27,"Girona","Betis",0,1,"A"
-"439",2018-09-27,"Valladolid","Levante",2,1,"H"
-"440",2018-09-28,"Vallecano","Espanol",2,2,"D"
-"441",2018-09-29,"Barcelona","Ath Bilbao",1,1,"D"
-"442",2018-09-29,"Eibar","Sevilla",1,3,"A"
-"443",2018-09-29,"Real Madrid","Ath Madrid",0,0,"D"
-"444",2018-09-29,"Sociedad","Valencia",0,1,"A"
-"445",2018-09-30,"Betis","Leganes",1,0,"H"
-"446",2018-09-30,"Huesca","Girona",1,1,"D"
-"447",2018-09-30,"Levante","Alaves",2,1,"H"
-"448",2018-09-30,"Villarreal","Valladolid",0,1,"A"
-"449",2018-10-01,"Celta","Getafe",1,1,"D"
-"450",2018-10-05,"Ath Bilbao","Sociedad",1,3,"A"
-"451",2018-10-06,"Alaves","Real Madrid",1,0,"H"
-"452",2018-10-06,"Getafe","Levante",0,1,"A"
-"453",2018-10-06,"Girona","Eibar",2,3,"A"
-"454",2018-10-06,"Leganes","Vallecano",1,0,"H"
-"455",2018-10-07,"Ath Madrid","Betis",1,0,"H"
-"456",2018-10-07,"Espanol","Villarreal",3,1,"H"
-"457",2018-10-07,"Sevilla","Celta",2,1,"H"
-"458",2018-10-07,"Valencia","Barcelona",1,1,"D"
-"459",2018-10-07,"Valladolid","Huesca",1,0,"H"
-"460",2018-10-19,"Celta","Alaves",0,1,"A"
-"461",2018-10-20,"Barcelona","Sevilla",4,2,"H"
-"462",2018-10-20,"Real Madrid","Levante",1,2,"A"
-"463",2018-10-20,"Valencia","Leganes",1,1,"D"
-"464",2018-10-20,"Villarreal","Ath Madrid",1,1,"D"
-"465",2018-10-21,"Betis","Valladolid",0,1,"A"
-"466",2018-10-21,"Eibar","Ath Bilbao",1,1,"D"
-"467",2018-10-21,"Huesca","Espanol",0,2,"A"
-"468",2018-10-21,"Vallecano","Getafe",1,2,"A"
-"469",2018-10-22,"Sociedad","Girona",0,0,"D"
-"470",2018-10-24,"Vallecano","Ath Bilbao",1,1,"D"
-"471",2018-10-26,"Valladolid","Espanol",1,1,"D"
-"472",2018-10-27,"Ath Bilbao","Valencia",0,0,"D"
-"473",2018-10-27,"Ath Madrid","Sociedad",2,0,"H"
-"474",2018-10-27,"Celta","Eibar",4,0,"H"
-"475",2018-10-27,"Girona","Vallecano",2,1,"H"
-"476",2018-10-27,"Levante","Leganes",2,0,"H"
-"477",2018-10-28,"Alaves","Villarreal",2,1,"H"
-"478",2018-10-28,"Barcelona","Real Madrid",5,1,"H"
-"479",2018-10-28,"Getafe","Betis",2,0,"H"
-"480",2018-10-28,"Sevilla","Huesca",2,1,"H"
-"481",2018-11-03,"Leganes","Ath Madrid",1,1,"D"
-"482",2018-11-03,"Real Madrid","Valladolid",2,0,"H"
-"483",2018-11-03,"Valencia","Girona",0,1,"A"
-"484",2018-11-03,"Vallecano","Barcelona",2,3,"A"
-"485",2018-11-04,"Betis","Celta",3,3,"D"
-"486",2018-11-04,"Eibar","Alaves",2,1,"H"
-"487",2018-11-04,"Huesca","Getafe",1,1,"D"
-"488",2018-11-04,"Sociedad","Sevilla",0,0,"D"
-"489",2018-11-04,"Villarreal","Levante",1,1,"D"
-"490",2018-11-05,"Espanol","Ath Bilbao",1,0,"H"
-"491",2018-11-09,"Levante","Sociedad",1,3,"A"
-"492",2018-11-10,"Ath Madrid","Ath Bilbao",3,2,"H"
-"493",2018-11-10,"Getafe","Valencia",0,1,"A"
-"494",2018-11-10,"Girona","Leganes",0,0,"D"
-"495",2018-11-10,"Valladolid","Eibar",0,0,"D"
-"496",2018-11-11,"Alaves","Huesca",2,1,"H"
-"497",2018-11-11,"Barcelona","Betis",3,4,"A"
-"498",2018-11-11,"Celta","Real Madrid",2,4,"A"
-"499",2018-11-11,"Sevilla","Espanol",2,1,"H"
-"500",2018-11-11,"Vallecano","Villarreal",2,2,"D"
-"501",2018-11-23,"Leganes","Alaves",1,0,"H"
-"502",2018-11-24,"Ath Madrid","Barcelona",1,1,"D"
-"503",2018-11-24,"Eibar","Real Madrid",3,0,"H"
-"504",2018-11-24,"Huesca","Levante",2,2,"D"
-"505",2018-11-24,"Valencia","Vallecano",3,0,"H"
-"506",2018-11-25,"Ath Bilbao","Getafe",1,1,"D"
-"507",2018-11-25,"Espanol","Girona",1,3,"A"
-"508",2018-11-25,"Sevilla","Valladolid",1,0,"H"
-"509",2018-11-25,"Villarreal","Betis",2,1,"H"
-"510",2018-11-26,"Sociedad","Celta",2,1,"H"
-"511",2018-11-30,"Vallecano","Eibar",1,0,"H"
-"512",2018-12-01,"Celta","Huesca",2,0,"H"
-"513",2018-12-01,"Getafe","Espanol",3,0,"H"
-"514",2018-12-01,"Real Madrid","Valencia",2,0,"H"
-"515",2018-12-01,"Valladolid","Leganes",2,4,"A"
-"516",2018-12-02,"Alaves","Sevilla",1,1,"D"
-"517",2018-12-02,"Barcelona","Villarreal",2,0,"H"
-"518",2018-12-02,"Betis","Sociedad",1,0,"H"
-"519",2018-12-02,"Girona","Ath Madrid",1,1,"D"
-"520",2018-12-03,"Levante","Ath Bilbao",3,0,"H"
-"521",2018-12-07,"Leganes","Getafe",1,1,"D"
-"522",2018-12-08,"Ath Madrid","Alaves",3,0,"H"
-"523",2018-12-08,"Espanol","Barcelona",0,4,"A"
-"524",2018-12-08,"Valencia","Sevilla",1,1,"D"
-"525",2018-12-08,"Villarreal","Celta",2,3,"A"
-"526",2018-12-09,"Betis","Vallecano",2,0,"H"
-"527",2018-12-09,"Eibar","Levante",4,4,"D"
-"528",2018-12-09,"Huesca","Real Madrid",0,1,"A"
-"529",2018-12-09,"Sociedad","Valladolid",1,2,"A"
-"530",2018-12-10,"Ath Bilbao","Girona",1,0,"H"
-"531",2018-12-14,"Celta","Leganes",0,0,"D"
-"532",2018-12-15,"Eibar","Valencia",1,1,"D"
-"533",2018-12-15,"Getafe","Sociedad",1,0,"H"
-"534",2018-12-15,"Real Madrid","Vallecano",1,0,"H"
-"535",2018-12-15,"Valladolid","Ath Madrid",2,3,"A"
-"536",2018-12-16,"Espanol","Betis",1,3,"A"
-"537",2018-12-16,"Huesca","Villarreal",2,2,"D"
-"538",2018-12-16,"Levante","Barcelona",0,5,"A"
-"539",2018-12-16,"Sevilla","Girona",2,0,"H"
-"540",2018-12-17,"Alaves","Ath Bilbao",0,0,"D"
-"541",2018-12-21,"Girona","Getafe",1,1,"D"
-"542",2018-12-21,"Sociedad","Alaves",0,1,"A"
-"543",2018-12-22,"Ath Bilbao","Valladolid",1,1,"D"
-"544",2018-12-22,"Ath Madrid","Espanol",1,0,"H"
-"545",2018-12-22,"Barcelona","Celta",2,0,"H"
-"546",2018-12-22,"Betis","Eibar",1,1,"D"
-"547",2018-12-23,"Leganes","Sevilla",1,1,"D"
-"548",2018-12-23,"Valencia","Huesca",2,1,"H"
-"549",2018-12-23,"Vallecano","Levante",2,1,"H"
-"550",2019-01-03,"Villarreal","Real Madrid",2,2,"D"
-"551",2019-01-04,"Espanol","Leganes",1,0,"H"
-"552",2019-01-04,"Levante","Girona",2,2,"D"
-"553",2019-01-05,"Alaves","Valencia",2,1,"H"
-"554",2019-01-05,"Huesca","Betis",2,1,"H"
-"555",2019-01-05,"Valladolid","Vallecano",0,1,"A"
-"556",2019-01-06,"Eibar","Villarreal",0,0,"D"
-"557",2019-01-06,"Getafe","Barcelona",1,2,"A"
-"558",2019-01-06,"Real Madrid","Sociedad",0,2,"A"
-"559",2019-01-06,"Sevilla","Ath Madrid",1,1,"D"
-"560",2019-01-07,"Celta","Ath Bilbao",1,2,"A"
-"561",2019-01-11,"Vallecano","Celta",4,2,"H"
-"562",2019-01-12,"Girona","Alaves",1,1,"D"
-"563",2019-01-12,"Leganes","Huesca",1,0,"H"
-"564",2019-01-12,"Valencia","Valladolid",1,1,"D"
-"565",2019-01-12,"Villarreal","Getafe",1,2,"A"
-"566",2019-01-13,"Ath Bilbao","Sevilla",2,0,"H"
-"567",2019-01-13,"Ath Madrid","Levante",1,0,"H"
-"568",2019-01-13,"Barcelona","Eibar",3,0,"H"
-"569",2019-01-13,"Betis","Real Madrid",1,2,"A"
-"570",2019-01-14,"Sociedad","Espanol",3,2,"H"
-"571",2019-01-18,"Getafe","Alaves",4,0,"H"
-"572",2019-01-19,"Celta","Valencia",1,2,"A"
-"573",2019-01-19,"Huesca","Ath Madrid",0,3,"A"
-"574",2019-01-19,"Real Madrid","Sevilla",2,0,"H"
-"575",2019-01-20,"Barcelona","Leganes",3,1,"H"
-"576",2019-01-20,"Betis","Girona",3,2,"H"
-"577",2019-01-20,"Levante","Valladolid",2,0,"H"
-"578",2019-01-20,"Vallecano","Sociedad",2,2,"D"
-"579",2019-01-20,"Villarreal","Ath Bilbao",1,1,"D"
-"580",2019-01-21,"Eibar","Espanol",3,0,"H"
-"581",2019-01-26,"Ath Madrid","Getafe",2,0,"H"
-"582",2019-01-26,"Leganes","Eibar",2,2,"D"
-"583",2019-01-26,"Sevilla","Levante",5,0,"H"
-"584",2019-01-26,"Valencia","Villarreal",3,0,"H"
-"585",2019-01-27,"Ath Bilbao","Betis",1,0,"H"
-"586",2019-01-27,"Espanol","Real Madrid",2,4,"A"
-"587",2019-01-27,"Girona","Barcelona",0,2,"A"
-"588",2019-01-27,"Sociedad","Huesca",0,0,"D"
-"589",2019-01-27,"Valladolid","Celta",2,1,"H"
-"590",2019-01-28,"Alaves","Vallecano",0,1,"A"
-"591",2019-02-01,"Huesca","Valladolid",4,0,"H"
-"592",2019-02-02,"Barcelona","Valencia",2,2,"D"
-"593",2019-02-02,"Celta","Sevilla",1,0,"H"
-"594",2019-02-02,"Levante","Getafe",0,0,"D"
-"595",2019-02-02,"Sociedad","Ath Bilbao",2,1,"H"
-"596",2019-02-03,"Betis","Ath Madrid",1,0,"H"
-"597",2019-02-03,"Eibar","Girona",3,0,"H"
-"598",2019-02-03,"Real Madrid","Alaves",3,0,"H"
-"599",2019-02-03,"Villarreal","Espanol",2,2,"D"
-"600",2019-02-04,"Vallecano","Leganes",1,2,"A"
-"601",2019-02-08,"Valladolid","Villarreal",0,0,"D"
-"602",2019-02-09,"Ath Madrid","Real Madrid",1,3,"A"
-"603",2019-02-09,"Espanol","Vallecano",2,1,"H"
-"604",2019-02-09,"Getafe","Celta",3,1,"H"
-"605",2019-02-09,"Girona","Huesca",0,2,"A"
-"606",2019-02-10,"Ath Bilbao","Barcelona",0,0,"D"
-"607",2019-02-10,"Leganes","Betis",3,0,"H"
-"608",2019-02-10,"Sevilla","Eibar",2,2,"D"
-"609",2019-02-10,"Valencia","Sociedad",0,0,"D"
-"610",2019-02-11,"Alaves","Levante",2,0,"H"
-"611",2019-02-15,"Eibar","Getafe",2,2,"D"
-"612",2019-02-16,"Barcelona","Valladolid",1,0,"H"
-"613",2019-02-16,"Celta","Levante",1,4,"A"
-"614",2019-02-16,"Sociedad","Leganes",3,0,"H"
-"615",2019-02-16,"Vallecano","Ath Madrid",0,1,"A"
-"616",2019-02-17,"Betis","Alaves",1,1,"D"
-"617",2019-02-17,"Real Madrid","Girona",1,2,"A"
-"618",2019-02-17,"Valencia","Espanol",0,0,"D"
-"619",2019-02-17,"Villarreal","Sevilla",3,0,"H"
-"620",2019-02-18,"Huesca","Ath Bilbao",0,1,"A"
-"621",2019-02-22,"Espanol","Huesca",1,1,"D"
-"622",2019-02-23,"Alaves","Celta",0,0,"D"
-"623",2019-02-23,"Ath Bilbao","Eibar",1,0,"H"
-"624",2019-02-23,"Getafe","Vallecano",2,1,"H"
-"625",2019-02-23,"Sevilla","Barcelona",2,4,"A"
-"626",2019-02-24,"Ath Madrid","Villarreal",2,0,"H"
-"627",2019-02-24,"Leganes","Valencia",1,1,"D"
-"628",2019-02-24,"Levante","Real Madrid",1,2,"A"
-"629",2019-02-24,"Valladolid","Betis",0,2,"A"
-"630",2019-02-25,"Girona","Sociedad",0,0,"D"
-"631",2019-03-01,"Vallecano","Girona",0,2,"A"
-"632",2019-03-02,"Espanol","Valladolid",3,1,"H"
-"633",2019-03-02,"Huesca","Sevilla",2,1,"H"
-"634",2019-03-02,"Real Madrid","Barcelona",0,1,"A"
-"635",2019-03-02,"Villarreal","Alaves",1,2,"A"
-"636",2019-03-03,"Betis","Getafe",1,2,"A"
-"637",2019-03-03,"Eibar","Celta",1,0,"H"
-"638",2019-03-03,"Sociedad","Ath Madrid",0,2,"A"
-"639",2019-03-03,"Valencia","Ath Bilbao",2,0,"H"
-"640",2019-03-04,"Leganes","Levante",1,0,"H"
-"641",2019-03-08,"Ath Bilbao","Espanol",1,1,"D"
-"642",2019-03-09,"Alaves","Eibar",1,1,"D"
-"643",2019-03-09,"Ath Madrid","Leganes",1,0,"H"
-"644",2019-03-09,"Barcelona","Vallecano",3,1,"H"
-"645",2019-03-09,"Getafe","Huesca",2,1,"H"
-"646",2019-03-10,"Celta","Betis",0,1,"A"
-"647",2019-03-10,"Girona","Valencia",2,3,"A"
-"648",2019-03-10,"Levante","Villarreal",0,2,"A"
-"649",2019-03-10,"Sevilla","Sociedad",5,2,"H"
-"650",2019-03-10,"Valladolid","Real Madrid",1,4,"A"
-"651",2019-03-15,"Sociedad","Levante",1,1,"D"
-"652",2019-03-16,"Ath Bilbao","Ath Madrid",2,0,"H"
-"653",2019-03-16,"Huesca","Alaves",1,3,"A"
-"654",2019-03-16,"Leganes","Girona",0,2,"A"
-"655",2019-03-16,"Real Madrid","Celta",2,0,"H"
-"656",2019-03-17,"Betis","Barcelona",1,4,"A"
-"657",2019-03-17,"Eibar","Valladolid",1,2,"A"
-"658",2019-03-17,"Espanol","Sevilla",0,1,"A"
-"659",2019-03-17,"Valencia","Getafe",0,0,"D"
-"660",2019-03-17,"Villarreal","Vallecano",3,1,"H"
-"661",2019-03-29,"Girona","Ath Bilbao",1,2,"A"
-"662",2019-03-30,"Alaves","Ath Madrid",0,4,"A"
-"663",2019-03-30,"Barcelona","Espanol",2,0,"H"
-"664",2019-03-30,"Celta","Villarreal",3,2,"H"
-"665",2019-03-30,"Getafe","Leganes",0,2,"A"
-"666",2019-03-31,"Levante","Eibar",2,2,"D"
-"667",2019-03-31,"Real Madrid","Huesca",3,2,"H"
-"668",2019-03-31,"Sevilla","Valencia",0,1,"A"
-"669",2019-03-31,"Valladolid","Sociedad",1,1,"D"
-"670",2019-03-31,"Vallecano","Betis",1,1,"D"
-"671",2019-04-02,"Ath Madrid","Girona",2,0,"H"
-"672",2019-04-02,"Espanol","Getafe",1,1,"D"
-"673",2019-04-02,"Villarreal","Barcelona",4,4,"D"
-"674",2019-04-03,"Ath Bilbao","Levante",3,2,"H"
-"675",2019-04-03,"Eibar","Vallecano",2,1,"H"
-"676",2019-04-03,"Huesca","Celta",3,3,"D"
-"677",2019-04-03,"Valencia","Real Madrid",2,1,"H"
-"678",2019-04-04,"Leganes","Valladolid",1,0,"H"
-"679",2019-04-04,"Sevilla","Alaves",2,0,"H"
-"680",2019-04-04,"Sociedad","Betis",2,1,"H"
-"681",2019-04-06,"Barcelona","Ath Madrid",2,0,"H"
-"682",2019-04-06,"Girona","Espanol",1,2,"A"
-"683",2019-04-06,"Real Madrid","Eibar",2,1,"H"
-"684",2019-04-06,"Vallecano","Valencia",2,0,"H"
-"685",2019-04-07,"Alaves","Leganes",1,1,"D"
-"686",2019-04-07,"Betis","Villarreal",2,1,"H"
-"687",2019-04-07,"Celta","Sociedad",3,1,"H"
-"688",2019-04-07,"Getafe","Ath Bilbao",1,0,"H"
-"689",2019-04-07,"Levante","Huesca",2,2,"D"
-"690",2019-04-07,"Valladolid","Sevilla",0,2,"A"
-"691",2019-04-13,"Ath Madrid","Celta",2,0,"H"
-"692",2019-04-13,"Espanol","Alaves",2,1,"H"
-"693",2019-04-13,"Huesca","Barcelona",0,0,"D"
-"694",2019-04-13,"Sevilla","Betis",3,2,"H"
-"695",2019-04-14,"Ath Bilbao","Vallecano",3,2,"H"
-"696",2019-04-14,"Girona","Villarreal",0,1,"A"
-"697",2019-04-14,"Sociedad","Eibar",1,1,"D"
-"698",2019-04-14,"Valencia","Levante",3,1,"H"
-"699",2019-04-14,"Valladolid","Getafe",2,2,"D"
-"700",2019-04-15,"Leganes","Real Madrid",1,1,"D"
-"701",2019-04-19,"Alaves","Valladolid",2,2,"D"
-"702",2019-04-20,"Barcelona","Sociedad",2,1,"H"
-"703",2019-04-20,"Celta","Girona",2,1,"H"
-"704",2019-04-20,"Eibar","Ath Madrid",0,1,"A"
-"705",2019-04-20,"Vallecano","Huesca",0,0,"D"
-"706",2019-04-21,"Betis","Valencia",1,2,"A"
-"707",2019-04-21,"Getafe","Sevilla",3,0,"H"
-"708",2019-04-21,"Levante","Espanol",2,2,"D"
-"709",2019-04-21,"Real Madrid","Ath Bilbao",3,0,"H"
-"710",2019-04-21,"Villarreal","Leganes",2,1,"H"
-"711",2019-04-23,"Alaves","Barcelona",0,2,"A"
-"712",2019-04-23,"Huesca","Eibar",2,0,"H"
-"713",2019-04-23,"Valladolid","Girona",1,0,"H"
-"714",2019-04-24,"Ath Madrid","Valencia",3,2,"H"
-"715",2019-04-24,"Espanol","Celta",1,1,"D"
-"716",2019-04-24,"Leganes","Ath Bilbao",0,1,"A"
-"717",2019-04-24,"Levante","Betis",4,0,"H"
-"718",2019-04-25,"Getafe","Real Madrid",0,0,"D"
-"719",2019-04-25,"Sevilla","Vallecano",5,0,"H"
-"720",2019-04-25,"Sociedad","Villarreal",0,1,"A"
-"721",2019-04-27,"Ath Bilbao","Alaves",1,1,"D"
-"722",2019-04-27,"Ath Madrid","Valladolid",1,0,"H"
-"723",2019-04-27,"Barcelona","Levante",1,0,"H"
-"724",2019-04-27,"Leganes","Celta",0,0,"D"
-"725",2019-04-28,"Girona","Sevilla",1,0,"H"
-"726",2019-04-28,"Sociedad","Getafe",2,1,"H"
-"727",2019-04-28,"Valencia","Eibar",0,1,"A"
-"728",2019-04-28,"Vallecano","Real Madrid",1,0,"H"
-"729",2019-04-28,"Villarreal","Huesca",1,1,"D"
-"730",2019-04-29,"Betis","Espanol",1,1,"D"
-"731",2019-05-03,"Sevilla","Leganes",0,3,"A"
-"732",2019-05-04,"Alaves","Sociedad",0,1,"A"
-"733",2019-05-04,"Celta","Barcelona",2,0,"H"
-"734",2019-05-04,"Espanol","Ath Madrid",3,0,"H"
-"735",2019-05-04,"Levante","Vallecano",4,1,"H"
-"736",2019-05-05,"Eibar","Betis",1,0,"H"
-"737",2019-05-05,"Getafe","Girona",2,0,"H"
-"738",2019-05-05,"Huesca","Valencia",2,6,"A"
-"739",2019-05-05,"Real Madrid","Villarreal",3,2,"H"
-"740",2019-05-05,"Valladolid","Ath Bilbao",1,0,"H"
-"741",2019-05-12,"Ath Bilbao","Celta",3,1,"H"
-"742",2019-05-12,"Ath Madrid","Sevilla",1,1,"D"
-"743",2019-05-12,"Barcelona","Getafe",2,0,"H"
-"744",2019-05-12,"Betis","Huesca",2,1,"H"
-"745",2019-05-12,"Girona","Levante",1,2,"A"
-"746",2019-05-12,"Leganes","Espanol",0,2,"A"
-"747",2019-05-12,"Sociedad","Real Madrid",3,1,"H"
-"748",2019-05-12,"Valencia","Alaves",3,1,"H"
-"749",2019-05-12,"Vallecano","Valladolid",1,2,"A"
-"750",2019-05-12,"Villarreal","Eibar",1,0,"H"
-"751",2019-05-18,"Alaves","Girona",2,1,"H"
-"752",2019-05-18,"Celta","Vallecano",2,2,"D"
-"753",2019-05-18,"Espanol","Sociedad",2,0,"H"
-"754",2019-05-18,"Getafe","Villarreal",2,2,"D"
-"755",2019-05-18,"Huesca","Leganes",2,1,"H"
-"756",2019-05-18,"Levante","Ath Madrid",2,2,"D"
-"757",2019-05-18,"Sevilla","Ath Bilbao",2,0,"H"
-"758",2019-05-18,"Valladolid","Valencia",0,2,"A"
-"759",2019-05-19,"Eibar","Barcelona",2,2,"D"
-"760",2019-05-19,"Real Madrid","Betis",0,2,"A"
-"761",2019-08-16,"Ath Bilbao","Barcelona",1,0,"H"
-"762",2019-08-17,"Celta","Real Madrid",1,3,"A"
-"763",2019-08-17,"Valencia","Sociedad",1,1,"D"
-"764",2019-08-17,"Mallorca","Eibar",2,1,"H"
-"765",2019-08-17,"Leganes","Osasuna",0,1,"A"
-"766",2019-08-17,"Villarreal","Granada",4,4,"D"
-"767",2019-08-18,"Alaves","Levante",1,0,"H"
-"768",2019-08-18,"Espanol","Sevilla",0,2,"A"
-"769",2019-08-18,"Betis","Valladolid",1,2,"A"
-"770",2019-08-18,"Ath Madrid","Getafe",1,0,"H"
-"771",2019-08-23,"Granada","Sevilla",0,1,"A"
-"772",2019-08-23,"Levante","Villarreal",2,1,"H"
-"773",2019-08-24,"Osasuna","Eibar",0,0,"D"
-"774",2019-08-24,"Real Madrid","Valladolid",1,1,"D"
-"775",2019-08-24,"Celta","Valencia",1,0,"H"
-"776",2019-08-24,"Getafe","Ath Bilbao",1,1,"D"
-"777",2019-08-25,"Alaves","Espanol",0,0,"D"
-"778",2019-08-25,"Mallorca","Sociedad",0,1,"A"
-"779",2019-08-25,"Leganes","Ath Madrid",0,1,"A"
-"780",2019-08-25,"Barcelona","Betis",5,2,"H"
-"781",2019-08-30,"Sevilla","Celta",1,1,"D"
-"782",2019-08-30,"Ath Bilbao","Sociedad",2,0,"H"
-"783",2019-08-31,"Osasuna","Barcelona",2,2,"D"
-"784",2019-08-31,"Getafe","Alaves",1,1,"D"
-"785",2019-08-31,"Levante","Valladolid",2,0,"H"
-"786",2019-08-31,"Betis","Leganes",2,1,"H"
-"787",2019-09-01,"Valencia","Mallorca",2,0,"H"
-"788",2019-09-01,"Ath Madrid","Eibar",3,2,"H"
-"789",2019-09-01,"Espanol","Granada",0,3,"A"
-"790",2019-09-01,"Villarreal","Real Madrid",2,2,"D"
-"791",2019-09-13,"Mallorca","Ath Bilbao",0,0,"D"
-"792",2019-09-14,"Real Madrid","Levante",3,2,"H"
-"793",2019-09-14,"Leganes","Villarreal",0,3,"A"
-"794",2019-09-14,"Sociedad","Ath Madrid",2,0,"H"
-"795",2019-09-14,"Barcelona","Valencia",5,2,"H"
-"796",2019-09-15,"Eibar","Espanol",1,2,"A"
-"797",2019-09-15,"Alaves","Sevilla",0,1,"A"
-"798",2019-09-15,"Celta","Granada",0,2,"A"
-"799",2019-09-15,"Valladolid","Osasuna",1,1,"D"
-"800",2019-09-15,"Betis","Getafe",1,1,"D"
-"801",2019-09-20,"Osasuna","Betis",0,0,"D"
-"802",2019-09-21,"Villarreal","Valladolid",2,0,"H"
-"803",2019-09-21,"Levante","Eibar",0,0,"D"
-"804",2019-09-21,"Ath Madrid","Celta",0,0,"D"
-"805",2019-09-21,"Granada","Barcelona",2,0,"H"
-"806",2019-09-22,"Getafe","Mallorca",4,2,"H"
-"807",2019-09-22,"Espanol","Sociedad",1,3,"A"
-"808",2019-09-22,"Valencia","Leganes",1,1,"D"
-"809",2019-09-22,"Ath Bilbao","Alaves",2,0,"H"
-"810",2019-09-22,"Sevilla","Real Madrid",0,1,"A"
-"811",2019-09-24,"Valladolid","Granada",1,1,"D"
-"812",2019-09-24,"Betis","Levante",3,1,"H"
-"813",2019-09-24,"Barcelona","Villarreal",2,1,"H"
-"814",2019-09-25,"Leganes","Ath Bilbao",1,1,"D"
-"815",2019-09-25,"Mallorca","Ath Madrid",0,2,"A"
-"816",2019-09-25,"Valencia","Getafe",3,3,"D"
-"817",2019-09-25,"Real Madrid","Osasuna",2,0,"H"
-"818",2019-09-26,"Eibar","Sevilla",3,2,"H"
-"819",2019-09-26,"Celta","Espanol",1,1,"D"
-"820",2019-09-26,"Sociedad","Alaves",3,0,"H"
-"821",2019-09-27,"Villarreal","Betis",5,1,"H"
-"822",2019-09-28,"Ath Bilbao","Valencia",0,1,"A"
-"823",2019-09-28,"Getafe","Barcelona",0,2,"A"
-"824",2019-09-28,"Granada","Leganes",1,0,"H"
-"825",2019-09-28,"Ath Madrid","Real Madrid",0,0,"D"
-"826",2019-09-29,"Espanol","Valladolid",0,2,"A"
-"827",2019-09-29,"Eibar","Celta",2,0,"H"
-"828",2019-09-29,"Alaves","Mallorca",2,0,"H"
-"829",2019-09-29,"Levante","Osasuna",1,1,"D"
-"830",2019-09-29,"Sevilla","Sociedad",3,2,"H"
-"831",2019-10-04,"Betis","Eibar",1,1,"D"
-"832",2019-10-05,"Leganes","Levante",1,2,"A"
-"833",2019-10-05,"Real Madrid","Granada",4,2,"H"
-"834",2019-10-05,"Valencia","Alaves",2,1,"H"
-"835",2019-10-05,"Osasuna","Villarreal",2,1,"H"
-"836",2019-10-06,"Mallorca","Espanol",2,0,"H"
-"837",2019-10-06,"Celta","Ath Bilbao",1,0,"H"
-"838",2019-10-06,"Valladolid","Ath Madrid",0,0,"D"
-"839",2019-10-06,"Sociedad","Getafe",1,2,"A"
-"840",2019-10-06,"Barcelona","Sevilla",4,0,"H"
-"841",2019-10-18,"Granada","Osasuna",1,0,"H"
-"842",2019-10-19,"Eibar","Barcelona",0,3,"A"
-"843",2019-10-19,"Ath Madrid","Valencia",1,1,"D"
-"844",2019-10-19,"Getafe","Leganes",2,0,"H"
-"845",2019-10-19,"Mallorca","Real Madrid",1,0,"H"
-"846",2019-10-20,"Alaves","Celta",2,0,"H"
-"847",2019-10-20,"Sociedad","Betis",3,1,"H"
-"848",2019-10-20,"Espanol","Villarreal",0,1,"A"
-"849",2019-10-20,"Ath Bilbao","Valladolid",1,1,"D"
-"850",2019-10-20,"Sevilla","Levante",1,0,"H"
-"851",2019-10-25,"Villarreal","Alaves",4,1,"H"
-"852",2019-10-26,"Leganes","Mallorca",1,0,"H"
-"853",2019-10-26,"Valladolid","Eibar",2,0,"H"
-"854",2019-10-26,"Ath Madrid","Ath Bilbao",2,0,"H"
-"855",2019-10-27,"Celta","Sociedad",0,1,"A"
-"856",2019-10-27,"Granada","Betis",1,0,"H"
-"857",2019-10-27,"Levante","Espanol",0,1,"A"
-"858",2019-10-27,"Sevilla","Getafe",2,0,"H"
-"859",2019-10-27,"Osasuna","Valencia",3,1,"H"
-"860",2019-10-29,"Alaves","Ath Madrid",1,1,"D"
-"861",2019-10-29,"Barcelona","Valladolid",5,1,"H"
-"862",2019-10-30,"Sociedad","Levante",1,2,"A"
-"863",2019-10-30,"Valencia","Sevilla",1,1,"D"
-"864",2019-10-30,"Ath Bilbao","Espanol",3,0,"H"
-"865",2019-10-30,"Betis","Celta",2,1,"H"
-"866",2019-10-30,"Real Madrid","Leganes",5,0,"H"
-"867",2019-10-31,"Eibar","Villarreal",2,1,"H"
-"868",2019-10-31,"Mallorca","Osasuna",2,2,"D"
-"869",2019-10-31,"Getafe","Granada",3,1,"H"
-"870",2019-11-02,"Espanol","Valencia",1,2,"A"
-"871",2019-11-02,"Levante","Barcelona",3,1,"H"
-"872",2019-11-02,"Sevilla","Ath Madrid",1,1,"D"
-"873",2019-11-02,"Real Madrid","Betis",0,0,"D"
-"874",2019-11-03,"Valladolid","Mallorca",3,0,"H"
-"875",2019-11-03,"Villarreal","Ath Bilbao",0,0,"D"
-"876",2019-11-03,"Osasuna","Alaves",4,2,"H"
-"877",2019-11-03,"Celta","Getafe",0,1,"A"
-"878",2019-11-03,"Leganes","Eibar",1,2,"A"
-"879",2019-11-03,"Granada","Sociedad",1,2,"A"
-"880",2019-11-08,"Sociedad","Leganes",1,1,"D"
-"881",2019-11-09,"Alaves","Valladolid",3,0,"H"
-"882",2019-11-09,"Valencia","Granada",2,0,"H"
-"883",2019-11-09,"Eibar","Real Madrid",0,4,"A"
-"884",2019-11-09,"Barcelona","Celta",4,1,"H"
-"885",2019-11-10,"Mallorca","Villarreal",3,1,"H"
-"886",2019-11-10,"Ath Bilbao","Levante",2,1,"H"
-"887",2019-11-10,"Ath Madrid","Espanol",3,1,"H"
-"888",2019-11-10,"Getafe","Osasuna",0,0,"D"
-"889",2019-11-10,"Betis","Sevilla",1,2,"A"
-"890",2019-11-22,"Levante","Mallorca",2,1,"H"
-"891",2019-11-23,"Leganes","Barcelona",1,2,"A"
-"892",2019-11-23,"Betis","Valencia",2,1,"H"
-"893",2019-11-23,"Granada","Ath Madrid",1,1,"D"
-"894",2019-11-23,"Real Madrid","Sociedad",3,1,"H"
-"895",2019-11-24,"Espanol","Getafe",1,1,"D"
-"896",2019-11-24,"Osasuna","Ath Bilbao",1,2,"A"
-"897",2019-11-24,"Eibar","Alaves",0,2,"A"
-"898",2019-11-24,"Villarreal","Celta",1,3,"A"
-"899",2019-11-24,"Valladolid","Sevilla",0,1,"A"
-"900",2019-11-29,"Celta","Valladolid",0,0,"D"
-"901",2019-11-30,"Alaves","Real Madrid",1,2,"A"
-"902",2019-11-30,"Sociedad","Eibar",4,1,"H"
-"903",2019-11-30,"Mallorca","Betis",1,2,"A"
-"904",2019-11-30,"Valencia","Villarreal",2,1,"H"
-"905",2019-12-01,"Sevilla","Leganes",1,0,"H"
-"906",2019-12-01,"Ath Bilbao","Granada",2,0,"H"
-"907",2019-12-01,"Espanol","Osasuna",2,4,"A"
-"908",2019-12-01,"Getafe","Levante",4,0,"H"
-"909",2019-12-01,"Ath Madrid","Barcelona",0,1,"A"
-"910",2019-12-06,"Villarreal","Ath Madrid",0,0,"D"
-"911",2019-12-07,"Real Madrid","Espanol",2,0,"H"
-"912",2019-12-07,"Granada","Alaves",3,0,"H"
-"913",2019-12-07,"Levante","Valencia",2,4,"A"
-"914",2019-12-07,"Barcelona","Mallorca",5,2,"H"
-"915",2019-12-08,"Eibar","Getafe",0,1,"A"
-"916",2019-12-08,"Betis","Ath Bilbao",3,2,"H"
-"917",2019-12-08,"Valladolid","Sociedad",0,0,"D"
-"918",2019-12-08,"Leganes","Celta",3,2,"H"
-"919",2019-12-08,"Osasuna","Sevilla",1,1,"D"
-"920",2019-12-13,"Alaves","Leganes",1,1,"D"
-"921",2019-12-14,"Granada","Levante",1,2,"A"
-"922",2019-12-14,"Sociedad","Barcelona",2,2,"D"
-"923",2019-12-14,"Ath Bilbao","Eibar",0,0,"D"
-"924",2019-12-14,"Ath Madrid","Osasuna",2,0,"H"
-"925",2019-12-15,"Getafe","Valladolid",2,0,"H"
-"926",2019-12-15,"Celta","Mallorca",2,2,"D"
-"927",2019-12-15,"Espanol","Betis",2,2,"D"
-"928",2019-12-15,"Sevilla","Villarreal",1,2,"A"
-"929",2019-12-15,"Valencia","Real Madrid",1,1,"D"
-"930",2019-12-18,"Barcelona","Real Madrid",0,0,"D"
-"931",2019-12-20,"Eibar","Granada",3,0,"H"
-"932",2019-12-21,"Mallorca","Sevilla",0,2,"A"
-"933",2019-12-21,"Barcelona","Alaves",4,1,"H"
-"934",2019-12-21,"Villarreal","Getafe",1,0,"H"
-"935",2019-12-21,"Valladolid","Valencia",1,1,"D"
-"936",2019-12-22,"Leganes","Espanol",2,0,"H"
-"937",2019-12-22,"Osasuna","Sociedad",3,4,"A"
-"938",2019-12-22,"Betis","Ath Madrid",1,2,"A"
-"939",2019-12-22,"Levante","Celta",3,1,"H"
-"940",2019-12-22,"Real Madrid","Ath Bilbao",0,0,"D"
-"941",2020-01-03,"Valladolid","Leganes",2,2,"D"
-"942",2020-01-03,"Sevilla","Ath Bilbao",1,1,"D"
-"943",2020-01-04,"Valencia","Eibar",1,0,"H"
-"944",2020-01-04,"Getafe","Real Madrid",0,3,"A"
-"945",2020-01-04,"Ath Madrid","Levante",2,1,"H"
-"946",2020-01-04,"Espanol","Barcelona",2,2,"D"
-"947",2020-01-05,"Granada","Mallorca",1,0,"H"
-"948",2020-01-05,"Sociedad","Villarreal",1,2,"A"
-"949",2020-01-05,"Alaves","Betis",1,1,"D"
-"950",2020-01-05,"Celta","Osasuna",1,1,"D"
-"951",2020-01-17,"Leganes","Getafe",0,3,"A"
-"952",2020-01-18,"Levante","Alaves",0,1,"A"
-"953",2020-01-18,"Real Madrid","Sevilla",2,1,"H"
-"954",2020-01-18,"Osasuna","Valladolid",0,0,"D"
-"955",2020-01-18,"Eibar","Ath Madrid",2,0,"H"
-"956",2020-01-19,"Mallorca","Valencia",4,1,"H"
-"957",2020-01-19,"Betis","Sociedad",3,0,"H"
-"958",2020-01-19,"Villarreal","Espanol",1,2,"A"
-"959",2020-01-19,"Ath Bilbao","Celta",1,1,"D"
-"960",2020-01-19,"Barcelona","Granada",1,0,"H"
-"961",2020-01-24,"Osasuna","Levante",2,0,"H"
-"962",2020-01-25,"Espanol","Ath Bilbao",1,1,"D"
-"963",2020-01-25,"Valencia","Barcelona",2,0,"H"
-"964",2020-01-25,"Alaves","Villarreal",1,2,"A"
-"965",2020-01-25,"Sevilla","Granada",2,0,"H"
-"966",2020-01-26,"Ath Madrid","Leganes",0,0,"D"
-"967",2020-01-26,"Celta","Eibar",0,0,"D"
-"968",2020-01-26,"Getafe","Betis",1,0,"H"
-"969",2020-01-26,"Sociedad","Mallorca",3,0,"H"
-"970",2020-01-26,"Valladolid","Real Madrid",0,1,"A"
-"971",2020-02-01,"Granada","Espanol",2,1,"H"
-"972",2020-02-01,"Real Madrid","Ath Madrid",1,0,"H"
-"973",2020-02-01,"Mallorca","Valladolid",0,1,"A"
-"974",2020-02-01,"Valencia","Celta",1,0,"H"
-"975",2020-02-02,"Leganes","Sociedad",2,1,"H"
-"976",2020-02-02,"Eibar","Betis",1,1,"D"
-"977",2020-02-02,"Ath Bilbao","Getafe",0,2,"A"
-"978",2020-02-02,"Sevilla","Alaves",1,1,"D"
-"979",2020-02-02,"Villarreal","Osasuna",3,1,"H"
-"980",2020-02-02,"Barcelona","Levante",2,1,"H"
-"981",2020-02-07,"Alaves","Eibar",2,1,"H"
-"982",2020-02-08,"Levante","Leganes",2,0,"H"
-"983",2020-02-08,"Getafe","Valencia",3,0,"H"
-"984",2020-02-08,"Valladolid","Villarreal",1,1,"D"
-"985",2020-02-08,"Ath Madrid","Granada",1,0,"H"
-"986",2020-02-09,"Espanol","Mallorca",1,0,"H"
-"987",2020-02-09,"Sociedad","Ath Bilbao",2,1,"H"
-"988",2020-02-09,"Osasuna","Real Madrid",1,4,"A"
-"989",2020-02-09,"Celta","Sevilla",2,1,"H"
-"990",2020-02-09,"Betis","Barcelona",2,3,"A"
-"991",2020-02-14,"Valencia","Ath Madrid",2,2,"D"
-"992",2020-02-15,"Mallorca","Alaves",1,0,"H"
-"993",2020-02-15,"Barcelona","Getafe",2,1,"H"
-"994",2020-02-15,"Villarreal","Levante",2,1,"H"
-"995",2020-02-15,"Granada","Valladolid",2,1,"H"
-"996",2020-02-16,"Sevilla","Espanol",2,2,"D"
-"997",2020-02-16,"Leganes","Betis",0,0,"D"
-"998",2020-02-16,"Ath Bilbao","Osasuna",0,1,"A"
-"999",2020-02-16,"Real Madrid","Celta",2,2,"D"
-"1000",2020-02-21,"Betis","Mallorca",3,3,"D"
-"1001",2020-02-22,"Celta","Leganes",1,0,"H"
-"1002",2020-02-22,"Barcelona","Eibar",5,0,"H"
-"1003",2020-02-22,"Sociedad","Valencia",3,0,"H"
-"1004",2020-02-22,"Levante","Real Madrid",1,0,"H"
-"1005",2020-02-23,"Osasuna","Granada",0,3,"A"
-"1006",2020-02-23,"Alaves","Ath Bilbao",2,1,"H"
-"1007",2020-02-23,"Valladolid","Espanol",2,1,"H"
-"1008",2020-02-23,"Getafe","Sevilla",0,3,"A"
-"1009",2020-02-23,"Ath Madrid","Villarreal",3,1,"H"
-"1010",2020-02-28,"Sociedad","Valladolid",1,0,"H"
-"1011",2020-02-29,"Eibar","Levante",3,0,"H"
-"1012",2020-02-29,"Valencia","Betis",2,1,"H"
-"1013",2020-02-29,"Leganes","Alaves",1,1,"D"
-"1014",2020-02-29,"Granada","Celta",0,0,"D"
-"1015",2020-03-01,"Sevilla","Osasuna",3,2,"H"
-"1016",2020-03-01,"Ath Bilbao","Villarreal",1,0,"H"
-"1017",2020-03-01,"Espanol","Ath Madrid",1,1,"D"
-"1018",2020-03-01,"Mallorca","Getafe",0,1,"A"
-"1019",2020-03-01,"Real Madrid","Barcelona",2,0,"H"
-"1020",2020-03-06,"Alaves","Valencia",1,1,"D"
-"1021",2020-03-07,"Eibar","Mallorca",1,2,"A"
-"1022",2020-03-07,"Ath Madrid","Sevilla",2,2,"D"
-"1023",2020-03-07,"Barcelona","Sociedad",1,0,"H"
-"1024",2020-03-07,"Getafe","Celta",0,0,"D"
-"1025",2020-03-08,"Osasuna","Espanol",1,0,"H"
-"1026",2020-03-08,"Valladolid","Ath Bilbao",1,4,"A"
-"1027",2020-03-08,"Levante","Granada",1,1,"D"
-"1028",2020-03-08,"Villarreal","Leganes",1,2,"A"
-"1029",2020-03-08,"Betis","Real Madrid",2,1,"H"
-"1030",2020-03-10,"Eibar","Sociedad",1,2,"A"
-"1031",2020-06-11,"Sevilla","Betis",2,0,"H"
-"1032",2020-06-12,"Granada","Getafe",2,1,"H"
-"1033",2020-06-12,"Valencia","Levante",1,1,"D"
-"1034",2020-06-13,"Espanol","Alaves",2,0,"H"
-"1035",2020-06-13,"Celta","Villarreal",0,1,"A"
-"1036",2020-06-13,"Leganes","Valladolid",1,2,"A"
-"1037",2020-06-13,"Mallorca","Barcelona",0,4,"A"
-"1038",2020-06-14,"Ath Bilbao","Ath Madrid",1,1,"D"
-"1039",2020-06-14,"Real Madrid","Eibar",3,1,"H"
-"1040",2020-06-14,"Sociedad","Osasuna",1,1,"D"
-"1041",2020-06-15,"Levante","Sevilla",1,1,"D"
-"1042",2020-06-15,"Betis","Granada",2,2,"D"
-"1043",2020-06-16,"Getafe","Espanol",0,0,"D"
-"1044",2020-06-16,"Villarreal","Mallorca",1,0,"H"
-"1045",2020-06-16,"Barcelona","Leganes",2,0,"H"
-"1046",2020-06-17,"Eibar","Ath Bilbao",2,2,"D"
-"1047",2020-06-17,"Valladolid","Celta",0,0,"D"
-"1048",2020-06-17,"Osasuna","Ath Madrid",0,5,"A"
-"1049",2020-06-18,"Alaves","Sociedad",2,0,"H"
-"1050",2020-06-18,"Real Madrid","Valencia",3,0,"H"
-"1051",2020-06-19,"Granada","Villarreal",0,1,"A"
-"1052",2020-06-19,"Mallorca","Leganes",1,1,"D"
-"1053",2020-06-19,"Sevilla","Barcelona",0,0,"D"
-"1054",2020-06-20,"Espanol","Levante",1,3,"A"
-"1055",2020-06-20,"Ath Bilbao","Betis",1,0,"H"
-"1056",2020-06-20,"Getafe","Eibar",1,1,"D"
-"1057",2020-06-20,"Ath Madrid","Valladolid",1,0,"H"
-"1058",2020-06-21,"Celta","Alaves",6,0,"H"
-"1059",2020-06-21,"Valencia","Osasuna",2,0,"H"
-"1060",2020-06-21,"Sociedad","Real Madrid",1,2,"A"
-"1061",2020-06-22,"Villarreal","Sevilla",2,2,"D"
-"1062",2020-06-22,"Leganes","Granada",0,0,"D"
-"1063",2020-06-23,"Levante","Ath Madrid",0,1,"A"
-"1064",2020-06-23,"Valladolid","Getafe",1,1,"D"
-"1065",2020-06-23,"Barcelona","Ath Bilbao",1,0,"H"
-"1066",2020-06-24,"Alaves","Osasuna",0,1,"A"
-"1067",2020-06-24,"Sociedad","Celta",0,1,"A"
-"1068",2020-06-24,"Real Madrid","Mallorca",2,0,"H"
-"1069",2020-06-25,"Eibar","Valencia",1,0,"H"
-"1070",2020-06-25,"Betis","Espanol",1,0,"H"
-"1071",2020-06-26,"Sevilla","Valladolid",1,1,"D"
-"1072",2020-06-27,"Ath Bilbao","Mallorca",3,1,"H"
-"1073",2020-06-27,"Celta","Barcelona",2,2,"D"
-"1074",2020-06-27,"Osasuna","Leganes",2,1,"H"
-"1075",2020-06-27,"Ath Madrid","Alaves",2,1,"H"
-"1076",2020-06-28,"Levante","Betis",4,2,"H"
-"1077",2020-06-28,"Villarreal","Valencia",2,0,"H"
-"1078",2020-06-28,"Granada","Eibar",1,2,"A"
-"1079",2020-06-28,"Espanol","Real Madrid",0,1,"A"
-"1080",2020-06-29,"Getafe","Sociedad",2,1,"H"
-"1081",2020-06-30,"Mallorca","Celta",5,1,"H"
-"1082",2020-06-30,"Leganes","Sevilla",0,3,"A"
-"1083",2020-06-30,"Barcelona","Ath Madrid",2,2,"D"
-"1084",2020-07-01,"Alaves","Granada",0,2,"A"
-"1085",2020-07-01,"Valencia","Ath Bilbao",0,2,"A"
-"1086",2020-07-01,"Betis","Villarreal",0,2,"A"
-"1087",2020-07-01,"Valladolid","Levante",0,0,"D"
-"1088",2020-07-02,"Eibar","Osasuna",0,2,"A"
-"1089",2020-07-02,"Sociedad","Espanol",2,1,"H"
-"1090",2020-07-02,"Real Madrid","Getafe",1,0,"H"
-"1091",2020-07-03,"Ath Madrid","Mallorca",3,0,"H"
-"1092",2020-07-04,"Celta","Betis",1,1,"D"
-"1093",2020-07-04,"Valladolid","Alaves",1,0,"H"
-"1094",2020-07-04,"Granada","Valencia",2,2,"D"
-"1095",2020-07-05,"Ath Bilbao","Real Madrid",0,1,"A"
-"1096",2020-07-05,"Espanol","Leganes",0,1,"A"
-"1097",2020-07-05,"Osasuna","Getafe",0,0,"D"
-"1098",2020-07-05,"Villarreal","Barcelona",1,4,"A"
-"1099",2020-07-06,"Levante","Sociedad",1,1,"D"
-"1100",2020-07-06,"Sevilla","Eibar",1,0,"H"
-"1101",2020-07-07,"Valencia","Valladolid",2,1,"H"
-"1102",2020-07-07,"Celta","Ath Madrid",1,1,"D"
-"1103",2020-07-08,"Betis","Osasuna",3,0,"H"
-"1104",2020-07-08,"Getafe","Villarreal",1,3,"A"
-"1105",2020-07-08,"Barcelona","Espanol",1,0,"H"
-"1106",2020-07-09,"Eibar","Leganes",0,0,"D"
-"1107",2020-07-09,"Mallorca","Levante",2,0,"H"
-"1108",2020-07-09,"Ath Bilbao","Sevilla",1,2,"A"
-"1109",2020-07-10,"Sociedad","Granada",2,3,"A"
-"1110",2020-07-10,"Real Madrid","Alaves",2,0,"H"
-"1111",2020-07-11,"Osasuna","Celta",2,1,"H"
-"1112",2020-07-11,"Valladolid","Barcelona",0,1,"A"
-"1113",2020-07-11,"Ath Madrid","Betis",1,0,"H"
-"1114",2020-07-12,"Espanol","Eibar",0,2,"A"
-"1115",2020-07-12,"Levante","Ath Bilbao",1,2,"A"
-"1116",2020-07-12,"Leganes","Valencia",1,0,"H"
-"1117",2020-07-12,"Sevilla","Mallorca",2,0,"H"
-"1118",2020-07-13,"Alaves","Getafe",0,0,"D"
-"1119",2020-07-13,"Villarreal","Sociedad",1,2,"A"
-"1120",2020-07-13,"Granada","Real Madrid",1,2,"A"
-"1121",2020-07-16,"Eibar","Valladolid",3,1,"H"
-"1122",2020-07-16,"Ath Bilbao","Leganes",0,2,"A"
-"1123",2020-07-16,"Barcelona","Osasuna",1,2,"A"
-"1124",2020-07-16,"Betis","Alaves",1,2,"A"
-"1125",2020-07-16,"Celta","Levante",2,3,"A"
-"1126",2020-07-16,"Getafe","Ath Madrid",0,2,"A"
-"1127",2020-07-16,"Mallorca","Granada",1,2,"A"
-"1128",2020-07-16,"Real Madrid","Villarreal",2,1,"H"
-"1129",2020-07-16,"Sociedad","Sevilla",0,0,"D"
-"1130",2020-07-16,"Valencia","Espanol",1,0,"H"
-"1131",2020-07-19,"Alaves","Barcelona",0,5,"A"
-"1132",2020-07-19,"Valladolid","Betis",2,0,"H"
-"1133",2020-07-19,"Villarreal","Eibar",4,0,"H"
-"1134",2020-07-19,"Ath Madrid","Sociedad",1,1,"D"
-"1135",2020-07-19,"Espanol","Celta",0,0,"D"
-"1136",2020-07-19,"Granada","Ath Bilbao",4,0,"H"
-"1137",2020-07-19,"Leganes","Real Madrid",2,2,"D"
-"1138",2020-07-19,"Levante","Getafe",1,0,"H"
-"1139",2020-07-19,"Osasuna","Mallorca",2,2,"D"
-"1140",2020-07-19,"Sevilla","Valencia",1,0,"H"
+,Date,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+1,23/08/2014,Almeria,Espanol,1,1,D
+2,23/08/2014,Granada,La Coruna,2,1,H
+3,23/08/2014,Malaga,Ath Bilbao,1,0,H
+4,23/08/2014,Sevilla,Valencia,1,1,D
+5,24/08/2014,Barcelona,Elche,3,0,H
+6,24/08/2014,Celta,Getafe,3,1,H
+7,24/08/2014,Eibar,Sociedad,1,0,H
+8,24/08/2014,Levante,Villarreal,0,2,A
+9,25/08/2014,Real Madrid,Cordoba,2,0,H
+10,25/08/2014,Vallecano,Ath Madrid,0,0,D
+11,29/08/2014,Getafe,Almeria,1,0,H
+12,29/08/2014,Valencia,Malaga,3,0,H
+13,30/08/2014,Ath Bilbao,Levante,3,0,H
+14,30/08/2014,Ath Madrid,Eibar,2,1,H
+15,30/08/2014,Cordoba,Celta,1,1,D
+16,30/08/2014,Espanol,Sevilla,1,2,A
+17,31/08/2014,Elche,Granada,1,1,D
+18,31/08/2014,La Coruna,Vallecano,2,2,D
+19,31/08/2014,Sociedad,Real Madrid,4,2,H
+20,31/08/2014,Villarreal,Barcelona,0,1,A
+21,12/09/2014,Almeria,Cordoba,1,1,D
+22,13/09/2014,Barcelona,Ath Bilbao,2,0,H
+23,13/09/2014,Celta,Sociedad,2,2,D
+24,13/09/2014,Malaga,Levante,0,0,D
+25,13/09/2014,Real Madrid,Ath Madrid,1,2,A
+26,14/09/2014,Granada,Villarreal,0,0,D
+27,14/09/2014,Sevilla,Getafe,2,0,H
+28,14/09/2014,Valencia,Espanol,3,1,H
+29,14/09/2014,Vallecano,Elche,2,3,A
+30,15/09/2014,Eibar,La Coruna,0,1,A
+31,19/09/2014,Elche,Eibar,0,2,A
+32,20/09/2014,Ath Bilbao,Granada,0,1,A
+33,20/09/2014,Ath Madrid,Celta,2,2,D
+34,20/09/2014,Espanol,Malaga,2,2,D
+35,20/09/2014,La Coruna,Real Madrid,2,8,A
+36,21/09/2014,Cordoba,Sevilla,1,3,A
+37,21/09/2014,Levante,Barcelona,0,5,A
+38,21/09/2014,Sociedad,Almeria,1,2,A
+39,21/09/2014,Villarreal,Vallecano,4,2,H
+40,22/09/2014,Getafe,Valencia,0,3,A
+41,23/09/2014,Celta,La Coruna,2,1,H
+42,23/09/2014,Real Madrid,Elche,5,1,H
+43,24/09/2014,Almeria,Ath Madrid,0,1,A
+44,24/09/2014,Eibar,Villarreal,1,1,D
+45,24/09/2014,Granada,Levante,0,1,A
+46,24/09/2014,Malaga,Barcelona,0,0,D
+47,24/09/2014,Sevilla,Sociedad,1,0,H
+48,24/09/2014,Vallecano,Ath Bilbao,2,1,H
+49,25/09/2014,Espanol,Getafe,2,0,H
+50,25/09/2014,Valencia,Cordoba,3,0,H
+51,26/09/2014,Elche,Celta,0,1,A
+52,27/09/2014,Ath Bilbao,Eibar,0,0,D
+53,27/09/2014,Ath Madrid,Sevilla,4,0,H
+54,27/09/2014,Barcelona,Granada,6,0,H
+55,27/09/2014,Levante,Vallecano,0,2,A
+56,27/09/2014,Villarreal,Real Madrid,0,2,A
+57,28/09/2014,Cordoba,Espanol,0,0,D
+58,28/09/2014,Getafe,Malaga,1,0,H
+59,28/09/2014,La Coruna,Almeria,0,1,A
+60,28/09/2014,Sociedad,Valencia,1,1,D
+61,03/10/2014,Getafe,Cordoba,1,1,D
+62,04/10/2014,Almeria,Elche,2,2,D
+63,04/10/2014,Eibar,Levante,3,3,D
+64,04/10/2014,Malaga,Granada,2,1,H
+65,04/10/2014,Valencia,Ath Madrid,3,1,H
+66,04/10/2014,Vallecano,Barcelona,0,2,A
+67,05/10/2014,Celta,Villarreal,1,3,A
+68,05/10/2014,Espanol,Sociedad,2,0,H
+69,05/10/2014,Real Madrid,Ath Bilbao,5,0,H
+70,05/10/2014,Sevilla,La Coruna,4,1,H
+71,17/10/2014,Granada,Vallecano,0,1,A
+72,18/10/2014,Ath Bilbao,Celta,1,1,D
+73,18/10/2014,Barcelona,Eibar,3,0,H
+74,18/10/2014,Cordoba,Malaga,1,2,A
+75,18/10/2014,Levante,Real Madrid,0,5,A
+76,19/10/2014,Ath Madrid,Espanol,2,0,H
+77,19/10/2014,Elche,Sevilla,0,2,A
+78,19/10/2014,La Coruna,Valencia,3,0,H
+79,19/10/2014,Villarreal,Almeria,2,0,H
+80,20/10/2014,Sociedad,Getafe,1,2,A
+81,24/10/2014,Celta,Levante,3,0,H
+82,25/10/2014,Almeria,Ath Bilbao,0,1,A
+83,25/10/2014,Cordoba,Sociedad,1,1,D
+84,25/10/2014,Eibar,Granada,1,1,D
+85,25/10/2014,Real Madrid,Barcelona,3,1,H
+86,25/10/2014,Valencia,Elche,3,1,H
+87,26/10/2014,Espanol,La Coruna,0,0,D
+88,26/10/2014,Getafe,Ath Madrid,0,1,A
+89,26/10/2014,Malaga,Vallecano,4,0,H
+90,26/10/2014,Sevilla,Villarreal,2,1,H
+91,31/10/2014,La Coruna,Getafe,1,2,A
+92,01/11/2014,Ath Madrid,Cordoba,4,2,H
+93,01/11/2014,Barcelona,Celta,0,1,A
+94,01/11/2014,Granada,Real Madrid,0,4,A
+95,01/11/2014,Sociedad,Malaga,0,1,A
+96,02/11/2014,Ath Bilbao,Sevilla,1,0,H
+97,02/11/2014,Elche,Espanol,2,1,H
+98,02/11/2014,Levante,Almeria,2,1,H
+99,02/11/2014,Villarreal,Valencia,1,3,A
+100,03/11/2014,Vallecano,Eibar,2,3,A
+101,07/11/2014,Cordoba,La Coruna,0,0,D
+102,08/11/2014,Almeria,Barcelona,1,2,A
+103,08/11/2014,Celta,Granada,0,0,D
+104,08/11/2014,Getafe,Elche,0,0,D
+105,08/11/2014,Malaga,Eibar,2,1,H
+106,08/11/2014,Real Madrid,Vallecano,5,1,H
+107,09/11/2014,Espanol,Villarreal,1,1,D
+108,09/11/2014,Sevilla,Levante,1,1,D
+109,09/11/2014,Sociedad,Ath Madrid,2,1,H
+110,09/11/2014,Valencia,Ath Bilbao,0,0,D
+111,21/11/2014,Ath Bilbao,Espanol,3,1,H
+112,22/11/2014,Ath Madrid,Malaga,3,1,H
+113,22/11/2014,Barcelona,Sevilla,5,1,H
+114,22/11/2014,Eibar,Real Madrid,0,4,A
+115,22/11/2014,La Coruna,Sociedad,0,0,D
+116,23/11/2014,Elche,Cordoba,2,2,D
+117,23/11/2014,Levante,Valencia,2,1,H
+118,23/11/2014,Vallecano,Celta,1,0,H
+119,23/11/2014,Villarreal,Getafe,2,1,H
+120,24/11/2014,Granada,Almeria,0,0,D
+121,28/11/2014,Sociedad,Elche,3,0,H
+122,29/11/2014,Celta,Eibar,0,1,A
+123,29/11/2014,Espanol,Levante,2,1,H
+124,29/11/2014,Getafe,Ath Bilbao,1,2,A
+125,29/11/2014,Malaga,Real Madrid,1,2,A
+126,30/11/2014,Ath Madrid,La Coruna,2,0,H
+127,30/11/2014,Cordoba,Villarreal,0,2,A
+128,30/11/2014,Sevilla,Granada,5,1,H
+129,30/11/2014,Valencia,Barcelona,0,1,A
+130,01/12/2014,Almeria,Vallecano,0,1,A
+131,06/12/2014,Ath Bilbao,Cordoba,0,1,A
+132,06/12/2014,Elche,Ath Madrid,0,2,A
+133,06/12/2014,La Coruna,Malaga,0,1,A
+134,06/12/2014,Real Madrid,Celta,3,0,H
+135,07/12/2014,Barcelona,Espanol,5,1,H
+136,07/12/2014,Granada,Valencia,1,1,D
+137,07/12/2014,Vallecano,Sevilla,0,1,A
+138,07/12/2014,Villarreal,Sociedad,4,0,H
+139,08/12/2014,Eibar,Almeria,5,2,H
+140,08/12/2014,Levante,Getafe,1,1,D
+141,12/12/2014,Almeria,Real Madrid,1,4,A
+142,13/12/2014,Cordoba,Levante,0,0,D
+143,13/12/2014,Getafe,Barcelona,0,0,D
+144,13/12/2014,Malaga,Celta,1,0,H
+145,13/12/2014,Valencia,Vallecano,3,0,H
+146,14/12/2014,Ath Madrid,Villarreal,0,1,A
+147,14/12/2014,Espanol,Granada,2,1,H
+148,14/12/2014,Sevilla,Eibar,0,0,D
+149,14/12/2014,Sociedad,Ath Bilbao,1,1,D
+150,15/12/2014,La Coruna,Elche,1,0,H
+151,19/12/2014,Celta,Almeria,0,1,A
+152,20/12/2014,Barcelona,Cordoba,5,0,H
+153,20/12/2014,Eibar,Valencia,0,1,A
+154,20/12/2014,Levante,Sociedad,1,1,D
+155,20/12/2014,Vallecano,Espanol,1,3,A
+156,21/12/2014,Ath Bilbao,Ath Madrid,1,4,A
+157,21/12/2014,Elche,Malaga,1,2,A
+158,21/12/2014,Granada,Getafe,1,1,D
+159,21/12/2014,Villarreal,La Coruna,3,0,H
+160,03/01/2015,Ath Madrid,Levante,3,1,H
+161,03/01/2015,Elche,Villarreal,2,2,D
+162,03/01/2015,La Coruna,Ath Bilbao,1,0,H
+163,03/01/2015,Malaga,Almeria,1,2,A
+164,03/01/2015,Sevilla,Celta,1,0,H
+165,04/01/2015,Espanol,Eibar,1,2,A
+166,04/01/2015,Getafe,Vallecano,1,2,A
+167,04/01/2015,Sociedad,Barcelona,1,0,H
+168,04/01/2015,Valencia,Real Madrid,2,1,H
+169,05/01/2015,Cordoba,Granada,2,0,H
+170,09/01/2015,Levante,La Coruna,0,0,D
+171,10/01/2015,Celta,Valencia,1,1,D
+172,10/01/2015,Eibar,Getafe,2,1,H
+173,10/01/2015,Malaga,Villarreal,1,1,D
+174,10/01/2015,Real Madrid,Espanol,3,0,H
+175,11/01/2015,Almeria,Sevilla,0,2,A
+176,11/01/2015,Ath Bilbao,Elche,1,2,A
+177,11/01/2015,Barcelona,Ath Madrid,3,1,H
+178,11/01/2015,Granada,Sociedad,1,1,D
+179,12/01/2015,Vallecano,Cordoba,0,1,A
+180,16/01/2015,Cordoba,Eibar,1,1,D
+181,17/01/2015,Espanol,Celta,1,0,H
+182,17/01/2015,Sociedad,Vallecano,0,1,A
+183,17/01/2015,Valencia,Almeria,3,2,H
+184,17/01/2015,Villarreal,Ath Bilbao,2,0,H
+185,18/01/2015,Ath Madrid,Granada,2,0,H
+186,18/01/2015,Elche,Levante,1,0,H
+187,18/01/2015,Getafe,Real Madrid,0,3,A
+188,18/01/2015,La Coruna,Barcelona,0,4,A
+189,18/01/2015,Sevilla,Malaga,2,0,H
+190,24/01/2015,Ath Madrid,Vallecano,3,1,H
+191,24/01/2015,Cordoba,Real Madrid,1,2,A
+192,24/01/2015,Elche,Barcelona,0,6,A
+193,24/01/2015,Sociedad,Eibar,1,0,H
+194,24/01/2015,Villarreal,Levante,1,0,H
+195,25/01/2015,Ath Bilbao,Malaga,1,1,D
+196,25/01/2015,Espanol,Almeria,3,0,H
+197,25/01/2015,La Coruna,Granada,2,2,D
+198,25/01/2015,Valencia,Sevilla,3,1,H
+199,26/01/2015,Getafe,Celta,2,1,H
+200,30/01/2015,Vallecano,La Coruna,1,2,A
+201,31/01/2015,Celta,Cordoba,1,0,H
+202,31/01/2015,Eibar,Ath Madrid,1,3,A
+203,31/01/2015,Granada,Elche,1,0,H
+204,31/01/2015,Real Madrid,Sociedad,4,1,H
+205,01/02/2015,Almeria,Getafe,1,0,H
+206,01/02/2015,Barcelona,Villarreal,3,2,H
+207,01/02/2015,Levante,Ath Bilbao,0,2,A
+208,01/02/2015,Sevilla,Espanol,3,2,H
+209,02/02/2015,Malaga,Valencia,1,0,H
+210,04/02/2015,Real Madrid,Sevilla,2,1,H
+211,06/02/2015,La Coruna,Eibar,2,0,H
+212,07/02/2015,Ath Madrid,Real Madrid,4,0,H
+213,07/02/2015,Levante,Malaga,4,1,H
+214,07/02/2015,Sociedad,Celta,1,1,D
+215,07/02/2015,Villarreal,Granada,2,0,H
+216,08/02/2015,Ath Bilbao,Barcelona,2,5,A
+217,08/02/2015,Cordoba,Almeria,1,2,A
+218,08/02/2015,Espanol,Valencia,1,2,A
+219,08/02/2015,Getafe,Sevilla,2,1,H
+220,09/02/2015,Elche,Vallecano,2,0,H
+221,13/02/2015,Almeria,Sociedad,2,2,D
+222,14/02/2015,Granada,Ath Bilbao,0,0,D
+223,14/02/2015,Malaga,Espanol,0,2,A
+224,14/02/2015,Real Madrid,La Coruna,2,0,H
+225,14/02/2015,Sevilla,Cordoba,3,0,H
+226,15/02/2015,Barcelona,Levante,5,0,H
+227,15/02/2015,Celta,Ath Madrid,2,0,H
+228,15/02/2015,Valencia,Getafe,1,0,H
+229,15/02/2015,Vallecano,Villarreal,2,0,H
+230,16/02/2015,Eibar,Elche,0,1,A
+231,20/02/2015,Getafe,Espanol,2,1,H
+232,21/02/2015,Ath Madrid,Almeria,3,0,H
+233,21/02/2015,Barcelona,Malaga,0,1,A
+234,21/02/2015,Cordoba,Valencia,1,2,A
+235,21/02/2015,La Coruna,Celta,0,2,A
+236,22/02/2015,Ath Bilbao,Vallecano,1,0,H
+237,22/02/2015,Elche,Real Madrid,0,2,A
+238,22/02/2015,Sociedad,Sevilla,4,3,H
+239,22/02/2015,Villarreal,Eibar,1,0,H
+240,23/02/2015,Levante,Granada,2,1,H
+241,27/02/2015,Espanol,Cordoba,1,0,H
+242,28/02/2015,Almeria,La Coruna,0,0,D
+243,28/02/2015,Granada,Barcelona,1,3,A
+244,28/02/2015,Malaga,Getafe,3,2,H
+245,28/02/2015,Vallecano,Levante,4,2,H
+246,01/03/2015,Eibar,Ath Bilbao,0,1,A
+247,01/03/2015,Real Madrid,Villarreal,1,1,D
+248,01/03/2015,Sevilla,Ath Madrid,0,0,D
+249,01/03/2015,Valencia,Sociedad,2,0,H
+250,02/03/2015,Celta,Elche,1,1,D
+251,06/03/2015,Levante,Eibar,2,1,H
+252,07/03/2015,Ath Bilbao,Real Madrid,1,0,H
+253,07/03/2015,Elche,Almeria,1,0,H
+254,07/03/2015,Granada,Malaga,1,0,H
+255,07/03/2015,La Coruna,Sevilla,3,4,A
+256,08/03/2015,Ath Madrid,Valencia,1,1,D
+257,08/03/2015,Barcelona,Vallecano,6,1,H
+258,08/03/2015,Sociedad,Espanol,1,0,H
+259,08/03/2015,Villarreal,Celta,4,1,H
+260,09/03/2015,Cordoba,Getafe,1,2,A
+261,13/03/2015,Valencia,La Coruna,2,0,H
+262,14/03/2015,Celta,Ath Bilbao,1,2,A
+263,14/03/2015,Eibar,Barcelona,0,2,A
+264,14/03/2015,Espanol,Ath Madrid,0,0,D
+265,14/03/2015,Vallecano,Granada,3,1,H
+266,15/03/2015,Almeria,Villarreal,0,0,D
+267,15/03/2015,Malaga,Cordoba,2,0,H
+268,15/03/2015,Real Madrid,Levante,2,0,H
+269,15/03/2015,Sevilla,Elche,3,0,H
+270,16/03/2015,Getafe,Sociedad,0,1,A
+271,20/03/2015,Elche,Valencia,0,4,A
+272,21/03/2015,Ath Bilbao,Almeria,2,1,H
+273,21/03/2015,Ath Madrid,Getafe,2,0,H
+274,21/03/2015,Granada,Eibar,0,0,D
+275,21/03/2015,Levante,Celta,0,1,A
+276,21/03/2015,Vallecano,Malaga,1,0,H
+277,22/03/2015,Barcelona,Real Madrid,2,1,H
+278,22/03/2015,La Coruna,Espanol,0,0,D
+279,22/03/2015,Sociedad,Cordoba,3,1,H
+280,22/03/2015,Villarreal,Sevilla,0,2,A
+281,03/04/2015,Eibar,Vallecano,1,2,A
+282,04/04/2015,Almeria,Levante,1,4,A
+283,04/04/2015,Cordoba,Ath Madrid,0,2,A
+284,04/04/2015,Malaga,Sociedad,1,1,D
+285,04/04/2015,Sevilla,Ath Bilbao,2,0,H
+286,05/04/2015,Celta,Barcelona,0,1,A
+287,05/04/2015,Getafe,La Coruna,2,1,H
+288,05/04/2015,Real Madrid,Granada,9,1,H
+289,05/04/2015,Valencia,Villarreal,0,0,D
+290,06/04/2015,Espanol,Elche,1,1,D
+291,07/04/2015,Ath Madrid,Sociedad,2,0,H
+292,07/04/2015,Eibar,Malaga,1,0,H
+293,07/04/2015,Levante,Sevilla,1,2,A
+294,08/04/2015,Barcelona,Almeria,4,0,H
+295,08/04/2015,Granada,Celta,1,1,D
+296,08/04/2015,La Coruna,Cordoba,1,1,D
+297,08/04/2015,Vallecano,Real Madrid,0,2,A
+298,09/04/2015,Ath Bilbao,Valencia,1,1,D
+299,09/04/2015,Elche,Getafe,0,1,A
+300,09/04/2015,Villarreal,Espanol,0,3,A
+301,11/04/2015,Almeria,Granada,3,0,H
+302,11/04/2015,Celta,Vallecano,6,1,H
+303,11/04/2015,Malaga,Ath Madrid,2,2,D
+304,11/04/2015,Real Madrid,Eibar,3,0,H
+305,11/04/2015,Sevilla,Barcelona,2,2,D
+306,12/04/2015,Cordoba,Elche,0,2,A
+307,12/04/2015,Espanol,Ath Bilbao,1,0,H
+308,12/04/2015,Getafe,Villarreal,1,1,D
+309,12/04/2015,Sociedad,La Coruna,2,2,D
+310,13/04/2015,Valencia,Levante,3,0,H
+311,17/04/2015,Levante,Espanol,2,2,D
+312,18/04/2015,Ath Bilbao,Getafe,4,0,H
+313,18/04/2015,Barcelona,Valencia,2,0,H
+314,18/04/2015,La Coruna,Ath Madrid,1,2,A
+315,18/04/2015,Real Madrid,Malaga,3,1,H
+316,19/04/2015,Eibar,Celta,0,1,A
+317,19/04/2015,Granada,Sevilla,1,1,D
+318,19/04/2015,Vallecano,Almeria,2,0,H
+319,19/04/2015,Villarreal,Cordoba,0,0,D
+320,20/04/2015,Elche,Sociedad,1,0,H
+321,24/04/2015,Cordoba,Ath Bilbao,0,1,A
+322,25/04/2015,Ath Madrid,Elche,3,0,H
+323,25/04/2015,Espanol,Barcelona,0,2,A
+324,25/04/2015,Getafe,Levante,0,1,A
+325,25/04/2015,Sociedad,Villarreal,0,0,D
+326,26/04/2015,Almeria,Eibar,2,0,H
+327,26/04/2015,Celta,Real Madrid,2,4,A
+328,26/04/2015,Malaga,La Coruna,1,1,D
+329,26/04/2015,Sevilla,Vallecano,2,0,H
+330,27/04/2015,Valencia,Granada,4,0,H
+331,28/04/2015,Ath Bilbao,Sociedad,1,1,D
+332,28/04/2015,Barcelona,Getafe,6,0,H
+333,28/04/2015,Levante,Cordoba,1,0,H
+334,29/04/2015,Celta,Malaga,1,0,H
+335,29/04/2015,Eibar,Sevilla,1,3,A
+336,29/04/2015,Elche,La Coruna,4,0,H
+337,29/04/2015,Real Madrid,Almeria,3,0,H
+338,29/04/2015,Villarreal,Ath Madrid,0,1,A
+339,30/04/2015,Granada,Espanol,1,2,A
+340,30/04/2015,Vallecano,Valencia,1,1,D
+341,01/05/2015,Sociedad,Levante,3,0,H
+342,02/05/2015,Ath Madrid,Ath Bilbao,0,0,D
+343,02/05/2015,Cordoba,Barcelona,0,8,A
+344,02/05/2015,La Coruna,Villarreal,1,1,D
+345,02/05/2015,Sevilla,Real Madrid,2,3,A
+346,03/05/2015,Espanol,Vallecano,1,1,D
+347,03/05/2015,Getafe,Granada,1,2,A
+348,03/05/2015,Malaga,Elche,1,2,A
+349,03/05/2015,Valencia,Eibar,3,1,H
+350,04/05/2015,Almeria,Celta,2,2,D
+351,08/05/2015,Eibar,Espanol,0,2,A
+352,09/05/2015,Ath Bilbao,La Coruna,1,1,D
+353,09/05/2015,Barcelona,Sociedad,2,0,H
+354,09/05/2015,Granada,Cordoba,2,0,H
+355,09/05/2015,Real Madrid,Valencia,2,2,D
+356,10/05/2015,Almeria,Malaga,1,2,A
+357,10/05/2015,Celta,Sevilla,1,1,D
+358,10/05/2015,Levante,Ath Madrid,2,2,D
+359,10/05/2015,Villarreal,Elche,1,0,H
+360,11/05/2015,Vallecano,Getafe,2,0,H
+361,17/05/2015,Ath Madrid,Barcelona,0,1,A
+362,17/05/2015,Cordoba,Vallecano,1,2,A
+363,17/05/2015,Elche,Ath Bilbao,2,3,A
+364,17/05/2015,Espanol,Real Madrid,1,4,A
+365,17/05/2015,Getafe,Eibar,1,1,D
+366,17/05/2015,La Coruna,Levante,2,0,H
+367,17/05/2015,Sevilla,Almeria,2,1,H
+368,17/05/2015,Sociedad,Granada,0,3,A
+369,17/05/2015,Valencia,Celta,1,1,D
+370,17/05/2015,Villarreal,Malaga,2,1,H
+371,23/05/2015,Almeria,Valencia,2,3,A
+372,23/05/2015,Ath Bilbao,Villarreal,4,0,H
+373,23/05/2015,Barcelona,La Coruna,2,2,D
+374,23/05/2015,Celta,Espanol,3,2,H
+375,23/05/2015,Eibar,Cordoba,3,0,H
+376,23/05/2015,Granada,Ath Madrid,0,0,D
+377,23/05/2015,Levante,Elche,0,0,D
+378,23/05/2015,Malaga,Sevilla,2,3,A
+379,23/05/2015,Real Madrid,Getafe,7,3,H
+380,23/05/2015,Vallecano,Sociedad,2,4,A
+381,21/08/2015,Malaga,Sevilla,0,0,D
+382,22/08/2015,Ath Madrid,Las Palmas,1,0,H
+383,22/08/2015,Espanol,Getafe,1,0,H
+384,22/08/2015,La Coruna,Sociedad,0,0,D
+385,22/08/2015,Vallecano,Valencia,0,0,D
+386,23/08/2015,Ath Bilbao,Barcelona,0,1,A
+387,23/08/2015,Betis,Villarreal,1,1,D
+388,23/08/2015,Levante,Celta,1,2,A
+389,23/08/2015,Sp Gijon,Real Madrid,0,0,D
+390,24/08/2015,Granada,Eibar,1,3,A
+391,28/08/2015,Villarreal,Espanol,3,1,H
+392,29/08/2015,Barcelona,Malaga,1,0,H
+393,29/08/2015,Celta,Vallecano,3,0,H
+394,29/08/2015,Real Madrid,Betis,5,0,H
+395,29/08/2015,Sociedad,Sp Gijon,0,0,D
+396,30/08/2015,Eibar,Ath Bilbao,2,0,H
+397,30/08/2015,Getafe,Granada,1,2,A
+398,30/08/2015,Las Palmas,Levante,0,0,D
+399,30/08/2015,Sevilla,Ath Madrid,0,3,A
+400,30/08/2015,Valencia,La Coruna,1,1,D
+401,11/09/2015,Levante,Sevilla,1,1,D
+402,12/09/2015,Ath Madrid,Barcelona,1,2,A
+403,12/09/2015,Betis,Sociedad,1,0,H
+404,12/09/2015,Espanol,Real Madrid,0,6,A
+405,12/09/2015,Sp Gijon,Valencia,0,1,A
+406,13/09/2015,Ath Bilbao,Getafe,3,1,H
+407,13/09/2015,Celta,Las Palmas,3,3,D
+408,13/09/2015,Granada,Villarreal,1,3,A
+409,13/09/2015,Malaga,Eibar,0,0,D
+410,14/09/2015,Vallecano,La Coruna,1,3,A
+411,18/09/2015,Getafe,Malaga,1,0,H
+412,19/09/2015,Eibar,Ath Madrid,0,2,A
+413,19/09/2015,Real Madrid,Granada,1,0,H
+414,19/09/2015,Sociedad,Espanol,2,3,A
+415,19/09/2015,Valencia,Betis,0,0,D
+416,20/09/2015,Barcelona,Levante,4,1,H
+417,20/09/2015,La Coruna,Sp Gijon,2,3,A
+418,20/09/2015,Las Palmas,Vallecano,0,1,A
+419,20/09/2015,Sevilla,Celta,1,2,A
+420,20/09/2015,Villarreal,Ath Bilbao,3,1,H
+421,22/09/2015,Ath Madrid,Getafe,2,0,H
+422,22/09/2015,Espanol,Valencia,1,0,H
+423,22/09/2015,Granada,Sociedad,0,3,A
+424,23/09/2015,Ath Bilbao,Real Madrid,1,2,A
+425,23/09/2015,Celta,Barcelona,4,1,H
+426,23/09/2015,Las Palmas,Sevilla,2,0,H
+427,23/09/2015,Levante,Eibar,2,2,D
+428,23/09/2015,Malaga,Villarreal,0,1,A
+429,23/09/2015,Vallecano,Sp Gijon,2,1,H
+430,24/09/2015,Betis,La Coruna,1,2,A
+431,25/09/2015,Valencia,Granada,1,0,H
+432,26/09/2015,Barcelona,Las Palmas,2,1,H
+433,26/09/2015,Eibar,Celta,1,1,D
+434,26/09/2015,Real Madrid,Malaga,0,0,D
+435,26/09/2015,Sevilla,Vallecano,3,2,H
+436,26/09/2015,Villarreal,Ath Madrid,1,0,H
+437,27/09/2015,Getafe,Levante,3,0,H
+438,27/09/2015,La Coruna,Espanol,3,0,H
+439,27/09/2015,Sociedad,Ath Bilbao,0,0,D
+440,27/09/2015,Sp Gijon,Betis,1,2,A
+441,02/10/2015,Celta,Getafe,0,0,D
+442,03/10/2015,Espanol,Sp Gijon,1,2,A
+443,03/10/2015,Granada,La Coruna,1,1,D
+444,03/10/2015,Las Palmas,Eibar,0,2,A
+445,03/10/2015,Malaga,Sociedad,3,1,H
+446,03/10/2015,Sevilla,Barcelona,2,1,H
+447,04/10/2015,Ath Bilbao,Valencia,3,1,H
+448,04/10/2015,Ath Madrid,Real Madrid,1,1,D
+449,04/10/2015,Levante,Villarreal,1,0,H
+450,04/10/2015,Vallecano,Betis,0,2,A
+451,17/10/2015,Barcelona,Vallecano,5,2,H
+452,17/10/2015,Betis,Espanol,1,3,A
+453,17/10/2015,Eibar,Sevilla,1,1,D
+454,17/10/2015,Real Madrid,Levante,3,0,H
+455,17/10/2015,Valencia,Malaga,3,0,H
+456,18/10/2015,Getafe,Las Palmas,4,0,H
+457,18/10/2015,La Coruna,Ath Bilbao,2,2,D
+458,18/10/2015,Sociedad,Ath Madrid,0,2,A
+459,18/10/2015,Villarreal,Celta,1,2,A
+460,19/10/2015,Sp Gijon,Granada,3,3,D
+461,23/10/2015,Vallecano,Espanol,3,0,H
+462,24/10/2015,Celta,Real Madrid,1,3,A
+463,24/10/2015,Granada,Betis,1,1,D
+464,24/10/2015,Malaga,La Coruna,2,0,H
+465,24/10/2015,Sevilla,Getafe,5,0,H
+466,25/10/2015,Ath Madrid,Valencia,2,1,H
+467,25/10/2015,Barcelona,Eibar,3,1,H
+468,25/10/2015,Las Palmas,Villarreal,0,0,D
+469,25/10/2015,Levante,Sociedad,0,4,A
+470,26/10/2015,Ath Bilbao,Sp Gijon,3,0,H
+471,30/10/2015,La Coruna,Ath Madrid,1,1,D
+472,31/10/2015,Getafe,Barcelona,0,2,A
+473,31/10/2015,Real Madrid,Las Palmas,3,1,H
+474,31/10/2015,Sociedad,Celta,2,3,A
+475,31/10/2015,Valencia,Levante,3,0,H
+476,31/10/2015,Villarreal,Sevilla,2,1,H
+477,01/11/2015,Betis,Ath Bilbao,1,3,A
+478,01/11/2015,Eibar,Vallecano,1,0,H
+479,01/11/2015,Espanol,Granada,1,1,D
+480,01/11/2015,Sp Gijon,Malaga,1,0,H
+481,06/11/2015,Las Palmas,Sociedad,2,0,H
+482,07/11/2015,Celta,Valencia,1,5,A
+483,07/11/2015,Eibar,Getafe,3,1,H
+484,07/11/2015,Levante,La Coruna,1,1,D
+485,07/11/2015,Malaga,Betis,0,1,A
+486,07/11/2015,Vallecano,Granada,2,1,H
+487,08/11/2015,Ath Bilbao,Espanol,2,1,H
+488,08/11/2015,Ath Madrid,Sp Gijon,1,0,H
+489,08/11/2015,Barcelona,Villarreal,3,0,H
+490,08/11/2015,Sevilla,Real Madrid,3,2,H
+491,21/11/2015,Espanol,Malaga,2,0,H
+492,21/11/2015,La Coruna,Celta,2,0,H
+493,21/11/2015,Real Madrid,Barcelona,0,4,A
+494,21/11/2015,Sociedad,Sevilla,2,0,H
+495,21/11/2015,Valencia,Las Palmas,1,1,D
+496,22/11/2015,Betis,Ath Madrid,0,1,A
+497,22/11/2015,Granada,Ath Bilbao,2,0,H
+498,22/11/2015,Sp Gijon,Levante,0,3,A
+499,22/11/2015,Villarreal,Eibar,1,1,D
+500,23/11/2015,Getafe,Vallecano,1,1,D
+501,27/11/2015,Levante,Betis,0,1,A
+502,28/11/2015,Ath Madrid,Espanol,1,0,H
+503,28/11/2015,Barcelona,Sociedad,4,0,H
+504,28/11/2015,Celta,Sp Gijon,2,1,H
+505,28/11/2015,Las Palmas,La Coruna,0,2,A
+506,28/11/2015,Malaga,Granada,2,2,D
+507,29/11/2015,Eibar,Real Madrid,0,2,A
+508,29/11/2015,Getafe,Villarreal,2,0,H
+509,29/11/2015,Sevilla,Valencia,1,0,H
+510,29/11/2015,Vallecano,Ath Bilbao,0,3,A
+511,05/12/2015,Betis,Celta,1,1,D
+512,05/12/2015,Granada,Ath Madrid,0,2,A
+513,05/12/2015,La Coruna,Sevilla,1,1,D
+514,05/12/2015,Real Madrid,Getafe,4,1,H
+515,05/12/2015,Valencia,Barcelona,1,1,D
+516,06/12/2015,Ath Bilbao,Malaga,0,0,D
+517,06/12/2015,Sociedad,Eibar,2,1,H
+518,06/12/2015,Sp Gijon,Las Palmas,3,1,H
+519,06/12/2015,Villarreal,Vallecano,2,1,H
+520,07/12/2015,Espanol,Levante,1,1,D
+521,11/12/2015,Getafe,Sociedad,1,1,D
+522,12/12/2015,Barcelona,La Coruna,2,2,D
+523,12/12/2015,Celta,Espanol,1,0,H
+524,12/12/2015,Las Palmas,Betis,1,0,H
+525,12/12/2015,Levante,Granada,1,2,A
+526,12/12/2015,Sevilla,Sp Gijon,2,0,H
+527,13/12/2015,Ath Madrid,Ath Bilbao,2,1,H
+528,13/12/2015,Eibar,Valencia,1,1,D
+529,13/12/2015,Vallecano,Malaga,1,2,A
+530,13/12/2015,Villarreal,Real Madrid,1,0,H
+531,19/12/2015,Betis,Sevilla,0,0,D
+532,19/12/2015,Espanol,Las Palmas,1,0,H
+533,19/12/2015,La Coruna,Eibar,2,0,H
+534,19/12/2015,Valencia,Getafe,2,2,D
+535,20/12/2015,Ath Bilbao,Levante,2,0,H
+536,20/12/2015,Granada,Celta,0,2,A
+537,20/12/2015,Malaga,Ath Madrid,1,0,H
+538,20/12/2015,Real Madrid,Vallecano,10,2,H
+539,20/12/2015,Sociedad,Villarreal,0,2,A
+540,30/12/2015,Barcelona,Betis,4,0,H
+541,30/12/2015,Celta,Ath Bilbao,0,1,A
+542,30/12/2015,Eibar,Sp Gijon,2,0,H
+543,30/12/2015,Getafe,La Coruna,0,0,D
+544,30/12/2015,Las Palmas,Granada,4,1,H
+545,30/12/2015,Levante,Malaga,0,1,A
+546,30/12/2015,Real Madrid,Sociedad,3,1,H
+547,30/12/2015,Sevilla,Espanol,2,0,H
+548,30/12/2015,Vallecano,Ath Madrid,0,2,A
+549,31/12/2015,Villarreal,Valencia,1,0,H
+550,02/01/2016,Ath Madrid,Levante,1,0,H
+551,02/01/2016,Espanol,Barcelona,0,0,D
+552,02/01/2016,Malaga,Celta,2,0,H
+553,03/01/2016,Ath Bilbao,Las Palmas,2,2,D
+554,03/01/2016,Betis,Eibar,0,4,A
+555,03/01/2016,Granada,Sevilla,2,1,H
+556,03/01/2016,La Coruna,Villarreal,1,2,A
+557,03/01/2016,Valencia,Real Madrid,2,2,D
+558,03/01/2016,Vallecano,Sociedad,2,2,D
+559,04/01/2016,Sp Gijon,Getafe,1,2,A
+560,09/01/2016,Barcelona,Granada,4,0,H
+561,09/01/2016,Getafe,Betis,1,0,H
+562,09/01/2016,Levante,Vallecano,2,1,H
+563,09/01/2016,Real Madrid,La Coruna,5,0,H
+564,09/01/2016,Sevilla,Ath Bilbao,2,0,H
+565,10/01/2016,Celta,Ath Madrid,0,2,A
+566,10/01/2016,Eibar,Espanol,2,1,H
+567,10/01/2016,Las Palmas,Malaga,1,1,D
+568,10/01/2016,Sociedad,Valencia,2,0,H
+569,10/01/2016,Villarreal,Sp Gijon,2,0,H
+570,16/01/2016,Celta,Levante,4,3,H
+571,16/01/2016,Sevilla,Malaga,2,1,H
+572,16/01/2016,Sociedad,La Coruna,1,1,D
+573,16/01/2016,Villarreal,Betis,0,0,D
+574,17/01/2016,Barcelona,Ath Bilbao,6,0,H
+575,17/01/2016,Getafe,Espanol,3,1,H
+576,17/01/2016,Las Palmas,Ath Madrid,0,3,A
+577,17/01/2016,Real Madrid,Sp Gijon,5,1,H
+578,17/01/2016,Valencia,Vallecano,2,2,D
+579,18/01/2016,Eibar,Granada,5,1,H
+580,22/01/2016,Sp Gijon,Sociedad,5,1,H
+581,23/01/2016,Espanol,Villarreal,2,2,D
+582,23/01/2016,Granada,Getafe,3,2,H
+583,23/01/2016,Malaga,Barcelona,1,2,A
+584,23/01/2016,Vallecano,Celta,3,0,H
+585,24/01/2016,Ath Bilbao,Eibar,5,2,H
+586,24/01/2016,Ath Madrid,Sevilla,0,0,D
+587,24/01/2016,Betis,Real Madrid,1,1,D
+588,24/01/2016,La Coruna,Valencia,1,1,D
+589,25/01/2016,Levante,Las Palmas,3,2,H
+590,30/01/2016,Barcelona,Ath Madrid,2,1,H
+591,30/01/2016,Eibar,Malaga,1,2,A
+592,30/01/2016,Getafe,Ath Bilbao,0,1,A
+593,30/01/2016,Sociedad,Betis,2,1,H
+594,30/01/2016,Villarreal,Granada,1,0,H
+595,31/01/2016,Las Palmas,Celta,2,1,H
+596,31/01/2016,Real Madrid,Espanol,6,0,H
+597,31/01/2016,Sevilla,Levante,3,1,H
+598,31/01/2016,Valencia,Sp Gijon,0,1,A
+599,01/02/2016,La Coruna,Vallecano,2,2,D
+600,05/02/2016,Malaga,Getafe,3,0,H
+601,06/02/2016,Ath Bilbao,Villarreal,0,0,D
+602,06/02/2016,Ath Madrid,Eibar,3,1,H
+603,06/02/2016,Sp Gijon,La Coruna,1,1,D
+604,06/02/2016,Vallecano,Las Palmas,2,0,H
+605,07/02/2016,Betis,Valencia,1,0,H
+606,07/02/2016,Celta,Sevilla,1,1,D
+607,07/02/2016,Granada,Real Madrid,1,2,A
+608,07/02/2016,Levante,Barcelona,0,2,A
+609,08/02/2016,Espanol,Sociedad,0,5,A
+610,12/02/2016,Sp Gijon,Vallecano,2,2,D
+611,13/02/2016,La Coruna,Betis,2,2,D
+612,13/02/2016,Real Madrid,Ath Bilbao,4,2,H
+613,13/02/2016,Valencia,Espanol,2,1,H
+614,13/02/2016,Villarreal,Malaga,1,0,H
+615,14/02/2016,Barcelona,Celta,6,1,H
+616,14/02/2016,Eibar,Levante,2,0,H
+617,14/02/2016,Getafe,Ath Madrid,0,1,A
+618,14/02/2016,Sevilla,Las Palmas,2,0,H
+619,14/02/2016,Sociedad,Granada,3,0,H
+620,17/02/2016,Sp Gijon,Barcelona,1,3,A
+621,19/02/2016,Levante,Getafe,3,0,H
+622,20/02/2016,Betis,Sp Gijon,1,1,D
+623,20/02/2016,Celta,Eibar,3,2,H
+624,20/02/2016,Espanol,La Coruna,1,0,H
+625,20/02/2016,Las Palmas,Barcelona,1,2,A
+626,21/02/2016,Ath Bilbao,Sociedad,0,1,A
+627,21/02/2016,Ath Madrid,Villarreal,0,0,D
+628,21/02/2016,Granada,Valencia,1,2,A
+629,21/02/2016,Malaga,Real Madrid,1,1,D
+630,21/02/2016,Vallecano,Sevilla,2,2,D
+631,26/02/2016,Eibar,Las Palmas,0,1,A
+632,27/02/2016,Betis,Vallecano,2,2,D
+633,27/02/2016,Getafe,Celta,0,1,A
+634,27/02/2016,Real Madrid,Ath Madrid,0,1,A
+635,27/02/2016,Sociedad,Malaga,1,1,D
+636,27/02/2016,Sp Gijon,Espanol,2,4,A
+637,28/02/2016,Barcelona,Sevilla,2,1,H
+638,28/02/2016,La Coruna,Granada,0,1,A
+639,28/02/2016,Valencia,Ath Bilbao,0,3,A
+640,28/02/2016,Villarreal,Levante,3,0,H
+641,01/03/2016,Ath Madrid,Sociedad,3,0,H
+642,01/03/2016,Las Palmas,Getafe,4,0,H
+643,02/03/2016,Ath Bilbao,La Coruna,4,1,H
+644,02/03/2016,Celta,Villarreal,0,0,D
+645,02/03/2016,Levante,Real Madrid,1,3,A
+646,02/03/2016,Malaga,Valencia,1,2,A
+647,02/03/2016,Sevilla,Eibar,1,0,H
+648,03/03/2016,Espanol,Betis,0,3,A
+649,03/03/2016,Granada,Sp Gijon,2,0,H
+650,03/03/2016,Vallecano,Barcelona,1,5,A
+651,05/03/2016,Getafe,Sevilla,1,1,D
+652,05/03/2016,La Coruna,Malaga,3,3,D
+653,05/03/2016,Real Madrid,Celta,7,1,H
+654,05/03/2016,Villarreal,Las Palmas,0,1,A
+655,06/03/2016,Betis,Granada,2,0,H
+656,06/03/2016,Eibar,Barcelona,0,4,A
+657,06/03/2016,Sociedad,Levante,1,1,D
+658,06/03/2016,Sp Gijon,Ath Bilbao,0,2,A
+659,06/03/2016,Valencia,Ath Madrid,1,3,A
+660,07/03/2016,Espanol,Vallecano,2,1,H
+661,11/03/2016,Malaga,Sp Gijon,1,0,H
+662,12/03/2016,Ath Madrid,La Coruna,3,0,H
+663,12/03/2016,Barcelona,Getafe,6,0,H
+664,12/03/2016,Celta,Sociedad,1,0,H
+665,12/03/2016,Vallecano,Eibar,1,1,D
+666,13/03/2016,Ath Bilbao,Betis,3,1,H
+667,13/03/2016,Las Palmas,Real Madrid,1,2,A
+668,13/03/2016,Levante,Valencia,1,0,H
+669,13/03/2016,Sevilla,Villarreal,4,2,H
+670,14/03/2016,Granada,Espanol,1,1,D
+671,18/03/2016,Getafe,Eibar,1,1,D
+672,19/03/2016,Betis,Malaga,0,1,A
+673,19/03/2016,Granada,Vallecano,2,2,D
+674,19/03/2016,La Coruna,Levante,2,1,H
+675,19/03/2016,Sociedad,Las Palmas,0,1,A
+676,19/03/2016,Sp Gijon,Ath Madrid,2,1,H
+677,20/03/2016,Espanol,Ath Bilbao,2,1,H
+678,20/03/2016,Real Madrid,Sevilla,4,0,H
+679,20/03/2016,Valencia,Celta,0,2,A
+680,20/03/2016,Villarreal,Barcelona,2,2,D
+681,01/04/2016,Vallecano,Getafe,2,0,H
+682,02/04/2016,Ath Madrid,Betis,5,1,H
+683,02/04/2016,Barcelona,Real Madrid,1,2,A
+684,02/04/2016,Celta,La Coruna,1,1,D
+685,02/04/2016,Las Palmas,Valencia,2,1,H
+686,03/04/2016,Ath Bilbao,Granada,1,1,D
+687,03/04/2016,Eibar,Villarreal,1,2,A
+688,03/04/2016,Malaga,Espanol,1,1,D
+689,03/04/2016,Sevilla,Sociedad,1,2,A
+690,04/04/2016,Levante,Sp Gijon,0,0,D
+691,08/04/2016,Granada,Malaga,0,0,D
+692,09/04/2016,Betis,Levante,1,0,H
+693,09/04/2016,Espanol,Ath Madrid,1,3,A
+694,09/04/2016,Real Madrid,Eibar,4,0,H
+695,09/04/2016,Sociedad,Barcelona,1,0,H
+696,10/04/2016,Ath Bilbao,Vallecano,1,0,H
+697,10/04/2016,Sp Gijon,Celta,0,1,A
+698,10/04/2016,Valencia,Sevilla,2,1,H
+699,10/04/2016,Villarreal,Getafe,2,0,H
+700,11/04/2016,La Coruna,Las Palmas,1,3,A
+701,15/04/2016,Levante,Espanol,2,1,H
+702,16/04/2016,Celta,Betis,1,1,D
+703,16/04/2016,Eibar,Sociedad,2,1,H
+704,16/04/2016,Getafe,Real Madrid,1,5,A
+705,16/04/2016,Las Palmas,Sp Gijon,1,1,D
+706,17/04/2016,Ath Madrid,Granada,3,0,H
+707,17/04/2016,Barcelona,Valencia,1,2,A
+708,17/04/2016,Malaga,Ath Bilbao,0,1,A
+709,17/04/2016,Sevilla,La Coruna,1,1,D
+710,17/04/2016,Vallecano,Villarreal,2,1,H
+711,19/04/2016,Betis,Las Palmas,1,0,H
+712,19/04/2016,Espanol,Celta,1,1,D
+713,20/04/2016,Ath Bilbao,Ath Madrid,0,1,A
+714,20/04/2016,La Coruna,Barcelona,0,8,A
+715,20/04/2016,Malaga,Vallecano,1,1,D
+716,20/04/2016,Real Madrid,Villarreal,3,0,H
+717,20/04/2016,Sp Gijon,Sevilla,2,1,H
+718,20/04/2016,Valencia,Eibar,4,0,H
+719,21/04/2016,Granada,Levante,5,1,H
+720,21/04/2016,Sociedad,Getafe,1,2,A
+721,22/04/2016,Las Palmas,Espanol,4,0,H
+722,23/04/2016,Ath Madrid,Malaga,1,0,H
+723,23/04/2016,Barcelona,Sp Gijon,6,0,H
+724,23/04/2016,Eibar,La Coruna,1,1,D
+725,23/04/2016,Vallecano,Real Madrid,2,3,A
+726,24/04/2016,Getafe,Valencia,2,2,D
+727,24/04/2016,Levante,Ath Bilbao,2,2,D
+728,24/04/2016,Sevilla,Betis,2,0,H
+729,24/04/2016,Villarreal,Sociedad,0,0,D
+730,25/04/2016,Celta,Granada,2,1,H
+731,29/04/2016,Sp Gijon,Eibar,2,0,H
+732,30/04/2016,Ath Madrid,Vallecano,1,0,H
+733,30/04/2016,Betis,Barcelona,0,2,A
+734,30/04/2016,Granada,Las Palmas,3,2,H
+735,30/04/2016,Sociedad,Real Madrid,0,1,A
+736,01/05/2016,Ath Bilbao,Celta,2,1,H
+737,01/05/2016,Espanol,Sevilla,1,0,H
+738,01/05/2016,La Coruna,Getafe,0,2,A
+739,01/05/2016,Valencia,Villarreal,0,2,A
+740,02/05/2016,Malaga,Levante,3,1,H
+741,08/05/2016,Barcelona,Espanol,5,0,H
+742,08/05/2016,Celta,Malaga,1,0,H
+743,08/05/2016,Eibar,Betis,1,1,D
+744,08/05/2016,Getafe,Sp Gijon,1,1,D
+745,08/05/2016,Las Palmas,Ath Bilbao,0,0,D
+746,08/05/2016,Levante,Ath Madrid,2,1,H
+747,08/05/2016,Real Madrid,Valencia,3,2,H
+748,08/05/2016,Sevilla,Granada,1,4,A
+749,08/05/2016,Sociedad,Vallecano,2,1,H
+750,08/05/2016,Villarreal,La Coruna,0,2,A
+751,13/05/2016,Valencia,Sociedad,0,1,A
+752,14/05/2016,Ath Bilbao,Sevilla,3,1,H
+753,14/05/2016,Ath Madrid,Celta,2,0,H
+754,14/05/2016,Granada,Barcelona,0,3,A
+755,14/05/2016,La Coruna,Real Madrid,0,2,A
+756,15/05/2016,Betis,Getafe,2,1,H
+757,15/05/2016,Espanol,Eibar,4,2,H
+758,15/05/2016,Malaga,Las Palmas,4,1,H
+759,15/05/2016,Sp Gijon,Villarreal,2,0,H
+760,15/05/2016,Vallecano,Levante,3,1,H
+761,18/08/2017,Leganes,Alaves,1,0,H
+762,18/08/2017,Valencia,Las Palmas,1,0,H
+763,19/08/2017,Celta,Sociedad,2,3,A
+764,19/08/2017,Girona,Ath Madrid,2,2,D
+765,19/08/2017,Sevilla,Espanol,1,1,D
+766,20/08/2017,Ath Bilbao,Getafe,0,0,D
+767,20/08/2017,Barcelona,Betis,2,0,H
+768,20/08/2017,La Coruna,Real Madrid,0,3,A
+769,21/08/2017,Levante,Villarreal,1,0,H
+770,21/08/2017,Malaga,Eibar,0,1,A
+771,25/08/2017,Betis,Celta,2,1,H
+772,25/08/2017,Sociedad,Villarreal,3,0,H
+773,26/08/2017,Alaves,Barcelona,0,2,A
+774,26/08/2017,Girona,Malaga,1,0,H
+775,26/08/2017,Las Palmas,Ath Madrid,1,5,A
+776,26/08/2017,Levante,La Coruna,2,2,D
+777,27/08/2017,Eibar,Ath Bilbao,0,1,A
+778,27/08/2017,Espanol,Leganes,0,1,A
+779,27/08/2017,Getafe,Sevilla,0,1,A
+780,27/08/2017,Real Madrid,Valencia,2,2,D
+781,08/09/2017,Leganes,Getafe,1,2,A
+782,09/09/2017,Barcelona,Espanol,5,0,H
+783,09/09/2017,Real Madrid,Levante,1,1,D
+784,09/09/2017,Sevilla,Eibar,3,0,H
+785,09/09/2017,Valencia,Ath Madrid,0,0,D
+786,10/09/2017,Ath Bilbao,Girona,2,0,H
+787,10/09/2017,Celta,Alaves,1,0,H
+788,10/09/2017,La Coruna,Sociedad,2,4,A
+789,10/09/2017,Villarreal,Betis,3,1,H
+790,11/09/2017,Malaga,Las Palmas,1,3,A
+791,15/09/2017,Eibar,Leganes,1,0,H
+792,16/09/2017,Ath Madrid,Malaga,1,0,H
+793,16/09/2017,Betis,La Coruna,2,1,H
+794,16/09/2017,Getafe,Barcelona,1,2,A
+795,16/09/2017,Levante,Valencia,1,1,D
+796,17/09/2017,Alaves,Villarreal,0,3,A
+797,17/09/2017,Girona,Sevilla,0,1,A
+798,17/09/2017,Las Palmas,Ath Bilbao,1,0,H
+799,17/09/2017,Sociedad,Real Madrid,1,3,A
+800,18/09/2017,Espanol,Celta,2,1,H
+801,19/09/2017,Barcelona,Eibar,6,1,H
+802,19/09/2017,Valencia,Malaga,5,0,H
+803,20/09/2017,Ath Bilbao,Ath Madrid,1,2,A
+804,20/09/2017,La Coruna,Alaves,1,0,H
+805,20/09/2017,Leganes,Girona,0,0,D
+806,20/09/2017,Real Madrid,Betis,0,1,A
+807,20/09/2017,Sevilla,Las Palmas,1,0,H
+808,21/09/2017,Celta,Getafe,1,1,D
+809,21/09/2017,Levante,Sociedad,3,0,H
+810,21/09/2017,Villarreal,Espanol,0,0,D
+811,23/09/2017,Alaves,Real Madrid,1,2,A
+812,23/09/2017,Ath Madrid,Sevilla,2,0,H
+813,23/09/2017,Girona,Barcelona,0,3,A
+814,23/09/2017,Malaga,Ath Bilbao,3,3,D
+815,24/09/2017,Eibar,Celta,0,4,A
+816,24/09/2017,Espanol,La Coruna,4,1,H
+817,24/09/2017,Getafe,Villarreal,4,0,H
+818,24/09/2017,Las Palmas,Leganes,0,2,A
+819,24/09/2017,Sociedad,Valencia,2,3,A
+820,25/09/2017,Betis,Levante,4,0,H
+821,29/09/2017,Celta,Girona,3,3,D
+822,30/09/2017,La Coruna,Getafe,2,1,H
+823,30/09/2017,Leganes,Ath Madrid,0,0,D
+824,30/09/2017,Levante,Alaves,0,2,A
+825,30/09/2017,Sevilla,Malaga,2,0,H
+826,01/10/2017,Barcelona,Las Palmas,3,0,H
+827,01/10/2017,Real Madrid,Espanol,2,0,H
+828,01/10/2017,Sociedad,Betis,4,4,D
+829,01/10/2017,Valencia,Ath Bilbao,3,2,H
+830,01/10/2017,Villarreal,Eibar,3,0,H
+831,13/10/2017,Espanol,Levante,0,0,D
+832,14/10/2017,Alaves,Sociedad,0,2,A
+833,14/10/2017,Ath Bilbao,Sevilla,1,0,H
+834,14/10/2017,Ath Madrid,Barcelona,1,1,D
+835,14/10/2017,Getafe,Real Madrid,1,2,A
+836,15/10/2017,Betis,Valencia,3,6,A
+837,15/10/2017,Eibar,La Coruna,0,0,D
+838,15/10/2017,Girona,Villarreal,1,2,A
+839,15/10/2017,Malaga,Leganes,0,2,A
+840,16/10/2017,Las Palmas,Celta,2,5,A
+841,21/10/2017,Barcelona,Malaga,2,0,H
+842,21/10/2017,Betis,Alaves,2,0,H
+843,21/10/2017,Levante,Getafe,1,1,D
+844,21/10/2017,Valencia,Sevilla,4,0,H
+845,22/10/2017,Celta,Ath Madrid,0,1,A
+846,22/10/2017,Leganes,Ath Bilbao,1,0,H
+847,22/10/2017,Real Madrid,Eibar,3,0,H
+848,22/10/2017,Villarreal,Las Palmas,4,0,H
+849,23/10/2017,La Coruna,Girona,1,2,A
+850,23/10/2017,Sociedad,Espanol,1,1,D
+851,28/10/2017,Alaves,Valencia,1,2,A
+852,28/10/2017,Ath Bilbao,Barcelona,0,2,A
+853,28/10/2017,Ath Madrid,Villarreal,1,1,D
+854,28/10/2017,Sevilla,Leganes,2,1,H
+855,29/10/2017,Eibar,Levante,2,2,D
+856,29/10/2017,Getafe,Sociedad,2,1,H
+857,29/10/2017,Girona,Real Madrid,2,1,H
+858,29/10/2017,Malaga,Celta,2,1,H
+859,30/10/2017,Espanol,Betis,1,0,H
+860,30/10/2017,Las Palmas,La Coruna,1,3,A
+861,03/11/2017,Betis,Getafe,2,2,D
+862,04/11/2017,Alaves,Espanol,1,0,H
+863,04/11/2017,Barcelona,Sevilla,2,1,H
+864,04/11/2017,La Coruna,Ath Madrid,0,1,A
+865,04/11/2017,Valencia,Leganes,3,0,H
+866,05/11/2017,Celta,Ath Bilbao,3,1,H
+867,05/11/2017,Levante,Girona,1,2,A
+868,05/11/2017,Real Madrid,Las Palmas,3,0,H
+869,05/11/2017,Sociedad,Eibar,3,1,H
+870,05/11/2017,Villarreal,Malaga,2,0,H
+871,17/11/2017,Girona,Sociedad,1,1,D
+872,18/11/2017,Ath Madrid,Real Madrid,0,0,D
+873,18/11/2017,Getafe,Alaves,4,1,H
+874,18/11/2017,Leganes,Barcelona,0,3,A
+875,18/11/2017,Sevilla,Celta,2,1,H
+876,19/11/2017,Ath Bilbao,Villarreal,1,1,D
+877,19/11/2017,Espanol,Valencia,0,2,A
+878,19/11/2017,Las Palmas,Levante,0,2,A
+879,19/11/2017,Malaga,La Coruna,3,2,H
+880,20/11/2017,Eibar,Betis,5,0,H
+881,24/11/2017,Celta,Leganes,1,0,H
+882,25/11/2017,Alaves,Eibar,1,2,A
+883,25/11/2017,Betis,Girona,2,2,D
+884,25/11/2017,Levante,Ath Madrid,0,5,A
+885,25/11/2017,Real Madrid,Malaga,3,2,H
+886,26/11/2017,La Coruna,Ath Bilbao,2,2,D
+887,26/11/2017,Sociedad,Las Palmas,2,2,D
+888,26/11/2017,Valencia,Barcelona,1,1,D
+889,26/11/2017,Villarreal,Sevilla,2,3,A
+890,27/11/2017,Espanol,Getafe,1,0,H
+891,01/12/2017,Malaga,Levante,0,0,D
+892,02/12/2017,Ath Bilbao,Real Madrid,0,0,D
+893,02/12/2017,Ath Madrid,Sociedad,2,1,H
+894,02/12/2017,Barcelona,Celta,2,2,D
+895,02/12/2017,Sevilla,La Coruna,2,0,H
+896,03/12/2017,Eibar,Espanol,3,1,H
+897,03/12/2017,Getafe,Valencia,1,0,H
+898,03/12/2017,Las Palmas,Betis,1,0,H
+899,03/12/2017,Leganes,Villarreal,3,1,H
+900,04/12/2017,Girona,Alaves,2,3,A
+901,08/12/2017,Alaves,Las Palmas,2,0,H
+902,09/12/2017,Getafe,Eibar,0,0,D
+903,09/12/2017,La Coruna,Leganes,1,0,H
+904,09/12/2017,Real Madrid,Sevilla,5,0,H
+905,09/12/2017,Valencia,Celta,2,1,H
+906,10/12/2017,Betis,Ath Madrid,0,1,A
+907,10/12/2017,Levante,Ath Bilbao,1,2,A
+908,10/12/2017,Sociedad,Malaga,0,2,A
+909,10/12/2017,Villarreal,Barcelona,0,2,A
+910,11/12/2017,Espanol,Girona,0,1,A
+911,15/12/2017,Sevilla,Levante,0,0,D
+912,16/12/2017,Ath Bilbao,Sociedad,0,0,D
+913,16/12/2017,Ath Madrid,Alaves,1,0,H
+914,16/12/2017,Eibar,Valencia,2,1,H
+915,17/12/2017,Barcelona,La Coruna,4,0,H
+916,17/12/2017,Celta,Villarreal,0,1,A
+917,17/12/2017,Girona,Getafe,1,0,H
+918,17/12/2017,Las Palmas,Espanol,2,2,D
+919,18/12/2017,Malaga,Betis,0,2,A
+920,19/12/2017,Levante,Leganes,0,0,D
+921,20/12/2017,Getafe,Las Palmas,2,0,H
+922,20/12/2017,Sociedad,Sevilla,3,1,H
+923,21/12/2017,Alaves,Malaga,1,0,H
+924,21/12/2017,Eibar,Girona,4,1,H
+925,22/12/2017,Betis,Ath Bilbao,0,2,A
+926,22/12/2017,Espanol,Ath Madrid,1,0,H
+927,23/12/2017,La Coruna,Celta,1,3,A
+928,23/12/2017,Real Madrid,Barcelona,0,3,A
+929,23/12/2017,Valencia,Villarreal,0,1,A
+930,06/01/2018,Ath Madrid,Getafe,2,0,H
+931,06/01/2018,Las Palmas,Eibar,1,2,A
+932,06/01/2018,Sevilla,Betis,3,5,A
+933,06/01/2018,Valencia,Girona,2,1,H
+934,07/01/2018,Ath Bilbao,Alaves,2,0,H
+935,07/01/2018,Barcelona,Levante,3,0,H
+936,07/01/2018,Celta,Real Madrid,2,2,D
+937,07/01/2018,Leganes,Sociedad,1,0,H
+938,07/01/2018,Villarreal,La Coruna,1,1,D
+939,08/01/2018,Malaga,Espanol,0,1,A
+940,12/01/2018,Getafe,Malaga,1,0,H
+941,13/01/2018,Eibar,Ath Madrid,0,1,A
+942,13/01/2018,Girona,Las Palmas,6,0,H
+943,13/01/2018,La Coruna,Valencia,1,2,A
+944,13/01/2018,Real Madrid,Villarreal,0,1,A
+945,14/01/2018,Alaves,Sevilla,1,0,H
+946,14/01/2018,Espanol,Ath Bilbao,1,1,D
+947,14/01/2018,Levante,Celta,0,1,A
+948,14/01/2018,Sociedad,Barcelona,2,4,A
+949,15/01/2018,Betis,Leganes,3,2,H
+950,19/01/2018,Getafe,Ath Bilbao,2,2,D
+951,20/01/2018,Ath Madrid,Girona,1,1,D
+952,20/01/2018,Espanol,Sevilla,0,3,A
+953,20/01/2018,Las Palmas,Valencia,2,1,H
+954,20/01/2018,Villarreal,Levante,2,1,H
+955,21/01/2018,Alaves,Leganes,2,2,D
+956,21/01/2018,Betis,Barcelona,0,5,A
+957,21/01/2018,Real Madrid,La Coruna,7,1,H
+958,21/01/2018,Sociedad,Celta,1,2,A
+959,22/01/2018,Eibar,Malaga,1,1,D
+960,26/01/2018,Ath Bilbao,Eibar,1,1,D
+961,27/01/2018,La Coruna,Levante,2,2,D
+962,27/01/2018,Malaga,Girona,0,0,D
+963,27/01/2018,Valencia,Real Madrid,1,4,A
+964,27/01/2018,Villarreal,Sociedad,4,2,H
+965,28/01/2018,Ath Madrid,Las Palmas,3,0,H
+966,28/01/2018,Barcelona,Alaves,2,1,H
+967,28/01/2018,Leganes,Espanol,3,2,H
+968,28/01/2018,Sevilla,Getafe,1,1,D
+969,29/01/2018,Celta,Betis,3,2,H
+970,02/02/2018,Sociedad,La Coruna,5,0,H
+971,03/02/2018,Alaves,Celta,2,1,H
+972,03/02/2018,Betis,Villarreal,2,1,H
+973,03/02/2018,Eibar,Sevilla,5,1,H
+974,03/02/2018,Levante,Real Madrid,2,2,D
+975,04/02/2018,Ath Madrid,Valencia,1,0,H
+976,04/02/2018,Espanol,Barcelona,1,1,D
+977,04/02/2018,Getafe,Leganes,0,0,D
+978,04/02/2018,Girona,Ath Bilbao,2,0,H
+979,05/02/2018,Las Palmas,Malaga,1,0,H
+980,09/02/2018,Ath Bilbao,Las Palmas,0,0,D
+981,10/02/2018,Leganes,Eibar,0,1,A
+982,10/02/2018,Malaga,Ath Madrid,0,1,A
+983,10/02/2018,Real Madrid,Sociedad,5,2,H
+984,10/02/2018,Villarreal,Alaves,1,2,A
+985,11/02/2018,Barcelona,Getafe,0,0,D
+986,11/02/2018,Celta,Espanol,2,2,D
+987,11/02/2018,Sevilla,Girona,1,0,H
+988,11/02/2018,Valencia,Levante,3,1,H
+989,12/02/2018,La Coruna,Betis,0,1,A
+990,16/02/2018,Girona,Leganes,3,0,H
+991,17/02/2018,Alaves,La Coruna,1,0,H
+992,17/02/2018,Eibar,Barcelona,0,2,A
+993,17/02/2018,Las Palmas,Sevilla,1,2,A
+994,17/02/2018,Malaga,Valencia,1,2,A
+995,18/02/2018,Ath Madrid,Ath Bilbao,2,0,H
+996,18/02/2018,Betis,Real Madrid,3,5,A
+997,18/02/2018,Espanol,Villarreal,1,1,D
+998,18/02/2018,Sociedad,Levante,3,0,H
+999,19/02/2018,Getafe,Celta,3,0,H
+1000,21/02/2018,Leganes,Real Madrid,1,3,A
+1001,23/02/2018,La Coruna,Espanol,0,0,D
+1002,24/02/2018,Barcelona,Girona,6,1,H
+1003,24/02/2018,Celta,Eibar,2,0,H
+1004,24/02/2018,Leganes,Las Palmas,0,0,D
+1005,24/02/2018,Real Madrid,Alaves,4,0,H
+1006,25/02/2018,Ath Bilbao,Malaga,2,1,H
+1007,25/02/2018,Sevilla,Ath Madrid,2,5,A
+1008,25/02/2018,Valencia,Sociedad,2,1,H
+1009,25/02/2018,Villarreal,Getafe,1,0,H
+1010,26/02/2018,Levante,Betis,0,2,A
+1011,27/02/2018,Espanol,Real Madrid,1,0,H
+1012,27/02/2018,Girona,Celta,1,0,H
+1013,28/02/2018,Ath Bilbao,Valencia,1,1,D
+1014,28/02/2018,Ath Madrid,Leganes,4,0,H
+1015,28/02/2018,Eibar,Villarreal,1,0,H
+1016,28/02/2018,Getafe,La Coruna,3,0,H
+1017,28/02/2018,Malaga,Sevilla,0,1,A
+1018,01/03/2018,Alaves,Levante,1,0,H
+1019,01/03/2018,Betis,Sociedad,0,0,D
+1020,01/03/2018,Las Palmas,Barcelona,1,1,D
+1021,03/03/2018,La Coruna,Eibar,1,1,D
+1022,03/03/2018,Leganes,Malaga,2,0,H
+1023,03/03/2018,Real Madrid,Getafe,3,1,H
+1024,03/03/2018,Sevilla,Ath Bilbao,2,0,H
+1025,03/03/2018,Villarreal,Girona,0,2,A
+1026,04/03/2018,Barcelona,Ath Madrid,1,0,H
+1027,04/03/2018,Levante,Espanol,1,1,D
+1028,04/03/2018,Sociedad,Alaves,2,1,H
+1029,04/03/2018,Valencia,Betis,2,0,H
+1030,05/03/2018,Celta,Las Palmas,2,1,H
+1031,09/03/2018,Girona,La Coruna,2,0,H
+1032,10/03/2018,Eibar,Real Madrid,1,2,A
+1033,10/03/2018,Getafe,Levante,0,1,A
+1034,10/03/2018,Malaga,Barcelona,0,2,A
+1035,10/03/2018,Sevilla,Valencia,0,2,A
+1036,11/03/2018,Ath Bilbao,Leganes,2,0,H
+1037,11/03/2018,Ath Madrid,Celta,3,0,H
+1038,11/03/2018,Espanol,Sociedad,2,1,H
+1039,11/03/2018,Las Palmas,Villarreal,0,2,A
+1040,12/03/2018,Alaves,Betis,1,3,A
+1041,16/03/2018,Levante,Eibar,2,1,H
+1042,17/03/2018,Betis,Espanol,3,0,H
+1043,17/03/2018,La Coruna,Las Palmas,1,1,D
+1044,17/03/2018,Sociedad,Getafe,1,2,A
+1045,17/03/2018,Valencia,Alaves,3,1,H
+1046,18/03/2018,Barcelona,Ath Bilbao,2,0,H
+1047,18/03/2018,Celta,Malaga,0,0,D
+1048,18/03/2018,Leganes,Sevilla,2,1,H
+1049,18/03/2018,Real Madrid,Girona,6,3,H
+1050,18/03/2018,Villarreal,Ath Madrid,2,1,H
+1051,31/03/2018,Ath Bilbao,Celta,1,1,D
+1052,31/03/2018,Girona,Levante,1,1,D
+1053,31/03/2018,Las Palmas,Real Madrid,0,3,A
+1054,31/03/2018,Sevilla,Barcelona,2,2,D
+1055,01/04/2018,Ath Madrid,La Coruna,1,0,H
+1056,01/04/2018,Eibar,Sociedad,0,0,D
+1057,01/04/2018,Espanol,Alaves,0,0,D
+1058,01/04/2018,Leganes,Valencia,0,1,A
+1059,01/04/2018,Malaga,Villarreal,1,0,H
+1060,02/04/2018,Getafe,Betis,0,1,A
+1061,06/04/2018,La Coruna,Malaga,3,2,H
+1062,07/04/2018,Alaves,Getafe,2,0,H
+1063,07/04/2018,Barcelona,Leganes,3,1,H
+1064,07/04/2018,Betis,Eibar,2,0,H
+1065,07/04/2018,Celta,Sevilla,4,0,H
+1066,08/04/2018,Levante,Las Palmas,2,1,H
+1067,08/04/2018,Real Madrid,Ath Madrid,1,1,D
+1068,08/04/2018,Sociedad,Girona,5,0,H
+1069,08/04/2018,Valencia,Espanol,1,0,H
+1070,09/04/2018,Villarreal,Ath Bilbao,1,3,A
+1071,13/04/2018,Girona,Betis,0,1,A
+1072,14/04/2018,Ath Bilbao,La Coruna,2,3,A
+1073,14/04/2018,Barcelona,Valencia,2,1,H
+1074,14/04/2018,Las Palmas,Sociedad,0,1,A
+1075,14/04/2018,Leganes,Celta,1,0,H
+1076,14/04/2018,Sevilla,Villarreal,2,2,D
+1077,15/04/2018,Ath Madrid,Levante,3,0,H
+1078,15/04/2018,Eibar,Alaves,0,1,A
+1079,15/04/2018,Getafe,Espanol,1,0,H
+1080,15/04/2018,Malaga,Real Madrid,1,2,A
+1081,17/04/2018,Celta,Barcelona,2,2,D
+1082,17/04/2018,La Coruna,Sevilla,0,0,D
+1083,17/04/2018,Villarreal,Leganes,2,1,H
+1084,18/04/2018,Espanol,Eibar,0,1,A
+1085,18/04/2018,Real Madrid,Ath Bilbao,1,1,D
+1086,18/04/2018,Valencia,Getafe,1,2,A
+1087,19/04/2018,Alaves,Girona,1,2,A
+1088,19/04/2018,Betis,Las Palmas,1,0,H
+1089,19/04/2018,Levante,Malaga,1,0,H
+1090,19/04/2018,Sociedad,Ath Madrid,3,0,H
+1091,20/04/2018,Leganes,La Coruna,0,0,D
+1092,21/04/2018,Celta,Valencia,1,1,D
+1093,21/04/2018,Eibar,Getafe,0,1,A
+1094,22/04/2018,Ath Madrid,Betis,0,0,D
+1095,22/04/2018,Girona,Espanol,0,2,A
+1096,22/04/2018,Las Palmas,Alaves,0,4,A
+1097,22/04/2018,Malaga,Sociedad,2,0,H
+1098,23/04/2018,Ath Bilbao,Levante,1,3,A
+1099,27/04/2018,Levante,Sevilla,2,1,H
+1100,28/04/2018,Espanol,Las Palmas,1,1,D
+1101,28/04/2018,Real Madrid,Leganes,2,1,H
+1102,28/04/2018,Sociedad,Ath Bilbao,3,1,H
+1103,28/04/2018,Villarreal,Celta,4,1,H
+1104,29/04/2018,Alaves,Ath Madrid,0,1,A
+1105,29/04/2018,Getafe,Girona,1,1,D
+1106,29/04/2018,La Coruna,Barcelona,2,4,A
+1107,29/04/2018,Valencia,Eibar,0,0,D
+1108,30/04/2018,Betis,Malaga,2,1,H
+1109,04/05/2018,Sevilla,Sociedad,1,0,H
+1110,05/05/2018,Ath Bilbao,Betis,2,0,H
+1111,05/05/2018,Celta,La Coruna,1,1,D
+1112,05/05/2018,Girona,Eibar,1,4,A
+1113,05/05/2018,Villarreal,Valencia,1,0,H
+1114,06/05/2018,Ath Madrid,Espanol,0,2,A
+1115,06/05/2018,Barcelona,Real Madrid,2,2,D
+1116,06/05/2018,Las Palmas,Getafe,0,1,A
+1117,06/05/2018,Malaga,Alaves,0,3,A
+1118,07/05/2018,Leganes,Levante,0,3,A
+1119,09/05/2018,Barcelona,Villarreal,5,1,H
+1120,09/05/2018,Sevilla,Real Madrid,3,2,H
+1121,12/05/2018,Alaves,Ath Bilbao,3,1,H
+1122,12/05/2018,Betis,Sevilla,2,2,D
+1123,12/05/2018,Eibar,Las Palmas,1,0,H
+1124,12/05/2018,Getafe,Ath Madrid,0,1,A
+1125,12/05/2018,Girona,Valencia,0,1,A
+1126,12/05/2018,La Coruna,Villarreal,2,4,A
+1127,12/05/2018,Real Madrid,Celta,6,0,H
+1128,12/05/2018,Sociedad,Leganes,3,2,H
+1129,13/05/2018,Espanol,Malaga,4,1,H
+1130,13/05/2018,Levante,Barcelona,5,4,H
+1131,19/05/2018,Celta,Levante,4,2,H
+1132,19/05/2018,Las Palmas,Girona,1,2,A
+1133,19/05/2018,Leganes,Betis,3,2,H
+1134,19/05/2018,Malaga,Getafe,0,1,A
+1135,19/05/2018,Sevilla,Alaves,1,0,H
+1136,19/05/2018,Villarreal,Real Madrid,2,2,D
+1137,20/05/2018,Ath Bilbao,Espanol,0,1,A
+1138,20/05/2018,Ath Madrid,Eibar,2,2,D
+1139,20/05/2018,Barcelona,Sociedad,1,0,H
+1140,20/05/2018,Valencia,La Coruna,2,1,H
+1141,17/08/2018,Betis,Levante,0,3,A
+1142,17/08/2018,Girona,Valladolid,0,0,D
+1143,18/08/2018,Barcelona,Alaves,3,0,H
+1144,18/08/2018,Celta,Espanol,1,1,D
+1145,18/08/2018,Villarreal,Sociedad,1,2,A
+1146,19/08/2018,Eibar,Huesca,1,2,A
+1147,19/08/2018,Real Madrid,Getafe,2,0,H
+1148,19/08/2018,Vallecano,Sevilla,1,4,A
+1149,20/08/2018,Ath Bilbao,Leganes,2,1,H
+1150,20/08/2018,Valencia,Ath Madrid,1,1,D
+1151,24/08/2018,Getafe,Eibar,2,0,H
+1152,24/08/2018,Leganes,Sociedad,2,2,D
+1153,25/08/2018,Alaves,Betis,0,0,D
+1154,25/08/2018,Ath Madrid,Vallecano,1,0,H
+1155,25/08/2018,Valladolid,Barcelona,0,1,A
+1156,26/08/2018,Espanol,Valencia,2,0,H
+1157,26/08/2018,Girona,Real Madrid,1,4,A
+1158,26/08/2018,Sevilla,Villarreal,0,0,D
+1159,27/08/2018,Ath Bilbao,Huesca,2,2,D
+1160,27/08/2018,Levante,Celta,1,2,A
+1161,31/08/2018,Eibar,Sociedad,2,1,H
+1162,31/08/2018,Getafe,Valladolid,0,0,D
+1163,31/08/2018,Villarreal,Girona,0,1,A
+1164,01/09/2018,Celta,Ath Madrid,2,0,H
+1165,01/09/2018,Real Madrid,Leganes,4,1,H
+1166,02/09/2018,Alaves,Espanol,2,1,H
+1167,02/09/2018,Barcelona,Huesca,8,2,H
+1168,02/09/2018,Betis,Sevilla,1,0,H
+1169,02/09/2018,Levante,Valencia,2,2,D
+1170,14/09/2018,Huesca,Vallecano,0,1,A
+1171,15/09/2018,Ath Bilbao,Real Madrid,1,1,D
+1172,15/09/2018,Ath Madrid,Eibar,1,1,D
+1173,15/09/2018,Sociedad,Barcelona,1,2,A
+1174,15/09/2018,Valencia,Betis,0,0,D
+1175,16/09/2018,Espanol,Levante,1,0,H
+1176,16/09/2018,Leganes,Villarreal,0,1,A
+1177,16/09/2018,Sevilla,Getafe,0,2,A
+1178,16/09/2018,Valladolid,Alaves,0,1,A
+1179,17/09/2018,Girona,Celta,3,2,H
+1180,21/09/2018,Huesca,Sociedad,0,1,A
+1181,22/09/2018,Celta,Valladolid,3,3,D
+1182,22/09/2018,Eibar,Leganes,1,0,H
+1183,22/09/2018,Getafe,Ath Madrid,0,2,A
+1184,22/09/2018,Real Madrid,Espanol,1,0,H
+1185,22/09/2018,Vallecano,Alaves,1,5,A
+1186,23/09/2018,Barcelona,Girona,2,2,D
+1187,23/09/2018,Betis,Ath Bilbao,2,2,D
+1188,23/09/2018,Levante,Sevilla,2,6,A
+1189,23/09/2018,Villarreal,Valencia,0,0,D
+1190,25/09/2018,Ath Madrid,Huesca,3,0,H
+1191,25/09/2018,Espanol,Eibar,1,0,H
+1192,25/09/2018,Sociedad,Vallecano,2,2,D
+1193,26/09/2018,Ath Bilbao,Villarreal,0,3,A
+1194,26/09/2018,Leganes,Barcelona,2,1,H
+1195,26/09/2018,Sevilla,Real Madrid,3,0,H
+1196,26/09/2018,Valencia,Celta,1,1,D
+1197,27/09/2018,Alaves,Getafe,1,1,D
+1198,27/09/2018,Girona,Betis,0,1,A
+1199,27/09/2018,Valladolid,Levante,2,1,H
+1200,28/09/2018,Vallecano,Espanol,2,2,D
+1201,29/09/2018,Barcelona,Ath Bilbao,1,1,D
+1202,29/09/2018,Eibar,Sevilla,1,3,A
+1203,29/09/2018,Real Madrid,Ath Madrid,0,0,D
+1204,29/09/2018,Sociedad,Valencia,0,1,A
+1205,30/09/2018,Betis,Leganes,1,0,H
+1206,30/09/2018,Huesca,Girona,1,1,D
+1207,30/09/2018,Levante,Alaves,2,1,H
+1208,30/09/2018,Villarreal,Valladolid,0,1,A
+1209,01/10/2018,Celta,Getafe,1,1,D
+1210,05/10/2018,Ath Bilbao,Sociedad,1,3,A
+1211,06/10/2018,Alaves,Real Madrid,1,0,H
+1212,06/10/2018,Getafe,Levante,0,1,A
+1213,06/10/2018,Girona,Eibar,2,3,A
+1214,06/10/2018,Leganes,Vallecano,1,0,H
+1215,07/10/2018,Ath Madrid,Betis,1,0,H
+1216,07/10/2018,Espanol,Villarreal,3,1,H
+1217,07/10/2018,Sevilla,Celta,2,1,H
+1218,07/10/2018,Valencia,Barcelona,1,1,D
+1219,07/10/2018,Valladolid,Huesca,1,0,H
+1220,19/10/2018,Celta,Alaves,0,1,A
+1221,20/10/2018,Barcelona,Sevilla,4,2,H
+1222,20/10/2018,Real Madrid,Levante,1,2,A
+1223,20/10/2018,Valencia,Leganes,1,1,D
+1224,20/10/2018,Villarreal,Ath Madrid,1,1,D
+1225,21/10/2018,Betis,Valladolid,0,1,A
+1226,21/10/2018,Eibar,Ath Bilbao,1,1,D
+1227,21/10/2018,Huesca,Espanol,0,2,A
+1228,21/10/2018,Vallecano,Getafe,1,2,A
+1229,22/10/2018,Sociedad,Girona,0,0,D
+1230,24/10/2018,Vallecano,Ath Bilbao,1,1,D
+1231,26/10/2018,Valladolid,Espanol,1,1,D
+1232,27/10/2018,Ath Bilbao,Valencia,0,0,D
+1233,27/10/2018,Ath Madrid,Sociedad,2,0,H
+1234,27/10/2018,Celta,Eibar,4,0,H
+1235,27/10/2018,Girona,Vallecano,2,1,H
+1236,27/10/2018,Levante,Leganes,2,0,H
+1237,28/10/2018,Alaves,Villarreal,2,1,H
+1238,28/10/2018,Barcelona,Real Madrid,5,1,H
+1239,28/10/2018,Getafe,Betis,2,0,H
+1240,28/10/2018,Sevilla,Huesca,2,1,H
+1241,03/11/2018,Leganes,Ath Madrid,1,1,D
+1242,03/11/2018,Real Madrid,Valladolid,2,0,H
+1243,03/11/2018,Valencia,Girona,0,1,A
+1244,03/11/2018,Vallecano,Barcelona,2,3,A
+1245,04/11/2018,Betis,Celta,3,3,D
+1246,04/11/2018,Eibar,Alaves,2,1,H
+1247,04/11/2018,Huesca,Getafe,1,1,D
+1248,04/11/2018,Sociedad,Sevilla,0,0,D
+1249,04/11/2018,Villarreal,Levante,1,1,D
+1250,05/11/2018,Espanol,Ath Bilbao,1,0,H
+1251,09/11/2018,Levante,Sociedad,1,3,A
+1252,10/11/2018,Ath Madrid,Ath Bilbao,3,2,H
+1253,10/11/2018,Getafe,Valencia,0,1,A
+1254,10/11/2018,Girona,Leganes,0,0,D
+1255,10/11/2018,Valladolid,Eibar,0,0,D
+1256,11/11/2018,Alaves,Huesca,2,1,H
+1257,11/11/2018,Barcelona,Betis,3,4,A
+1258,11/11/2018,Celta,Real Madrid,2,4,A
+1259,11/11/2018,Sevilla,Espanol,2,1,H
+1260,11/11/2018,Vallecano,Villarreal,2,2,D
+1261,23/11/2018,Leganes,Alaves,1,0,H
+1262,24/11/2018,Ath Madrid,Barcelona,1,1,D
+1263,24/11/2018,Eibar,Real Madrid,3,0,H
+1264,24/11/2018,Huesca,Levante,2,2,D
+1265,24/11/2018,Valencia,Vallecano,3,0,H
+1266,25/11/2018,Ath Bilbao,Getafe,1,1,D
+1267,25/11/2018,Espanol,Girona,1,3,A
+1268,25/11/2018,Sevilla,Valladolid,1,0,H
+1269,25/11/2018,Villarreal,Betis,2,1,H
+1270,26/11/2018,Sociedad,Celta,2,1,H
+1271,30/11/2018,Vallecano,Eibar,1,0,H
+1272,01/12/2018,Celta,Huesca,2,0,H
+1273,01/12/2018,Getafe,Espanol,3,0,H
+1274,01/12/2018,Real Madrid,Valencia,2,0,H
+1275,01/12/2018,Valladolid,Leganes,2,4,A
+1276,02/12/2018,Alaves,Sevilla,1,1,D
+1277,02/12/2018,Barcelona,Villarreal,2,0,H
+1278,02/12/2018,Betis,Sociedad,1,0,H
+1279,02/12/2018,Girona,Ath Madrid,1,1,D
+1280,03/12/2018,Levante,Ath Bilbao,3,0,H
+1281,07/12/2018,Leganes,Getafe,1,1,D
+1282,08/12/2018,Ath Madrid,Alaves,3,0,H
+1283,08/12/2018,Espanol,Barcelona,0,4,A
+1284,08/12/2018,Valencia,Sevilla,1,1,D
+1285,08/12/2018,Villarreal,Celta,2,3,A
+1286,09/12/2018,Betis,Vallecano,2,0,H
+1287,09/12/2018,Eibar,Levante,4,4,D
+1288,09/12/2018,Huesca,Real Madrid,0,1,A
+1289,09/12/2018,Sociedad,Valladolid,1,2,A
+1290,10/12/2018,Ath Bilbao,Girona,1,0,H
+1291,14/12/2018,Celta,Leganes,0,0,D
+1292,15/12/2018,Eibar,Valencia,1,1,D
+1293,15/12/2018,Getafe,Sociedad,1,0,H
+1294,15/12/2018,Real Madrid,Vallecano,1,0,H
+1295,15/12/2018,Valladolid,Ath Madrid,2,3,A
+1296,16/12/2018,Espanol,Betis,1,3,A
+1297,16/12/2018,Huesca,Villarreal,2,2,D
+1298,16/12/2018,Levante,Barcelona,0,5,A
+1299,16/12/2018,Sevilla,Girona,2,0,H
+1300,17/12/2018,Alaves,Ath Bilbao,0,0,D
+1301,21/12/2018,Girona,Getafe,1,1,D
+1302,21/12/2018,Sociedad,Alaves,0,1,A
+1303,22/12/2018,Ath Bilbao,Valladolid,1,1,D
+1304,22/12/2018,Ath Madrid,Espanol,1,0,H
+1305,22/12/2018,Barcelona,Celta,2,0,H
+1306,22/12/2018,Betis,Eibar,1,1,D
+1307,23/12/2018,Leganes,Sevilla,1,1,D
+1308,23/12/2018,Valencia,Huesca,2,1,H
+1309,23/12/2018,Vallecano,Levante,2,1,H
+1310,03/01/2019,Villarreal,Real Madrid,2,2,D
+1311,04/01/2019,Espanol,Leganes,1,0,H
+1312,04/01/2019,Levante,Girona,2,2,D
+1313,05/01/2019,Alaves,Valencia,2,1,H
+1314,05/01/2019,Huesca,Betis,2,1,H
+1315,05/01/2019,Valladolid,Vallecano,0,1,A
+1316,06/01/2019,Eibar,Villarreal,0,0,D
+1317,06/01/2019,Getafe,Barcelona,1,2,A
+1318,06/01/2019,Real Madrid,Sociedad,0,2,A
+1319,06/01/2019,Sevilla,Ath Madrid,1,1,D
+1320,07/01/2019,Celta,Ath Bilbao,1,2,A
+1321,11/01/2019,Vallecano,Celta,4,2,H
+1322,12/01/2019,Girona,Alaves,1,1,D
+1323,12/01/2019,Leganes,Huesca,1,0,H
+1324,12/01/2019,Valencia,Valladolid,1,1,D
+1325,12/01/2019,Villarreal,Getafe,1,2,A
+1326,13/01/2019,Ath Bilbao,Sevilla,2,0,H
+1327,13/01/2019,Ath Madrid,Levante,1,0,H
+1328,13/01/2019,Barcelona,Eibar,3,0,H
+1329,13/01/2019,Betis,Real Madrid,1,2,A
+1330,14/01/2019,Sociedad,Espanol,3,2,H
+1331,18/01/2019,Getafe,Alaves,4,0,H
+1332,19/01/2019,Celta,Valencia,1,2,A
+1333,19/01/2019,Huesca,Ath Madrid,0,3,A
+1334,19/01/2019,Real Madrid,Sevilla,2,0,H
+1335,20/01/2019,Barcelona,Leganes,3,1,H
+1336,20/01/2019,Betis,Girona,3,2,H
+1337,20/01/2019,Levante,Valladolid,2,0,H
+1338,20/01/2019,Vallecano,Sociedad,2,2,D
+1339,20/01/2019,Villarreal,Ath Bilbao,1,1,D
+1340,21/01/2019,Eibar,Espanol,3,0,H
+1341,26/01/2019,Ath Madrid,Getafe,2,0,H
+1342,26/01/2019,Leganes,Eibar,2,2,D
+1343,26/01/2019,Sevilla,Levante,5,0,H
+1344,26/01/2019,Valencia,Villarreal,3,0,H
+1345,27/01/2019,Ath Bilbao,Betis,1,0,H
+1346,27/01/2019,Espanol,Real Madrid,2,4,A
+1347,27/01/2019,Girona,Barcelona,0,2,A
+1348,27/01/2019,Sociedad,Huesca,0,0,D
+1349,27/01/2019,Valladolid,Celta,2,1,H
+1350,28/01/2019,Alaves,Vallecano,0,1,A
+1351,01/02/2019,Huesca,Valladolid,4,0,H
+1352,02/02/2019,Barcelona,Valencia,2,2,D
+1353,02/02/2019,Celta,Sevilla,1,0,H
+1354,02/02/2019,Levante,Getafe,0,0,D
+1355,02/02/2019,Sociedad,Ath Bilbao,2,1,H
+1356,03/02/2019,Betis,Ath Madrid,1,0,H
+1357,03/02/2019,Eibar,Girona,3,0,H
+1358,03/02/2019,Real Madrid,Alaves,3,0,H
+1359,03/02/2019,Villarreal,Espanol,2,2,D
+1360,04/02/2019,Vallecano,Leganes,1,2,A
+1361,08/02/2019,Valladolid,Villarreal,0,0,D
+1362,09/02/2019,Ath Madrid,Real Madrid,1,3,A
+1363,09/02/2019,Espanol,Vallecano,2,1,H
+1364,09/02/2019,Getafe,Celta,3,1,H
+1365,09/02/2019,Girona,Huesca,0,2,A
+1366,10/02/2019,Ath Bilbao,Barcelona,0,0,D
+1367,10/02/2019,Leganes,Betis,3,0,H
+1368,10/02/2019,Sevilla,Eibar,2,2,D
+1369,10/02/2019,Valencia,Sociedad,0,0,D
+1370,11/02/2019,Alaves,Levante,2,0,H
+1371,15/02/2019,Eibar,Getafe,2,2,D
+1372,16/02/2019,Barcelona,Valladolid,1,0,H
+1373,16/02/2019,Celta,Levante,1,4,A
+1374,16/02/2019,Sociedad,Leganes,3,0,H
+1375,16/02/2019,Vallecano,Ath Madrid,0,1,A
+1376,17/02/2019,Betis,Alaves,1,1,D
+1377,17/02/2019,Real Madrid,Girona,1,2,A
+1378,17/02/2019,Valencia,Espanol,0,0,D
+1379,17/02/2019,Villarreal,Sevilla,3,0,H
+1380,18/02/2019,Huesca,Ath Bilbao,0,1,A
+1381,22/02/2019,Espanol,Huesca,1,1,D
+1382,23/02/2019,Alaves,Celta,0,0,D
+1383,23/02/2019,Ath Bilbao,Eibar,1,0,H
+1384,23/02/2019,Getafe,Vallecano,2,1,H
+1385,23/02/2019,Sevilla,Barcelona,2,4,A
+1386,24/02/2019,Ath Madrid,Villarreal,2,0,H
+1387,24/02/2019,Leganes,Valencia,1,1,D
+1388,24/02/2019,Levante,Real Madrid,1,2,A
+1389,24/02/2019,Valladolid,Betis,0,2,A
+1390,25/02/2019,Girona,Sociedad,0,0,D
+1391,01/03/2019,Vallecano,Girona,0,2,A
+1392,02/03/2019,Espanol,Valladolid,3,1,H
+1393,02/03/2019,Huesca,Sevilla,2,1,H
+1394,02/03/2019,Real Madrid,Barcelona,0,1,A
+1395,02/03/2019,Villarreal,Alaves,1,2,A
+1396,03/03/2019,Betis,Getafe,1,2,A
+1397,03/03/2019,Eibar,Celta,1,0,H
+1398,03/03/2019,Sociedad,Ath Madrid,0,2,A
+1399,03/03/2019,Valencia,Ath Bilbao,2,0,H
+1400,04/03/2019,Leganes,Levante,1,0,H
+1401,08/03/2019,Ath Bilbao,Espanol,1,1,D
+1402,09/03/2019,Alaves,Eibar,1,1,D
+1403,09/03/2019,Ath Madrid,Leganes,1,0,H
+1404,09/03/2019,Barcelona,Vallecano,3,1,H
+1405,09/03/2019,Getafe,Huesca,2,1,H
+1406,10/03/2019,Celta,Betis,0,1,A
+1407,10/03/2019,Girona,Valencia,2,3,A
+1408,10/03/2019,Levante,Villarreal,0,2,A
+1409,10/03/2019,Sevilla,Sociedad,5,2,H
+1410,10/03/2019,Valladolid,Real Madrid,1,4,A
+1411,15/03/2019,Sociedad,Levante,1,1,D
+1412,16/03/2019,Ath Bilbao,Ath Madrid,2,0,H
+1413,16/03/2019,Huesca,Alaves,1,3,A
+1414,16/03/2019,Leganes,Girona,0,2,A
+1415,16/03/2019,Real Madrid,Celta,2,0,H
+1416,17/03/2019,Betis,Barcelona,1,4,A
+1417,17/03/2019,Eibar,Valladolid,1,2,A
+1418,17/03/2019,Espanol,Sevilla,0,1,A
+1419,17/03/2019,Valencia,Getafe,0,0,D
+1420,17/03/2019,Villarreal,Vallecano,3,1,H
+1421,29/03/2019,Girona,Ath Bilbao,1,2,A
+1422,30/03/2019,Alaves,Ath Madrid,0,4,A
+1423,30/03/2019,Barcelona,Espanol,2,0,H
+1424,30/03/2019,Celta,Villarreal,3,2,H
+1425,30/03/2019,Getafe,Leganes,0,2,A
+1426,31/03/2019,Levante,Eibar,2,2,D
+1427,31/03/2019,Real Madrid,Huesca,3,2,H
+1428,31/03/2019,Sevilla,Valencia,0,1,A
+1429,31/03/2019,Valladolid,Sociedad,1,1,D
+1430,31/03/2019,Vallecano,Betis,1,1,D
+1431,02/04/2019,Ath Madrid,Girona,2,0,H
+1432,02/04/2019,Espanol,Getafe,1,1,D
+1433,02/04/2019,Villarreal,Barcelona,4,4,D
+1434,03/04/2019,Ath Bilbao,Levante,3,2,H
+1435,03/04/2019,Eibar,Vallecano,2,1,H
+1436,03/04/2019,Huesca,Celta,3,3,D
+1437,03/04/2019,Valencia,Real Madrid,2,1,H
+1438,04/04/2019,Leganes,Valladolid,1,0,H
+1439,04/04/2019,Sevilla,Alaves,2,0,H
+1440,04/04/2019,Sociedad,Betis,2,1,H
+1441,06/04/2019,Barcelona,Ath Madrid,2,0,H
+1442,06/04/2019,Girona,Espanol,1,2,A
+1443,06/04/2019,Real Madrid,Eibar,2,1,H
+1444,06/04/2019,Vallecano,Valencia,2,0,H
+1445,07/04/2019,Alaves,Leganes,1,1,D
+1446,07/04/2019,Betis,Villarreal,2,1,H
+1447,07/04/2019,Celta,Sociedad,3,1,H
+1448,07/04/2019,Getafe,Ath Bilbao,1,0,H
+1449,07/04/2019,Levante,Huesca,2,2,D
+1450,07/04/2019,Valladolid,Sevilla,0,2,A
+1451,13/04/2019,Ath Madrid,Celta,2,0,H
+1452,13/04/2019,Espanol,Alaves,2,1,H
+1453,13/04/2019,Huesca,Barcelona,0,0,D
+1454,13/04/2019,Sevilla,Betis,3,2,H
+1455,14/04/2019,Ath Bilbao,Vallecano,3,2,H
+1456,14/04/2019,Girona,Villarreal,0,1,A
+1457,14/04/2019,Sociedad,Eibar,1,1,D
+1458,14/04/2019,Valencia,Levante,3,1,H
+1459,14/04/2019,Valladolid,Getafe,2,2,D
+1460,15/04/2019,Leganes,Real Madrid,1,1,D
+1461,19/04/2019,Alaves,Valladolid,2,2,D
+1462,20/04/2019,Barcelona,Sociedad,2,1,H
+1463,20/04/2019,Celta,Girona,2,1,H
+1464,20/04/2019,Eibar,Ath Madrid,0,1,A
+1465,20/04/2019,Vallecano,Huesca,0,0,D
+1466,21/04/2019,Betis,Valencia,1,2,A
+1467,21/04/2019,Getafe,Sevilla,3,0,H
+1468,21/04/2019,Levante,Espanol,2,2,D
+1469,21/04/2019,Real Madrid,Ath Bilbao,3,0,H
+1470,21/04/2019,Villarreal,Leganes,2,1,H
+1471,23/04/2019,Alaves,Barcelona,0,2,A
+1472,23/04/2019,Huesca,Eibar,2,0,H
+1473,23/04/2019,Valladolid,Girona,1,0,H
+1474,24/04/2019,Ath Madrid,Valencia,3,2,H
+1475,24/04/2019,Espanol,Celta,1,1,D
+1476,24/04/2019,Leganes,Ath Bilbao,0,1,A
+1477,24/04/2019,Levante,Betis,4,0,H
+1478,25/04/2019,Getafe,Real Madrid,0,0,D
+1479,25/04/2019,Sevilla,Vallecano,5,0,H
+1480,25/04/2019,Sociedad,Villarreal,0,1,A
+1481,27/04/2019,Ath Bilbao,Alaves,1,1,D
+1482,27/04/2019,Ath Madrid,Valladolid,1,0,H
+1483,27/04/2019,Barcelona,Levante,1,0,H
+1484,27/04/2019,Leganes,Celta,0,0,D
+1485,28/04/2019,Girona,Sevilla,1,0,H
+1486,28/04/2019,Sociedad,Getafe,2,1,H
+1487,28/04/2019,Valencia,Eibar,0,1,A
+1488,28/04/2019,Vallecano,Real Madrid,1,0,H
+1489,28/04/2019,Villarreal,Huesca,1,1,D
+1490,29/04/2019,Betis,Espanol,1,1,D
+1491,03/05/2019,Sevilla,Leganes,0,3,A
+1492,04/05/2019,Alaves,Sociedad,0,1,A
+1493,04/05/2019,Celta,Barcelona,2,0,H
+1494,04/05/2019,Espanol,Ath Madrid,3,0,H
+1495,04/05/2019,Levante,Vallecano,4,1,H
+1496,05/05/2019,Eibar,Betis,1,0,H
+1497,05/05/2019,Getafe,Girona,2,0,H
+1498,05/05/2019,Huesca,Valencia,2,6,A
+1499,05/05/2019,Real Madrid,Villarreal,3,2,H
+1500,05/05/2019,Valladolid,Ath Bilbao,1,0,H
+1501,12/05/2019,Ath Bilbao,Celta,3,1,H
+1502,12/05/2019,Ath Madrid,Sevilla,1,1,D
+1503,12/05/2019,Barcelona,Getafe,2,0,H
+1504,12/05/2019,Betis,Huesca,2,1,H
+1505,12/05/2019,Girona,Levante,1,2,A
+1506,12/05/2019,Leganes,Espanol,0,2,A
+1507,12/05/2019,Sociedad,Real Madrid,3,1,H
+1508,12/05/2019,Valencia,Alaves,3,1,H
+1509,12/05/2019,Vallecano,Valladolid,1,2,A
+1510,12/05/2019,Villarreal,Eibar,1,0,H
+1511,18/05/2019,Alaves,Girona,2,1,H
+1512,18/05/2019,Celta,Vallecano,2,2,D
+1513,18/05/2019,Espanol,Sociedad,2,0,H
+1514,18/05/2019,Getafe,Villarreal,2,2,D
+1515,18/05/2019,Huesca,Leganes,2,1,H
+1516,18/05/2019,Levante,Ath Madrid,2,2,D
+1517,18/05/2019,Sevilla,Ath Bilbao,2,0,H
+1518,18/05/2019,Valladolid,Valencia,0,2,A
+1519,19/05/2019,Eibar,Barcelona,2,2,D
+1520,19/05/2019,Real Madrid,Betis,0,2,A
+1521,16/08/2019,Ath Bilbao,Barcelona,1,0,H
+1522,17/08/2019,Celta,Real Madrid,1,3,A
+1523,17/08/2019,Valencia,Sociedad,1,1,D
+1524,17/08/2019,Mallorca,Eibar,2,1,H
+1525,17/08/2019,Leganes,Osasuna,0,1,A
+1526,17/08/2019,Villarreal,Granada,4,4,D
+1527,18/08/2019,Alaves,Levante,1,0,H
+1528,18/08/2019,Espanol,Sevilla,0,2,A
+1529,18/08/2019,Betis,Valladolid,1,2,A
+1530,18/08/2019,Ath Madrid,Getafe,1,0,H
+1531,23/08/2019,Granada,Sevilla,0,1,A
+1532,23/08/2019,Levante,Villarreal,2,1,H
+1533,24/08/2019,Osasuna,Eibar,0,0,D
+1534,24/08/2019,Real Madrid,Valladolid,1,1,D
+1535,24/08/2019,Celta,Valencia,1,0,H
+1536,24/08/2019,Getafe,Ath Bilbao,1,1,D
+1537,25/08/2019,Alaves,Espanol,0,0,D
+1538,25/08/2019,Mallorca,Sociedad,0,1,A
+1539,25/08/2019,Leganes,Ath Madrid,0,1,A
+1540,25/08/2019,Barcelona,Betis,5,2,H
+1541,30/08/2019,Sevilla,Celta,1,1,D
+1542,30/08/2019,Ath Bilbao,Sociedad,2,0,H
+1543,31/08/2019,Osasuna,Barcelona,2,2,D
+1544,31/08/2019,Getafe,Alaves,1,1,D
+1545,31/08/2019,Levante,Valladolid,2,0,H
+1546,31/08/2019,Betis,Leganes,2,1,H
+1547,01/09/2019,Valencia,Mallorca,2,0,H
+1548,01/09/2019,Ath Madrid,Eibar,3,2,H
+1549,01/09/2019,Espanol,Granada,0,3,A
+1550,01/09/2019,Villarreal,Real Madrid,2,2,D
+1551,13/09/2019,Mallorca,Ath Bilbao,0,0,D
+1552,14/09/2019,Real Madrid,Levante,3,2,H
+1553,14/09/2019,Leganes,Villarreal,0,3,A
+1554,14/09/2019,Sociedad,Ath Madrid,2,0,H
+1555,14/09/2019,Barcelona,Valencia,5,2,H
+1556,15/09/2019,Eibar,Espanol,1,2,A
+1557,15/09/2019,Alaves,Sevilla,0,1,A
+1558,15/09/2019,Celta,Granada,0,2,A
+1559,15/09/2019,Valladolid,Osasuna,1,1,D
+1560,15/09/2019,Betis,Getafe,1,1,D
+1561,20/09/2019,Osasuna,Betis,0,0,D
+1562,21/09/2019,Villarreal,Valladolid,2,0,H
+1563,21/09/2019,Levante,Eibar,0,0,D
+1564,21/09/2019,Ath Madrid,Celta,0,0,D
+1565,21/09/2019,Granada,Barcelona,2,0,H
+1566,22/09/2019,Getafe,Mallorca,4,2,H
+1567,22/09/2019,Espanol,Sociedad,1,3,A
+1568,22/09/2019,Valencia,Leganes,1,1,D
+1569,22/09/2019,Ath Bilbao,Alaves,2,0,H
+1570,22/09/2019,Sevilla,Real Madrid,0,1,A
+1571,24/09/2019,Valladolid,Granada,1,1,D
+1572,24/09/2019,Betis,Levante,3,1,H
+1573,24/09/2019,Barcelona,Villarreal,2,1,H
+1574,25/09/2019,Leganes,Ath Bilbao,1,1,D
+1575,25/09/2019,Mallorca,Ath Madrid,0,2,A
+1576,25/09/2019,Valencia,Getafe,3,3,D
+1577,25/09/2019,Real Madrid,Osasuna,2,0,H
+1578,26/09/2019,Eibar,Sevilla,3,2,H
+1579,26/09/2019,Celta,Espanol,1,1,D
+1580,26/09/2019,Sociedad,Alaves,3,0,H
+1581,27/09/2019,Villarreal,Betis,5,1,H
+1582,28/09/2019,Ath Bilbao,Valencia,0,1,A
+1583,28/09/2019,Getafe,Barcelona,0,2,A
+1584,28/09/2019,Granada,Leganes,1,0,H
+1585,28/09/2019,Ath Madrid,Real Madrid,0,0,D
+1586,29/09/2019,Espanol,Valladolid,0,2,A
+1587,29/09/2019,Eibar,Celta,2,0,H
+1588,29/09/2019,Alaves,Mallorca,2,0,H
+1589,29/09/2019,Levante,Osasuna,1,1,D
+1590,29/09/2019,Sevilla,Sociedad,3,2,H
+1591,04/10/2019,Betis,Eibar,1,1,D
+1592,05/10/2019,Leganes,Levante,1,2,A
+1593,05/10/2019,Real Madrid,Granada,4,2,H
+1594,05/10/2019,Valencia,Alaves,2,1,H
+1595,05/10/2019,Osasuna,Villarreal,2,1,H
+1596,06/10/2019,Mallorca,Espanol,2,0,H
+1597,06/10/2019,Celta,Ath Bilbao,1,0,H
+1598,06/10/2019,Valladolid,Ath Madrid,0,0,D
+1599,06/10/2019,Sociedad,Getafe,1,2,A
+1600,06/10/2019,Barcelona,Sevilla,4,0,H
+1601,18/10/2019,Granada,Osasuna,1,0,H
+1602,19/10/2019,Eibar,Barcelona,0,3,A
+1603,19/10/2019,Ath Madrid,Valencia,1,1,D
+1604,19/10/2019,Getafe,Leganes,2,0,H
+1605,19/10/2019,Mallorca,Real Madrid,1,0,H
+1606,20/10/2019,Alaves,Celta,2,0,H
+1607,20/10/2019,Sociedad,Betis,3,1,H
+1608,20/10/2019,Espanol,Villarreal,0,1,A
+1609,20/10/2019,Ath Bilbao,Valladolid,1,1,D
+1610,20/10/2019,Sevilla,Levante,1,0,H
+1611,25/10/2019,Villarreal,Alaves,4,1,H
+1612,26/10/2019,Leganes,Mallorca,1,0,H
+1613,26/10/2019,Valladolid,Eibar,2,0,H
+1614,26/10/2019,Ath Madrid,Ath Bilbao,2,0,H
+1615,27/10/2019,Celta,Sociedad,0,1,A
+1616,27/10/2019,Granada,Betis,1,0,H
+1617,27/10/2019,Levante,Espanol,0,1,A
+1618,27/10/2019,Sevilla,Getafe,2,0,H
+1619,27/10/2019,Osasuna,Valencia,3,1,H
+1620,29/10/2019,Alaves,Ath Madrid,1,1,D
+1621,29/10/2019,Barcelona,Valladolid,5,1,H
+1622,30/10/2019,Sociedad,Levante,1,2,A
+1623,30/10/2019,Valencia,Sevilla,1,1,D
+1624,30/10/2019,Ath Bilbao,Espanol,3,0,H
+1625,30/10/2019,Betis,Celta,2,1,H
+1626,30/10/2019,Real Madrid,Leganes,5,0,H
+1627,31/10/2019,Eibar,Villarreal,2,1,H
+1628,31/10/2019,Mallorca,Osasuna,2,2,D
+1629,31/10/2019,Getafe,Granada,3,1,H
+1630,02/11/2019,Espanol,Valencia,1,2,A
+1631,02/11/2019,Levante,Barcelona,3,1,H
+1632,02/11/2019,Sevilla,Ath Madrid,1,1,D
+1633,02/11/2019,Real Madrid,Betis,0,0,D
+1634,03/11/2019,Valladolid,Mallorca,3,0,H
+1635,03/11/2019,Villarreal,Ath Bilbao,0,0,D
+1636,03/11/2019,Osasuna,Alaves,4,2,H
+1637,03/11/2019,Celta,Getafe,0,1,A
+1638,03/11/2019,Leganes,Eibar,1,2,A
+1639,03/11/2019,Granada,Sociedad,1,2,A
+1640,08/11/2019,Sociedad,Leganes,1,1,D
+1641,09/11/2019,Alaves,Valladolid,3,0,H
+1642,09/11/2019,Valencia,Granada,2,0,H
+1643,09/11/2019,Eibar,Real Madrid,0,4,A
+1644,09/11/2019,Barcelona,Celta,4,1,H
+1645,10/11/2019,Mallorca,Villarreal,3,1,H
+1646,10/11/2019,Ath Bilbao,Levante,2,1,H
+1647,10/11/2019,Ath Madrid,Espanol,3,1,H
+1648,10/11/2019,Getafe,Osasuna,0,0,D
+1649,10/11/2019,Betis,Sevilla,1,2,A
+1650,22/11/2019,Levante,Mallorca,2,1,H
+1651,23/11/2019,Leganes,Barcelona,1,2,A
+1652,23/11/2019,Betis,Valencia,2,1,H
+1653,23/11/2019,Granada,Ath Madrid,1,1,D
+1654,23/11/2019,Real Madrid,Sociedad,3,1,H
+1655,24/11/2019,Espanol,Getafe,1,1,D
+1656,24/11/2019,Osasuna,Ath Bilbao,1,2,A
+1657,24/11/2019,Eibar,Alaves,0,2,A
+1658,24/11/2019,Villarreal,Celta,1,3,A
+1659,24/11/2019,Valladolid,Sevilla,0,1,A
+1660,29/11/2019,Celta,Valladolid,0,0,D
+1661,30/11/2019,Alaves,Real Madrid,1,2,A
+1662,30/11/2019,Sociedad,Eibar,4,1,H
+1663,30/11/2019,Mallorca,Betis,1,2,A
+1664,30/11/2019,Valencia,Villarreal,2,1,H
+1665,01/12/2019,Sevilla,Leganes,1,0,H
+1666,01/12/2019,Ath Bilbao,Granada,2,0,H
+1667,01/12/2019,Espanol,Osasuna,2,4,A
+1668,01/12/2019,Getafe,Levante,4,0,H
+1669,01/12/2019,Ath Madrid,Barcelona,0,1,A
+1670,06/12/2019,Villarreal,Ath Madrid,0,0,D
+1671,07/12/2019,Real Madrid,Espanol,2,0,H
+1672,07/12/2019,Granada,Alaves,3,0,H
+1673,07/12/2019,Levante,Valencia,2,4,A
+1674,07/12/2019,Barcelona,Mallorca,5,2,H
+1675,08/12/2019,Eibar,Getafe,0,1,A
+1676,08/12/2019,Betis,Ath Bilbao,3,2,H
+1677,08/12/2019,Valladolid,Sociedad,0,0,D
+1678,08/12/2019,Leganes,Celta,3,2,H
+1679,08/12/2019,Osasuna,Sevilla,1,1,D
+1680,13/12/2019,Alaves,Leganes,1,1,D
+1681,14/12/2019,Granada,Levante,1,2,A
+1682,14/12/2019,Sociedad,Barcelona,2,2,D
+1683,14/12/2019,Ath Bilbao,Eibar,0,0,D
+1684,14/12/2019,Ath Madrid,Osasuna,2,0,H
+1685,15/12/2019,Getafe,Valladolid,2,0,H
+1686,15/12/2019,Celta,Mallorca,2,2,D
+1687,15/12/2019,Espanol,Betis,2,2,D
+1688,15/12/2019,Sevilla,Villarreal,1,2,A
+1689,15/12/2019,Valencia,Real Madrid,1,1,D
+1690,18/12/2019,Barcelona,Real Madrid,0,0,D
+1691,20/12/2019,Eibar,Granada,3,0,H
+1692,21/12/2019,Mallorca,Sevilla,0,2,A
+1693,21/12/2019,Barcelona,Alaves,4,1,H
+1694,21/12/2019,Villarreal,Getafe,1,0,H
+1695,21/12/2019,Valladolid,Valencia,1,1,D
+1696,22/12/2019,Leganes,Espanol,2,0,H
+1697,22/12/2019,Osasuna,Sociedad,3,4,A
+1698,22/12/2019,Betis,Ath Madrid,1,2,A
+1699,22/12/2019,Levante,Celta,3,1,H
+1700,22/12/2019,Real Madrid,Ath Bilbao,0,0,D
+1701,03/01/2020,Valladolid,Leganes,2,2,D
+1702,03/01/2020,Sevilla,Ath Bilbao,1,1,D
+1703,04/01/2020,Valencia,Eibar,1,0,H
+1704,04/01/2020,Getafe,Real Madrid,0,3,A
+1705,04/01/2020,Ath Madrid,Levante,2,1,H
+1706,04/01/2020,Espanol,Barcelona,2,2,D
+1707,05/01/2020,Granada,Mallorca,1,0,H
+1708,05/01/2020,Sociedad,Villarreal,1,2,A
+1709,05/01/2020,Alaves,Betis,1,1,D
+1710,05/01/2020,Celta,Osasuna,1,1,D
+1711,17/01/2020,Leganes,Getafe,0,3,A
+1712,18/01/2020,Levante,Alaves,0,1,A
+1713,18/01/2020,Real Madrid,Sevilla,2,1,H
+1714,18/01/2020,Osasuna,Valladolid,0,0,D
+1715,18/01/2020,Eibar,Ath Madrid,2,0,H
+1716,19/01/2020,Mallorca,Valencia,4,1,H
+1717,19/01/2020,Betis,Sociedad,3,0,H
+1718,19/01/2020,Villarreal,Espanol,1,2,A
+1719,19/01/2020,Ath Bilbao,Celta,1,1,D
+1720,19/01/2020,Barcelona,Granada,1,0,H
+1721,24/01/2020,Osasuna,Levante,2,0,H
+1722,25/01/2020,Espanol,Ath Bilbao,1,1,D
+1723,25/01/2020,Valencia,Barcelona,2,0,H
+1724,25/01/2020,Alaves,Villarreal,1,2,A
+1725,25/01/2020,Sevilla,Granada,2,0,H
+1726,26/01/2020,Ath Madrid,Leganes,0,0,D
+1727,26/01/2020,Celta,Eibar,0,0,D
+1728,26/01/2020,Getafe,Betis,1,0,H
+1729,26/01/2020,Sociedad,Mallorca,3,0,H
+1730,26/01/2020,Valladolid,Real Madrid,0,1,A
+1731,01/02/2020,Granada,Espanol,2,1,H
+1732,01/02/2020,Real Madrid,Ath Madrid,1,0,H
+1733,01/02/2020,Mallorca,Valladolid,0,1,A
+1734,01/02/2020,Valencia,Celta,1,0,H
+1735,02/02/2020,Leganes,Sociedad,2,1,H
+1736,02/02/2020,Eibar,Betis,1,1,D
+1737,02/02/2020,Ath Bilbao,Getafe,0,2,A
+1738,02/02/2020,Sevilla,Alaves,1,1,D
+1739,02/02/2020,Villarreal,Osasuna,3,1,H
+1740,02/02/2020,Barcelona,Levante,2,1,H
+1741,07/02/2020,Alaves,Eibar,2,1,H
+1742,08/02/2020,Levante,Leganes,2,0,H
+1743,08/02/2020,Getafe,Valencia,3,0,H
+1744,08/02/2020,Valladolid,Villarreal,1,1,D
+1745,08/02/2020,Ath Madrid,Granada,1,0,H
+1746,09/02/2020,Espanol,Mallorca,1,0,H
+1747,09/02/2020,Sociedad,Ath Bilbao,2,1,H
+1748,09/02/2020,Osasuna,Real Madrid,1,4,A
+1749,09/02/2020,Celta,Sevilla,2,1,H
+1750,09/02/2020,Betis,Barcelona,2,3,A
+1751,14/02/2020,Valencia,Ath Madrid,2,2,D
+1752,15/02/2020,Mallorca,Alaves,1,0,H
+1753,15/02/2020,Barcelona,Getafe,2,1,H
+1754,15/02/2020,Villarreal,Levante,2,1,H
+1755,15/02/2020,Granada,Valladolid,2,1,H
+1756,16/02/2020,Sevilla,Espanol,2,2,D
+1757,16/02/2020,Leganes,Betis,0,0,D
+1758,16/02/2020,Ath Bilbao,Osasuna,0,1,A
+1759,16/02/2020,Real Madrid,Celta,2,2,D
+1760,21/02/2020,Betis,Mallorca,3,3,D
+1761,22/02/2020,Celta,Leganes,1,0,H
+1762,22/02/2020,Barcelona,Eibar,5,0,H
+1763,22/02/2020,Sociedad,Valencia,3,0,H
+1764,22/02/2020,Levante,Real Madrid,1,0,H
+1765,23/02/2020,Osasuna,Granada,0,3,A
+1766,23/02/2020,Alaves,Ath Bilbao,2,1,H
+1767,23/02/2020,Valladolid,Espanol,2,1,H
+1768,23/02/2020,Getafe,Sevilla,0,3,A
+1769,23/02/2020,Ath Madrid,Villarreal,3,1,H
+1770,28/02/2020,Sociedad,Valladolid,1,0,H
+1771,29/02/2020,Eibar,Levante,3,0,H
+1772,29/02/2020,Valencia,Betis,2,1,H
+1773,29/02/2020,Leganes,Alaves,1,1,D
+1774,29/02/2020,Granada,Celta,0,0,D
+1775,01/03/2020,Sevilla,Osasuna,3,2,H
+1776,01/03/2020,Ath Bilbao,Villarreal,1,0,H
+1777,01/03/2020,Espanol,Ath Madrid,1,1,D
+1778,01/03/2020,Mallorca,Getafe,0,1,A
+1779,01/03/2020,Real Madrid,Barcelona,2,0,H
+1780,06/03/2020,Alaves,Valencia,1,1,D
+1781,07/03/2020,Eibar,Mallorca,1,2,A
+1782,07/03/2020,Ath Madrid,Sevilla,2,2,D
+1783,07/03/2020,Barcelona,Sociedad,1,0,H
+1784,07/03/2020,Getafe,Celta,0,0,D
+1785,08/03/2020,Osasuna,Espanol,1,0,H
+1786,08/03/2020,Valladolid,Ath Bilbao,1,4,A
+1787,08/03/2020,Levante,Granada,1,1,D
+1788,08/03/2020,Villarreal,Leganes,1,2,A
+1789,08/03/2020,Betis,Real Madrid,2,1,H
+1790,10/03/2020,Eibar,Sociedad,1,2,A
+1791,11/06/2020,Sevilla,Betis,2,0,H
+1792,12/06/2020,Granada,Getafe,2,1,H
+1793,12/06/2020,Valencia,Levante,1,1,D
+1794,13/06/2020,Espanol,Alaves,2,0,H
+1795,13/06/2020,Celta,Villarreal,0,1,A
+1796,13/06/2020,Leganes,Valladolid,1,2,A
+1797,13/06/2020,Mallorca,Barcelona,0,4,A
+1798,14/06/2020,Ath Bilbao,Ath Madrid,1,1,D
+1799,14/06/2020,Real Madrid,Eibar,3,1,H
+1800,14/06/2020,Sociedad,Osasuna,1,1,D
+1801,15/06/2020,Levante,Sevilla,1,1,D
+1802,15/06/2020,Betis,Granada,2,2,D
+1803,16/06/2020,Getafe,Espanol,0,0,D
+1804,16/06/2020,Villarreal,Mallorca,1,0,H
+1805,16/06/2020,Barcelona,Leganes,2,0,H
+1806,17/06/2020,Eibar,Ath Bilbao,2,2,D
+1807,17/06/2020,Valladolid,Celta,0,0,D
+1808,17/06/2020,Osasuna,Ath Madrid,0,5,A
+1809,18/06/2020,Alaves,Sociedad,2,0,H
+1810,18/06/2020,Real Madrid,Valencia,3,0,H
+1811,19/06/2020,Granada,Villarreal,0,1,A
+1812,19/06/2020,Mallorca,Leganes,1,1,D
+1813,19/06/2020,Sevilla,Barcelona,0,0,D
+1814,20/06/2020,Espanol,Levante,1,3,A
+1815,20/06/2020,Ath Bilbao,Betis,1,0,H
+1816,20/06/2020,Getafe,Eibar,1,1,D
+1817,20/06/2020,Ath Madrid,Valladolid,1,0,H
+1818,21/06/2020,Celta,Alaves,6,0,H
+1819,21/06/2020,Valencia,Osasuna,2,0,H
+1820,21/06/2020,Sociedad,Real Madrid,1,2,A
+1821,22/06/2020,Villarreal,Sevilla,2,2,D
+1822,22/06/2020,Leganes,Granada,0,0,D
+1823,23/06/2020,Levante,Ath Madrid,0,1,A
+1824,23/06/2020,Valladolid,Getafe,1,1,D
+1825,23/06/2020,Barcelona,Ath Bilbao,1,0,H
+1826,24/06/2020,Alaves,Osasuna,0,1,A
+1827,24/06/2020,Sociedad,Celta,0,1,A
+1828,24/06/2020,Real Madrid,Mallorca,2,0,H
+1829,25/06/2020,Eibar,Valencia,1,0,H
+1830,25/06/2020,Betis,Espanol,1,0,H
+1831,26/06/2020,Sevilla,Valladolid,1,1,D
+1832,27/06/2020,Ath Bilbao,Mallorca,3,1,H
+1833,27/06/2020,Celta,Barcelona,2,2,D
+1834,27/06/2020,Osasuna,Leganes,2,1,H
+1835,27/06/2020,Ath Madrid,Alaves,2,1,H
+1836,28/06/2020,Levante,Betis,4,2,H
+1837,28/06/2020,Villarreal,Valencia,2,0,H
+1838,28/06/2020,Granada,Eibar,1,2,A
+1839,28/06/2020,Espanol,Real Madrid,0,1,A
+1840,29/06/2020,Getafe,Sociedad,2,1,H
+1841,30/06/2020,Mallorca,Celta,5,1,H
+1842,30/06/2020,Leganes,Sevilla,0,3,A
+1843,30/06/2020,Barcelona,Ath Madrid,2,2,D
+1844,01/07/2020,Alaves,Granada,0,2,A
+1845,01/07/2020,Valencia,Ath Bilbao,0,2,A
+1846,01/07/2020,Betis,Villarreal,0,2,A
+1847,01/07/2020,Valladolid,Levante,0,0,D
+1848,02/07/2020,Eibar,Osasuna,0,2,A
+1849,02/07/2020,Sociedad,Espanol,2,1,H
+1850,02/07/2020,Real Madrid,Getafe,1,0,H
+1851,03/07/2020,Ath Madrid,Mallorca,3,0,H
+1852,04/07/2020,Celta,Betis,1,1,D
+1853,04/07/2020,Valladolid,Alaves,1,0,H
+1854,04/07/2020,Granada,Valencia,2,2,D
+1855,05/07/2020,Ath Bilbao,Real Madrid,0,1,A
+1856,05/07/2020,Espanol,Leganes,0,1,A
+1857,05/07/2020,Osasuna,Getafe,0,0,D
+1858,05/07/2020,Villarreal,Barcelona,1,4,A
+1859,06/07/2020,Levante,Sociedad,1,1,D
+1860,06/07/2020,Sevilla,Eibar,1,0,H
+1861,07/07/2020,Valencia,Valladolid,2,1,H
+1862,07/07/2020,Celta,Ath Madrid,1,1,D
+1863,08/07/2020,Betis,Osasuna,3,0,H
+1864,08/07/2020,Getafe,Villarreal,1,3,A
+1865,08/07/2020,Barcelona,Espanol,1,0,H
+1866,09/07/2020,Eibar,Leganes,0,0,D
+1867,09/07/2020,Mallorca,Levante,2,0,H
+1868,09/07/2020,Ath Bilbao,Sevilla,1,2,A
+1869,10/07/2020,Sociedad,Granada,2,3,A
+1870,10/07/2020,Real Madrid,Alaves,2,0,H
+1871,11/07/2020,Osasuna,Celta,2,1,H
+1872,11/07/2020,Valladolid,Barcelona,0,1,A
+1873,11/07/2020,Ath Madrid,Betis,1,0,H
+1874,12/07/2020,Espanol,Eibar,0,2,A
+1875,12/07/2020,Levante,Ath Bilbao,1,2,A
+1876,12/07/2020,Leganes,Valencia,1,0,H
+1877,12/07/2020,Sevilla,Mallorca,2,0,H
+1878,13/07/2020,Alaves,Getafe,0,0,D
+1879,13/07/2020,Villarreal,Sociedad,1,2,A
+1880,13/07/2020,Granada,Real Madrid,1,2,A
+1881,16/07/2020,Eibar,Valladolid,3,1,H
+1882,16/07/2020,Ath Bilbao,Leganes,0,2,A
+1883,16/07/2020,Barcelona,Osasuna,1,2,A
+1884,16/07/2020,Betis,Alaves,1,2,A
+1885,16/07/2020,Celta,Levante,2,3,A
+1886,16/07/2020,Getafe,Ath Madrid,0,2,A
+1887,16/07/2020,Mallorca,Granada,1,2,A
+1888,16/07/2020,Real Madrid,Villarreal,2,1,H
+1889,16/07/2020,Sociedad,Sevilla,0,0,D
+1890,16/07/2020,Valencia,Espanol,1,0,H
+1891,19/07/2020,Alaves,Barcelona,0,5,A
+1892,19/07/2020,Valladolid,Betis,2,0,H
+1893,19/07/2020,Villarreal,Eibar,4,0,H
+1894,19/07/2020,Ath Madrid,Sociedad,1,1,D
+1895,19/07/2020,Espanol,Celta,0,0,D
+1896,19/07/2020,Granada,Ath Bilbao,4,0,H
+1897,19/07/2020,Leganes,Real Madrid,2,2,D
+1898,19/07/2020,Levante,Getafe,1,0,H
+1899,19/07/2020,Osasuna,Mallorca,2,2,D
+1900,19/07/2020,Sevilla,Valencia,1,0,H
