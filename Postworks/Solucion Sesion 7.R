@@ -13,6 +13,7 @@ db$insert(df)
 #Una vez hecho esto, realizar un count para conocer el número de registros que se tiene en la base
 db$count('{}')
 
+#Realiza una consulta utilizando la sintaxis de Mongodb, en la base de datos para conocer el número de goles que metió el Real Madrid el 20 de diciembre de 2015 y contra qué equipo jugó, ¿perdió ó fue goleada?
 result <- db$aggregate(
   '[
     {
@@ -111,5 +112,6 @@ result <- db$aggregate(
 
 print(result)
 
+#Por último, no olvides cerrar la conexión con la BDD.
 db$disconnect()
 
