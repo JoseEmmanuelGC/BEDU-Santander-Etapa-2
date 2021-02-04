@@ -88,6 +88,8 @@ library("ggplot2")
 
 #---------------------- SESIÃ“N 4 -------------------------------
 
+#Ahora investigarás la dependencia o independencia del número de goles anotados por el equipo de casa y el número de goles anotados por el equipo visitante mediante un procedimiento denominado bootstrap, revisa bibliografía en internet para que tengas nociones de este desarrollo.
+
 # 1. Ya hemos estimado las probabilidades conjuntas de que el equipo de casa anote X=x goles (x=0,1,... ,8), y el equipo visitante anote Y=y goles (y=0,1,... ,6), en un partido. Obtén una tabla de cocientes al dividir estas probabilidades conjuntas sobre el producto de las probabilidades marginales correspondientes.
 library("tidyr")
 
@@ -102,14 +104,27 @@ cross_probabilities <- cbind(cross_probabilities, probJoint)
 
 cross_probabilities <- mutate(cross_probabilities, ratio=JointProbability$ProbJoint/Probcross)
 
+#Mediante un procedimiento de boostrap, obtén más cocientes similares a los obtenidos en la tabla del punto anterior. Esto para tener una idea de las distribuciones de la cual vienen los cocientes en la tabla anterior. Menciona en cuáles casos le parece razonable suponer que los cocientes de la tabla en el punto 1, son iguales a 1 (en tal caso tendríamos independencia de las variables aleatorias X y Y).
 
+cociente <- function(data, indices){
+  d <- data[indices,]
+  cocientes <- mean(d$ratio)
+  return(cocientes)
+}
 
-setwd("C:\\Users\\Oscar Salazar\\OneDrive\\Documents\\Data Analyst\\2_R y Py\\Postwork\\postwork2")
+data <- cross_probabilities
 
-SmallData <- lapply(dir(), read.csv)
+library(boot)
+set.seed(100)
+results <- boot(data, cociente, R=1000)
 
-ligaesp <- lapply(ligaesp, select, Date, HomeTeam:FTR)
+plot(results)
 
-ligaesp <- do.call(rbind, ligaesp)
+#El histograma resultante nos permite ver que los cocientes tienen una distribución normal
 
-ligaesp <- mutate(ligaesp, Date = as.Date(Date, "%d/%m/%y"))
+evaluacion_cocientes <- select(cross_probabilities, FTAG, FTHG, ratio)
+evaluacion_cocientes <- filter(evaluacion_cocientes, ratio<=1.05, ratio>=0.95)
+
+#Los coeficientes más cercanos a uno (evaluamos error +/- 5%), son partidos que muestran resultados cerrados
+#Se podría suponer que se tienen coeficientes alrededor de uno cuando aparecen cuando se enfrentan equipos con nivel similar, en donde no se esperar marcadores con gran diferencia.
+
