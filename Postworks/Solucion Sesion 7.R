@@ -111,6 +111,7 @@ result <- db$aggregate(
 )
 
 print(result)
+
 db$disconnect()
 
 #Agrega el dataset de mtcars a la misma BDD
