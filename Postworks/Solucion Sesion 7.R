@@ -111,6 +111,13 @@ result <- db$aggregate(
 )
 
 print(result)
+db$disconnect()
+
+#Agrega el dataset de mtcars a la misma BDD
+db <- mongo(collection= "mtcars", db = "mt_cars", url = "mongodb+srv://beduUser:12345@cluster0.sg9cb.mongodb.net")
+df <- data.frame(mtcars)
+db$insert(df)
+db$count('{}')
 
 #Por último, no olvides cerrar la conexión con la BDD.
 db$disconnect()
