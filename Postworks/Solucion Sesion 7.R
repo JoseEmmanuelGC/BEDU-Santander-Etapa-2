@@ -1,3 +1,6 @@
+# Solucion Sesion 7
+# RStudio Cloud - Github, conexiones con BDs y lectura de datos externos
+
 #install.packages("mongolite")
 
 library(mongolite)
