@@ -1,4 +1,4 @@
-# Sesión 6: Series de tiempo
+# Postwork Sesion 6
 # Series de tiempo
 
 # Importa el conjunto de datos match.data.csv a R y realiza lo siguiente:
