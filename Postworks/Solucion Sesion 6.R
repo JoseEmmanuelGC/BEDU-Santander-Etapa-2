@@ -1,20 +1,9 @@
 # Sesión 6: Series de tiempo
-
-# Postwork
-
-# Desarrollo:
+# Series de tiempo
 
 # Importa el conjunto de datos match.data.csv a R y realiza lo siguiente:
 
-#   Agrega una nueva columna sumagoles que contenga la suma de goles 
-#   por partido.
-
-#   Obtén el promedio por mes de la suma de goles.
-
-#   Crea la serie de tiempo del promedio por mes de la suma de goles 
-#   hasta diciembre de 2019.
-
-#   Grafica la serie de tiempo.
+# 1. Agrega una nueva columna sumagoles que contenga la suma de goles por partido.
 
 # Primero se llama a la librería dplyr, la cual permite tomar a 
 # un dataframe y editar sus campos. 
@@ -33,6 +22,8 @@ data <- read.csv("match.data.csv")
 new_data <- mutate(data, sumagoles = home.score + away.score)
 
 head(new_data)
+
+# 2. Obtén el promedio por mes de la suma de goles.
 
 # De forma similar se cambia el nombre del campo date, que contiene la 
 # fecha del partido y se cambia su tipo de dato a POSIXlt para poder
@@ -80,10 +71,14 @@ for (i in 1:10) {
 
 pm <- replace(tsg, is.na(tsg), 0)
 
+# 3. Crea la serie de tiempo del promedio por mes de la suma de goles hasta diciembre de 2019.
+
 # Ya con el vector de promedios por mes, se crea a la serie de tiempo por
 # medio del comando ts(), especificando su inicio y término.
 
 gm <- ts(pm, start=c(2010,8), end=c(2020, 7), fr=12)
+
+# 4. Grafica la serie de tiempo.
 
 # Como último paso se grafica la serie de tiempo obtenida.
 
