@@ -12,6 +12,12 @@ sellers <- read.csv("olist_sellers_dataset.csv")
 category_names_translation <- read.csv("product_category_name_translation.csv")
 
 states <- unique(customers["customer_state"])
+
+# Distribucion de compradores
+# ** Hacer bonita **
+plot(table(customers["customer_state"]))
+
+
 library(dplyr)
 customers.unique <- distinct(customers[c("customer_zip_code_prefix", "customer_city", "customer_state")])
 
@@ -76,19 +82,12 @@ conteo <- mutate(conteo, p = n/rows)
 
 sample_by_state <- list()
 
-#Falta loop en esta parte
 set.seed(100)
 
 for(i in seq(1,length(conteo$state))) {
   sample_by_state[[as.character(conteo[i,"state"])]] <- sample_n(data.by.states[[as.character(conteo[i,"state"])]],
                                                  size=ceiling(n*as.numeric(conteo[i,"p"])),
                                                   replace = FALSE)
-  #customer.by.states[[state]] <- filter(customers.unique, customer_state==state)
-  #data.by.states[[state]] <- merge(x=geolocation.by.states[[state]], 
-                                   #y=customer.by.states[[state]], 
-                                   #by.x ="geolocation_zip_code_prefix", 
-                                   #by.y = "customer_zip_code_prefix")
-  #print(conteo[i,"state"])
 }
 
 dataset_sample <- do.call(rbind, sample_by_state)
