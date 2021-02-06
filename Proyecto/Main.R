@@ -19,7 +19,7 @@ geolocation.by.states <- list()
 customer.by.states <- list()
 data.by.states <- list()
 
-for(state in as.vector(states[,1])) {
+for(state in states[,1]) {
   geolocation.by.states[[state]] <- filter(geolocation, geolocation_state==state)
   customer.by.states[[state]] <- filter(customers.unique, customer_state==state)
   data.by.states[[state]] <- merge(x=geolocation.by.states[[state]], 
