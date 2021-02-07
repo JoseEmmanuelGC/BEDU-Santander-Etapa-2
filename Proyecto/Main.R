@@ -152,7 +152,7 @@ for (i in seq(1,nrow(dataset_sample))){
   else if (dataset_sample[i,3]==3){
     dataset_sample[i,4] = centroides[3,1]
     dataset_sample[i,5] = centroides[3,2]
-    dataset_sample[i,6] = "CD PENDIENTE"
+    dataset_sample[i,6] = "CD PAULISTANA"
   }
 }
 
