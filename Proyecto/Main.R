@@ -13,9 +13,26 @@ category_names_translation <- read.csv("product_category_name_translation.csv")
 
 states <- unique(customers["customer_state"])
 
-# Distribucion de compradores
-# ** Hacer bonita **
-plot(table(customers["customer_state"]))
+# DistribuciÃ³n de compradores
+# Histograma de compras por estado
+
+library(ggplot2)
+
+cs <- data.frame(table(customers["customer_state"]))
+ggplot(cs, aes(x = Var1, y = Freq)) + 
+    geom_bar(stat = "identity", position = "stack", fill = "#1B6C8C", color = "black") +
+    labs( x = "Estado", y = "No. compras") + 
+    theme(
+        panel.background = element_rect(fill = "white",
+                                        colour = "white",
+                                        size = 0.5, linetype = "solid"),
+        panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                        colour = "gray"), 
+        panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                        colour = "gray"),
+        plot.background = element_rect(fill = "white")
+    ) +
+    ggtitle("Compras por estado")
 
 
 library(dplyr)
@@ -56,18 +73,18 @@ data4clusters <- dataset[,c(2,3)]
 
 sd.long <- sd(data4clusters$longitud)
 sd.lat <- sd(data4clusters$latitud)
-#Hay mayor variación con la latitud
+#Hay mayor variaci?n con la latitud
 
 mean.lat <- mean(data4clusters$latitud)
 
-#Muestra para población infinita
+#Muestra para poblaci?n infinita
 
 se <- (abs(mean.lat)*0.01)/1.96
 n.inf <- (sd.lat**2)/(se**2)
 
 rows <- nrow(data4clusters)
 
-#Corrección por muestra finita
+#Correcci?n por muestra finita
 
 n <- n.inf/(1+(n.inf/rows))
 n.sample <- 105
