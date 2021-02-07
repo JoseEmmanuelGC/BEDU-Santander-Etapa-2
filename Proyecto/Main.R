@@ -93,6 +93,7 @@ for(i in seq(1,length(conteo$state))) {
 dataset_sample <- do.call(rbind, sample_by_state)
 
 dataset_sample <- dataset_sample[,c(2,3)]
+rownames(dataset_sample)=NULL
 
 nb_clusters <- fviz_nbclust(dataset_sample, kmeans, method = "silhouette")
 
@@ -111,3 +112,101 @@ fviz_cluster(clusters, dataset_sample, show.clust.cent = TRUE, geom = "point",
              ellipse.level = 0.95,
              ellipse.alpha = 0.2,
              ggtheme = theme_classic())
+
+predict.kmeans <- function(object, newdata){
+  centers <- object$centers
+  n_centers <- nrow(centers)
+  dist_mat <- as.matrix(dist(rbind(centers, newdata)))
+  dist_mat <- dist_mat[-seq(n_centers), seq(n_centers)]
+  max.col(-dist_mat)
+}
+
+# Crear las series de tiempo con la compra de productos
+
+orders_aux <- orders[, c("order_id", "customer_id")]
+order.items_aux <- order.items[, c("order_id",
+                                   "shipping_limit_date",
+                                   "price",
+                                   "freight_value")]
+order.items_aux <- mutate(order.items_aux, price=price-freight_value)
+order.items_aux <- distinct(order.items_aux[, c("order_id",
+                                                "shipping_limit_date",
+                                                "price")])
+orders_items <- merge(x=orders_aux, y=order.items_aux, by="order_id")
+orders_items <- distinct(orders_items[, c("customer_id",
+                                          "shipping_limit_date",
+                                          "price")])
+customers_aux <- distinct(customers[, c("customer_id",
+                                        "customer_zip_code_prefix")])
+orders_items_customers <- merge(x=orders_items,
+                                y=customers_aux,
+                                by="customer_id")
+geolocation_aux <- distinct(geolocation[, c("geolocation_zip_code_prefix",
+                                            "geolocation_lat",
+                                            "geolocation_lng")])
+geolocation_aux = geolocation_aux[!duplicated(geolocation_aux$geolocation_zip_code_prefix ),]
+
+# Predecir el cluster de cada geolocalizacion
+# Se hace asi por problemas de memoria
+size <- dim(geolocation_aux)[1]
+
+prediction1 <- predict(clusters, 
+                       geolocation_aux[1:10000, c("geolocation_lat",
+                                                  "geolocation_lng")])
+prediction2 <- predict(clusters, 
+                       geolocation_aux[10001:size, c("geolocation_lat",
+                                                     "geolocation_lng") ])
+prediction <- c(prediction1, prediction2)
+geolocation_aux$cluster <- prediction
+rm(prediction1)
+rm(prediction2)
+rm(prediction)
+price_geolocation <- merge(x=orders_items_customers,
+                           y=geolocation_aux,
+                           by.x="customer_zip_code_prefix",
+                           by.y="geolocation_zip_code_prefix")
+price_geolocation <- mutate(price_geolocation, date=shipping_limit_date)
+price_geolocation <- distinct(price_geolocation[, c("date",
+                                                    "price",
+                                                    "cluster")])
+price_geolocation$date <- as.Date(price_geolocation$date,
+                                  format = "%Y-%m-%d %H:%M:%S")
+rm(orders_aux)
+rm(order.items_aux)
+rm(orders_items)
+rm(customers_aux)
+rm(orders_items_customers)
+rm(geolocation_aux)
+
+timeserie_cluster1 <- filter(price_geolocation, cluster==1)
+timeserie_cluster2 <- filter(price_geolocation, cluster==2)
+timeserie_cluster3 <- filter(price_geolocation, cluster==3)
+
+rm(price_geolocation)
+
+timeserie_cluster1 <- timeserie_cluster1[, c("date", "price")]
+timeserie_cluster2 <- timeserie_cluster2[, c("date", "price")]
+timeserie_cluster3 <- timeserie_cluster3[, c("date", "price")]
+
+timeserie_cluster1 <- aggregate(timeserie_cluster1$price,
+                                by=list(date=timeserie_cluster1$date),
+                                FUN=sum)
+
+timeserie_cluster2 <- aggregate(timeserie_cluster2$price,
+                                by=list(date=timeserie_cluster2$date),
+                                FUN=sum)
+
+timeserie_cluster3 <- aggregate(timeserie_cluster3$price,
+                                by=list(date=timeserie_cluster3$date),
+                                FUN=sum)
+
+timeserie_cluster1 <-timeserie_cluster1[order(timeserie_cluster1$date),]
+timeserie_cluster2 <-timeserie_cluster2[order(timeserie_cluster2$date),]
+timeserie_cluster3 <-timeserie_cluster3[order(timeserie_cluster3$date),]
+
+
+# Hay una fecha atipica, pasa del 2018 al 2020
+timeserie_cluster1 <- timeserie_cluster1[-nrow(timeserie_cluster1),]
+
+
+
