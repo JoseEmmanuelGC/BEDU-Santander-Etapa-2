@@ -225,5 +225,93 @@ timeserie_cluster3 <-timeserie_cluster3[order(timeserie_cluster3$date),]
 # Hay una fecha atipica, pasa del 2018 al 2020
 timeserie_cluster1 <- timeserie_cluster1[-nrow(timeserie_cluster1),]
 
+# Gráficas de predicciones
 
+pre1 <- read.csv("timeserie_cluster1.csv")
+pre2 <- read.csv("timeserie_cluster2.csv")
+pre3 <- read.csv("timeserie_cluster3.csv")
 
+# Primer cluster
+
+pre1 <- rename(pre1, Fecha=date)
+pre1 <- mutate(pre1, Fecha = as.Date(Fecha, "%Y-%m-%d"))
+
+# Generación del modelo lineal
+
+m1 <- lm(x~Fecha, data = pre1)
+summary(m1)
+
+# Gráfica de la regresión
+
+ggplot(pre1, aes(x = Fecha, y = x)) + 
+  geom_point(size = 1, color = "#2AB0BF") +
+  geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
+  labs( x = "Fecha", y = "No. compras") + 
+  theme(
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "gray"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "gray"),
+    plot.background = element_rect(fill = "white")
+  ) +
+  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 1")
+
+# Segundo cluster
+
+pre2 <- rename(pre2, Fecha=date)
+pre2 <- mutate(pre2, Fecha = as.Date(Fecha, "%Y-%m-%d"))
+pre2 <- pre2[1:537,]
+
+# Generación del modelo lineal
+
+m2 <- lm(x~Fecha, data = pre2)
+summary(m2)
+
+# Gráfica de la regresión
+
+ggplot(pre2, aes(x = Fecha, y = x)) + 
+  geom_point(size = 1, color = "#2AB0BF") +
+  geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
+  labs( x = "Fecha", y = "No. compras") + 
+  theme(
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "gray"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "gray"),
+    plot.background = element_rect(fill = "white")
+  ) +
+  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 2")
+
+# Tercer cluster
+
+pre3 <- rename(pre3, Fecha=date)
+pre3 <- mutate(pre3, Fecha = as.Date(Fecha, "%Y-%m-%d"))
+
+# Generación del modelo lineal
+
+m3 <- lm(x~Fecha, data = pre3)
+summary(m3)
+
+# Gráfica de la regresión
+
+ggplot(pre3, aes(x = Fecha, y = x)) + 
+  geom_point(size = 1, color = "#2AB0BF") +
+  geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
+  labs( x = "Fecha", y = "No. compras") + 
+  theme(
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "gray"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "gray"),
+    plot.background = element_rect(fill = "white")
+  ) +
+  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 3")
