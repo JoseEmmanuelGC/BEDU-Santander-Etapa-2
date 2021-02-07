@@ -97,14 +97,82 @@ dataset_sample <- dataset_sample[,c(2,3)]
 
 nb_clusters <- fviz_nbclust(dataset_sample, kmeans, method = "silhouette")
 
-prueba <- data4clusters[1:500,]
-
-rownames(prueba) <- NULL
 
 clusters <- kmeans(dataset_sample, 3, nstart = 1)
 
-mat <- as.matrix(clusters$centers)
-mat2 <- as.matrix(dataset_sample[1,])
+centroides <- clusters$centers
+
+composicion <- as.data.frame(clusters$cluster)
+
+dataset_sample <- cbind(dataset_sample, composicion)
+dataset_sample <- rename(dataset_sample, cluster = "clusters$cluster")
+
+dataset_sample[,4] <- NA ; dataset_sample[,5] <- NA; dataset_sample[,6] <- NA
+dataset_sample <- rename(dataset_sample, clat="V4")
+dataset_sample <- rename(dataset_sample, clong="V5")
+
+dataset_sample[2639,1] <- centroides[1,1]; dataset_sample[2639,2] <- centroides[1,2];dataset_sample[2639,3] <- 1
+dataset_sample[2640,1] <- centroides[2,1]; dataset_sample[2640,2] <- centroides[2,2];dataset_sample[2640,3] <- 2
+dataset_sample[2641,1] <- centroides[3,1]; dataset_sample[2641,2] <- centroides[3,2];dataset_sample[2641,3] <- 3
+
+
+
+for (i in seq(1,nrow(dataset_sample))){
+  if (dataset_sample[i,3]==1){
+    dataset_sample[i,4] = centroides[1,1]
+    dataset_sample[i,5] = centroides[1,2]
+    dataset_sample[i,6] = "CD SAO PABLO"
+  }
+  else if (dataset_sample[i,3]==2){
+    dataset_sample[i,4] = centroides[2,1]
+    dataset_sample[i,5] = centroides[2,2]
+    dataset_sample[i,6] = "CD BELO HORIZONTE"
+  }
+  else if (dataset_sample[i,3]==3){
+    dataset_sample[i,4] = centroides[3,1]
+    dataset_sample[i,5] = centroides[3,2]
+    dataset_sample[i,6] = "CD PENDIENTE"
+  }
+}
+
+dataset_sample[,7] <- 0.1
+dataset_sample[2639,7] <- 5
+dataset_sample[2640,7] <- 5
+dataset_sample[2641,7] <- 5
+
+rownames(dataset_sample) <- NULL
+library(plotly)
+Sys.setenv(MAPBOX_TOKEN = 11122223333444)
+
+# map projection
+geo <- list(
+  projection = list(
+    type = 'orthographic',
+    rotation = list(lon = -100, lat = -40, roll = 0)
+  ),
+  showland = TRUE,
+  landcolor = toRGB("gray95"),
+  countrycolor = toRGB("gray80")
+)
+
+
+
+plot_geo() %>%
+  add_markers(
+    data = dataset_sample, x = ~geolocation_lng, y = ~geolocation_lat, text = ~V6,
+    size = ~V7, alpha = 0.6,
+    color = ~cluster
+  ) %>%
+  add_segments(
+    data = dataset_sample,
+    x = ~clong, xend = ~geolocation_lng,
+    y = ~clat, yend = ~geolocation_lat,
+    alpha = 0.1, size = I(0.6), color = I("Red"), hoverinfo = "none"
+    #color = ~cluster
+  ) %>%
+  layout(geo = geo, showlegend = FALSE,
+         title = 'Propuesta: Ubicación de Centros de distribución')
+
 
 fviz_cluster(clusters, dataset_sample, show.clust.cent = TRUE, geom = "point",
              stand=FALSE, ellipse = TRUE,
