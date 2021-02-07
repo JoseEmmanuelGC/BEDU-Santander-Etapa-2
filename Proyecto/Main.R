@@ -87,7 +87,7 @@ rows <- nrow(data4clusters)
 #Correcci?n por muestra finita
 
 n <- n.inf/(1+(n.inf/rows))
-n.sample <- 105
+
 
 #Proporciones
 unique.states <- unique(dataset$state)
@@ -101,6 +101,8 @@ sample_by_state <- list()
 
 set.seed(100)
 
+#Muestreo estratificado
+
 for(i in seq(1,length(conteo$state))) {
   sample_by_state[[as.character(conteo[i,"state"])]] <- sample_n(data.by.states[[as.character(conteo[i,"state"])]],
                                                  size=ceiling(n*as.numeric(conteo[i,"p"])),
@@ -112,14 +114,17 @@ dataset_sample <- do.call(rbind, sample_by_state)
 dataset_sample <- dataset_sample[,c(2,3)]
 rownames(dataset_sample)=NULL
 
+#Numero de clusters
 nb_clusters <- fviz_nbclust(dataset_sample, kmeans, method = "silhouette")
 
-
+#Conglomerados por el metodo kmedias
 clusters <- kmeans(dataset_sample, 3, nstart = 1)
 
 centroides <- clusters$centers
 
 composicion <- as.data.frame(clusters$cluster)
+
+#Preparacion de dataset para graficar coordenadas
 
 dataset_sample <- cbind(dataset_sample, composicion)
 dataset_sample <- rename(dataset_sample, cluster = "clusters$cluster")
@@ -131,7 +136,6 @@ dataset_sample <- rename(dataset_sample, clong="V5")
 dataset_sample[2639,1] <- centroides[1,1]; dataset_sample[2639,2] <- centroides[1,2];dataset_sample[2639,3] <- 1
 dataset_sample[2640,1] <- centroides[2,1]; dataset_sample[2640,2] <- centroides[2,2];dataset_sample[2640,3] <- 2
 dataset_sample[2641,1] <- centroides[3,1]; dataset_sample[2641,2] <- centroides[3,2];dataset_sample[2641,3] <- 3
-
 
 
 for (i in seq(1,nrow(dataset_sample))){
@@ -173,7 +177,7 @@ geo <- list(
 )
 
 
-
+#Mapa de centros de distribcion
 plot_geo() %>%
   add_markers(
     data = dataset_sample, x = ~geolocation_lng, y = ~geolocation_lat, text = ~V6,
@@ -190,13 +194,6 @@ plot_geo() %>%
   layout(geo = geo, showlegend = FALSE,
          title = 'Propuesta: Ubicación de Centros de distribución')
 
-
-fviz_cluster(clusters, dataset_sample, show.clust.cent = TRUE, geom = "point",
-             stand=FALSE, ellipse = TRUE,
-             ellipse.type = "convex",
-             ellipse.level = 0.95,
-             ellipse.alpha = 0.2,
-             ggtheme = theme_classic())
 
 predict.kmeans <- function(object, newdata){
   centers <- object$centers
