@@ -4,12 +4,8 @@
 customers <- read.csv("olist_customers_dataset.csv")
 geolocation <- read.csv("olist_geolocation_dataset.csv")
 order.items <- read.csv("olist_order_items_dataset.csv")
-order.payments <- read.csv("olist_order_payments_dataset.csv")
 order.reviews <- read.csv("olist_order_reviews_dataset.csv")
 orders <- read.csv("olist_orders_dataset.csv")
-products <- read.csv("olist_products_dataset.csv")
-sellers <- read.csv("olist_sellers_dataset.csv")
-category_names_translation <- read.csv("product_category_name_translation.csv")
 
 states <- unique(customers["customer_state"])
 
@@ -21,7 +17,7 @@ library(ggplot2)
 cs <- data.frame(table(customers["customer_state"]))
 ggplot(cs, aes(x = Var1, y = Freq)) + 
     geom_bar(stat = "identity", position = "stack", fill = "#1B6C8C", color = "black") +
-    labs( x = "Estado", y = "No. compras") + 
+    labs( x = "Estado", y = "Clientes") + 
     theme(
         panel.background = element_rect(fill = "white",
                                         colour = "white",
@@ -32,7 +28,7 @@ ggplot(cs, aes(x = Var1, y = Freq)) +
                                         colour = "gray"),
         plot.background = element_rect(fill = "white")
     ) +
-    ggtitle("Compras por estado")
+    ggtitle("Cantidad de clientes por estado")
 
 
 library(dplyr)
@@ -229,7 +225,7 @@ geolocation_aux <- distinct(geolocation[, c("geolocation_zip_code_prefix",
 geolocation_aux = geolocation_aux[!duplicated(geolocation_aux$geolocation_zip_code_prefix ),]
 
 # Predecir el cluster de cada geolocalizacion
-# Se hace asi por problemas de memoria
+# Se hace por partes por problemas de memoria
 size <- dim(geolocation_aux)[1]
 
 prediction1 <- predict(clusters, 
@@ -266,10 +262,12 @@ timeserie_cluster3 <- filter(price_geolocation, cluster==3)
 
 rm(price_geolocation)
 
+# Series de tiempo de cada cluster
 timeserie_cluster1 <- timeserie_cluster1[, c("date", "price")]
 timeserie_cluster2 <- timeserie_cluster2[, c("date", "price")]
 timeserie_cluster3 <- timeserie_cluster3[, c("date", "price")]
 
+#Sumatoria de precio por dia
 timeserie_cluster1 <- aggregate(timeserie_cluster1$price,
                                 by=list(date=timeserie_cluster1$date),
                                 FUN=sum)
@@ -292,9 +290,9 @@ timeserie_cluster1 <- timeserie_cluster1[-nrow(timeserie_cluster1),]
 
 # Gráficas de predicciones
 
-pre1 <- read.csv("timeserie_cluster1.csv")
-pre2 <- read.csv("timeserie_cluster2.csv")
-pre3 <- read.csv("timeserie_cluster3.csv")
+pre1 <- timeserie_cluster1
+pre2 <- timeserie_cluster2
+pre3 <- timeserie_cluster3
 
 # Primer cluster
 
@@ -311,7 +309,7 @@ summary(m1)
 ggplot(pre1, aes(x = Fecha, y = x)) + 
   geom_point(size = 1, color = "#2AB0BF") +
   geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
-  labs( x = "Fecha", y = "No. compras") + 
+  labs( x = "Fecha", y = "$$$") + 
   theme(
     panel.background = element_rect(fill = "white",
                                     colour = "white",
@@ -322,7 +320,7 @@ ggplot(pre1, aes(x = Fecha, y = x)) +
                                     colour = "gray"),
     plot.background = element_rect(fill = "white")
   ) +
-  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 1")
+  ggtitle("Suma de las compras diarias - Cluster 1")
 
 # Segundo cluster
 
@@ -340,7 +338,7 @@ summary(m2)
 ggplot(pre2, aes(x = Fecha, y = x)) + 
   geom_point(size = 1, color = "#2AB0BF") +
   geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
-  labs( x = "Fecha", y = "No. compras") + 
+  labs( x = "Fecha", y = "$$$") + 
   theme(
     panel.background = element_rect(fill = "white",
                                     colour = "white",
@@ -351,7 +349,7 @@ ggplot(pre2, aes(x = Fecha, y = x)) +
                                     colour = "gray"),
     plot.background = element_rect(fill = "white")
   ) +
-  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 2")
+  ggtitle("Suma de las compras diarias - Cluster 2")
 
 # Tercer cluster
 
@@ -368,7 +366,7 @@ summary(m3)
 ggplot(pre3, aes(x = Fecha, y = x)) + 
   geom_point(size = 1, color = "#2AB0BF") +
   geom_smooth(method = lm, se = F, color = "#1F628C", size = 1) +
-  labs( x = "Fecha", y = "No. compras") + 
+  labs( x = "Fecha", y = "$$$") + 
   theme(
     panel.background = element_rect(fill = "white",
                                     colour = "white",
@@ -379,4 +377,4 @@ ggplot(pre3, aes(x = Fecha, y = x)) +
                                     colour = "gray"),
     plot.background = element_rect(fill = "white")
   ) +
-  ggtitle("Proyección de compras del siguiente año para el centro de distribución del cluster 3")
+  ggtitle("Suma de las compras diarias - Cluster 3")
