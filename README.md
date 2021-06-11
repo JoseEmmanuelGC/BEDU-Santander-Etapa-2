@@ -1,4 +1,4 @@
-# BEDU Santander - Etapa 3
+# BEDU Santander - Etapa 2
 
 Etapa 3 del curso de Data Science en BEDU Santander
 
